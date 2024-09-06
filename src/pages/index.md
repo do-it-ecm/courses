@@ -13,4 +13,6 @@ Pour accéder à un cours, il vous suffit de cliquer sur le lien correspondant. 
 ## Les catégories
 - [Agilité](/cours/agile/introduction)
 - [Système d'Information](/cours/si/introduction)
+- [Git](/cours/bases_info/git)
+- [Service Design](/cours/ui_ux/service_design)
 - [Avis](/cours/avis)
