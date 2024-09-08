@@ -7,7 +7,7 @@ sidebar_position: 1
 
 # Introduction au Management des Systèmes d'Information
 
-*Laetitia Piet*
+*Laetitia Piet*\
 [Diaporama](./documents/MSI_INTRO.pdf)
 
 ## Définitions
