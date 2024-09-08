@@ -22,38 +22,38 @@ gitGraph
 
 Git est un logiciel de gestion de versions décentralisé. C'est un logiciel libre créé par Linus Torvalds, le créateur de Linux. Il est utilisé pour le suivi des modifications apportées à un ensemble de fichiers. Il permet de travailler à plusieurs sur un même projet, de suivre l'évolution du code, de revenir en arrière, de gérer des branches, etc.
 
-- **Gestion de versions**: Suivi des modifications apportées à un ensemble de fichiers
-- **Décentralisé**: Chaque utilisateur possède une copie (locale) complète de l'historique des modifications
+- **Gestion de versions**: Processus de suivi et de gestion des modifications apportées à un ensemble de fichiers au fil du temps, permettant de conserver un historique complet, de revenir à des versions antérieures et de gérer les contributions de plusieurs personnes
+- **Décentralisé**: Modèle de gestion de versions dans lequel chaque utilisateur possède une copie complète du dépôt, incluant tout l'historique des modifications, ce qui permet de travailler de manière autonome sans connexion permanente à un serveur central
 
 ## Vocabulaire
 
 ### Code source
-- **Repository (repo)**: Répertoire contenant les fichiers du projet et l'historique des modifications
-- **Branch**: Branche de développement, permet de travailler sur une version du code sans impacter la version principale
-- **Tag**: Marqueur sur un commit, il sert à identifier des points importants de l'historique
-- **Fork**: Copie parallèle d'un repository
-- **Clone**: Copie d'un repository
+- **Repository (repo)**: Répertoire ou stockage contenant l'ensemble des fichiers du projet, ainsi que l'historique complet des modifications (commits) et métadonnées associées, permettant de suivre l'évolution du projet
+- **Branch**: Ligne de développement indépendante permettant de travailler sur une version spécifique du code sans affecter la branche principale (souvent appelée main ou master). Les branches facilitent le travail collaboratif et l'ajout de nouvelles fonctionnalités ou corrections
+- **Tag**: Référence immuable attachée à un commit spécifique, utilisée pour marquer des versions importantes du projet, comme des releases ou des jalons clés
+- **Fork**: Copie d'un dépôt existant vers un autre compte utilisateur, permettant de travailler indépendamment sur le projet tout en conservant un lien avec le dépôt original pour éventuellement proposer des modifications
+- **Clone**: Reproduction complète d'un dépôt (y compris son historique) sur une machine locale, permettant de travailler hors ligne tout en conservant la possibilité de synchroniser avec le dépôt distant
 
 ### Edition du code
 
 #### Enregistrement des modifications
-- **Commit**: Enregistrement d'une modification (en local)
-- **Push**: Envoi des modifications locales vers le repository distant
-- **Amend**: Modification (écrasement) du dernier commit (en local)
-- **Stash**: Enregistrement temporaire de modifications non commitées (en local)
+- **Commit**: Action d'enregistrer des modifications locales dans l'historique du projet, créant ainsi un instantané (snapshot) des fichiers à un moment donné, avec un message descriptif pour documenter les changements
+- **Push**: Envoi des commits locaux vers un dépôt distant, synchronisant ainsi les modifications effectuées localement avec le repository distant pour les partager avec d'autres collaborateurs
+- **Amend**: Modification d'un commit local récent en écrasant son contenu ou son message sans créer un nouveau commit, souvent utilisé pour corriger des erreurs dans le dernier commit
+- **Stash**: Sauvegarde temporaire et locale des modifications non commitées, permettant de revenir à un état propre sans perdre ces modifications, afin de pouvoir les restaurer et poursuivre le travail plus tard
 
 #### Gestion des branches
-- **Pull request (Merge request)**: Demande de fusion de deux branches
-- **Pull**: Récupération (locale) des modifications du repository (distant)
-- **Merge**: Fusion de deux branches
-- **Conflict**: Conflit entre deux modifications
-- **Rebase**: Réécriture de l'historique
+- **Pull request (Merge request)**: Proposition de fusion de deux branches, généralement faite pour permettre la revue de code avant d'intégrer les modifications d'une branche (souvent une branche de fonctionnalité) dans la branche principale. Utilisée principalement dans les workflows collaboratifs
+- **Pull**: Action de récupérer les modifications d'un dépôt distant vers un dépôt local, en intégrant à la fois les nouvelles données et l'historique des commits dans la branche active du dépôt local
+- **Merge**: Opération qui combine les modifications de deux branches distinctes en une seule, souvent utilisée pour intégrer des nouvelles fonctionnalités ou corrections dans une branche principale après un développement parallèle
+- **Conflict**: Situation où Git ne peut pas automatiquement fusionner deux branches, car les modifications apportées à des lignes de code similaires sont incompatibles. Les conflits doivent être résolus manuellement avant de poursuivre la fusion
+- **Rebase**: Opération qui réécrit l'historique des commits en déplaçant une branche sur une autre, tout en appliquant les commits de manière linéaire. Souvent utilisée pour conserver un historique propre et éviter les commits de merge
 
 ### Alias
-- **Remote**: Repository distant
-- **Origin**: Alias du repository distant
-- **Upstream**: Repository original
-- **HEAD**: Pointeur sur la dernière modification (commit) enrégistrée
+- **Remote**: Un dépôt distant hébergé sur un serveur ou une plateforme en ligne (comme GitHub, GitLab, ou Bitbucket) avec lequel le dépôt local peut échanger des données. Les opérations comme fetch, pull, et push permettent de synchroniser les modifications avec ce dépôt distant
+- **Origin**: Le nom par défaut donné au dépôt distant lors du clonage d'un projet. Il fait référence à l'emplacement d'où le dépôt a été cloné. C'est l'alias principal utilisé pour interagir avec le dépôt distant original
+- **Upstream**: Référence au dépôt ou à la branche d'origine d'un projet (généralement le projet principal ou original). Lorsque vous contribuez à un projet en créant un fork, upstream désigne souvent le dépôt principal avec lequel vous synchronisez vos changements
+- **HEAD**: Pointeur symbolique qui représente la branche ou le commit actuel sur lequel vous travaillez, généralement lié au dernier commit enregistré dans la branche active
 
 ##  Prise en main
 
