@@ -1,7 +1,7 @@
 ---
 title: "Méthodologie Cristal Clear"
 date: "2024-09-04"
-sidebar_label: "Crystal Clear"
+sidebar_label: "Cristal Clear"
 sidebar_position: 3
 ---
 
@@ -21,7 +21,7 @@ Cristal Clear est une méthodologie agile de gestion de projet. Elle a été dé
 ## Conditions
 Pour que Cristal Clear fonctionne correctement, certaines conditions doivent être réunies:
 - **Petite taille de l'équipe:** L'équipe doit être composée de 6 à 8 personnes maximum pour favoriser la communication et la collaboration.
-- **Proximité géographique:** Les membres de l'équipe doivent être proches géographiquement pour faciliter les échanges et les interactions.
+- **Proximité géographique:** Les membres de l'équipe doivent être située dans une seule et même salle pour faciliter les échanges et les interactions.
 - **Implication du client:** Le client doit être impliqué dans le projet et disponible pour donner des retours réguliers.
 - **Expertise technique:** Les membres de l'équipe doivent avoir les compétences techniques nécessaires pour réaliser le projet.
 - **Confiance:** Il doit y avoir une relation de confiance entre les membres de l'équipe pour favoriser la communication et la collaboration.
@@ -42,7 +42,7 @@ Pour que Cristal Clear fonctionne correctement, certaines conditions doivent êt
 
 ## Limites
 - **Taille de l'équipe:** Cristal Clear est adapté aux équipes de petite taille, il peut être difficile à mettre en place pour des projets plus importants.
-- **Proximité géographique:** Les équipes distribuées peuvent rencontrer des difficultés à mettre en place Cristal Clear.
+- **Proximité géographique:** Les équipes distribuées peuvent rencontrer des difficultés à mettre en place Cristal Clear. Elles sont dans l'incapacité de bénéficier de la communication osmotique.
 - **Expertise technique:** Les membres de l'équipe doivent avoir les compétences techniques nécessaires pour réaliser le projet, ce qui peut limiter le choix des membres.
 - **Implication du client:** Si le client n'est pas disponible ou impliqué dans le projet, Cristal Clear peut être moins efficace.
 - **Absence d'un membre:** L'absence ou le départ d'un membre de l'équipe peut avoir un impact important sur le projet en raison de la petite taille de l'équipe.
