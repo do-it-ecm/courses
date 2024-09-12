@@ -41,6 +41,9 @@ Git est un logiciel de gestion de versions décentralisé. C'est un logiciel lib
 - **Push**: Envoi des commits locaux vers un dépôt distant, synchronisant ainsi les modifications effectuées localement avec le repository distant pour les partager avec d'autres collaborateurs
 - **Amend**: Modification d'un commit local récent en écrasant son contenu ou son message sans créer un nouveau commit, souvent utilisé pour corriger des erreurs dans le dernier commit
 - **Stash**: Sauvegarde temporaire et locale des modifications non commitées, permettant de revenir à un état propre sans perdre ces modifications, afin de pouvoir les restaurer et poursuivre le travail plus tard
+- **Revert**: Annulation d'un commit spécifique en créant un nouveau commit qui annule les modifications apportées par le commit ciblé, tout en conservant l'historique complet des modifications
+- **Reset**: Réinitialisation de l'état du dépôt à un commit spécifique, permettant de revenir en arrière et d'annuler les modifications apportées depuis ce commit, avec différentes options pour conserver ou supprimer les modifications locales
+- **Cherry-pick**: Action de sélectionner et d'appliquer un commit spécifique d'une branche à une autre, permettant de réutiliser des modifications spécifiques sans fusionner l'ensemble des changements d'une branche
 
 #### Gestion des branches
 - **Pull request (Merge request)**: Proposition de fusion de deux branches, généralement faite pour permettre la revue de code avant d'intégrer les modifications d'une branche (souvent une branche de fonctionnalité) dans la branche principale. Utilisée principalement dans les workflows collaboratifs
