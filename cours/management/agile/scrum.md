@@ -7,7 +7,7 @@ sidebar_position: 2
 
 # SCRUM
 
-SCRUM est une méthode agile de gestion de projet. Elle est basée sur des cycles de développement courts et itératifs appelés *sprints*. Chaque sprint est composé de plusieurs phases: planification, développement, revue et rétrospective. SCRUM est adapté aux projets complexes et évolutifs, notamment dans le domaine du développement logiciel. Il favorise la collaboration, la transparence et l'adaptabilité.
+SCRUM est une méthode agile de gestion de projet inventée dans les années 1980. Elle est basée sur des cycles de développement courts et itératifs appelés *sprints*. Chaque sprint est composé de plusieurs phases: planification, développement, revue et rétrospective. SCRUM est adapté aux projets complexes et évolutifs, notamment dans le domaine du développement logiciel. Il favorise la collaboration, la transparence et l'adaptabilité.
 
 ## Definitions
 
