@@ -1,7 +1,7 @@
 ---
 title: "Sobriété Numérique"
 date: "2024-09-12"
-sidebar_label: "Sobriété Numérique"
+sidebar_label: "Introduction"
 sidebar_position: 1
 ---
 

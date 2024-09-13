@@ -58,11 +58,12 @@ SCRUM est une méthode agile de gestion de projet. Elle est basée sur des cycle
 - **Efficacité:** SCRUM permet de travailler de manière efficace en se concentrant sur les tâches les plus importantes et en les réalisant rapidement.
 
 ## Limites
-- **Complexité:** SCRUM peut être difficile à mettre en place dans des projets complexes ou avec des équipes peu expérimentées.
-- **Taille de l'équipe:** Les équipes de plus de 9 personnes peuvent rencontrer des difficultés à s'auto-organiser et à collaborer efficacement.
-- **Implication du client:** La réussite de SCRUM dépend de la collaboration étroite avec le client. Si ce dernier n'est pas impliqué ou ne comprend pas la méthode, le projet peut rencontrer des difficultés.
-- **Changement de culture:** SCRUM nécessite un changement de culture et de mentalité au sein de l'organisation. Il peut être difficile de faire accepter la méthode par tous les membres de l'équipe.
-- **Résistance au changement:** Certains membres de l'équipe ou de l'organisation peuvent être réticents au changement et refuser d'adopter la méthode SCRUM.
-- **Estimation du temps:** Les estimations de temps peuvent être difficiles à réaliser, ce qui peut entraîner des retards dans la livraison des fonctionnalités.
-- **Documentation:** SCRUM met l'accent sur le travail réalisé plutôt que sur la documentation. Il peut être difficile de maintenir une documentation à jour et complète.
-- **Gestion des priorités:** La gestion des priorités peut être complexe, notamment si le Product Owner change régulièrement d'avis ou si les besoins du client évoluent fréquemment.
+- **Manque de vision claire** de ce qui est à faire peut être démotivant / peu fédérateur
+- **Problème de livraison incrémentale** et long terme (bases moins solides, évolutions peu coordonnées, fragmentation, problème de la lourdeur de tout rendre compatible)
+- **Niveau de collaboration** quasiment impossible à maintenir (avec le client)
+- **Impossibilité de prédire** les ressources et les efforts
+- **Pas de fin**
+- **Documentation** bâclée ou absente
+- **Conception** parfois douteuse (demande du temps de reflexion)
+- Hypocrisie des **sprints techniques** qui n'existent pas en réalité
+- **Mesure impossible** de la performance
