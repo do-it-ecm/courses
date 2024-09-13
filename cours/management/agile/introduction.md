@@ -8,7 +8,7 @@ sidebar_position: 1
 # Agilité
 *Guillaume LAURIE*
 
-## I - Qu'est ce qu'un projet ?
+## Projet
 Un projet répond à 3 conditions:
 - Temporaire
 - Débouche sur un livrable
@@ -38,9 +38,32 @@ Au fur et à mesure que le projet avance, notre niveau de connaissance sur le pr
 | Budget | Fixe / Prévisible | Variable / A Evaluer |
 | Coordination | Manager | Chef de projet (Product Owner en scrum) |
 
-
 ### Compétences nécessaires
 - Gestion des parties prenantes (Stakeholders)
 - Travail d'équipe
 - Gestion du cycle de vie
 -
+
+## Agilité
+Si le premier secteur a en avoir profité est la production (agile manufacturing) dans les années 1980,
+
+### Valeurs
+- Les individus et les interactions plus que les processus et les outils
+- Des logiciels opérationnels plus qu'une documentation exhaustive
+- La collaboration avec les clients plus que la négociation contractuelle
+- L'adaptation au changement plus que le suivi d'un plan
+
+### Principes
+- Livrer de la valeur au client
+- Intégrer les demandes de changement
+- Livrer fréquemment une version opérationnelle
+- Assurer une coopération entre le client et l'équipe
+- Réaliser les projets avec des personnes motivées
+- Privilégier le dialogue en face à face
+- Mesurer l'avancement sur la base d'un produit opérationnel
+- Faire avancer le projet à un rythme soutenable
+- Contrôler l'excellence technique et à la conception
+- Minimiser la quantité de travail inutile
+- Construire le projet avec des équipes auto-organisées
+- Améliorer constamment l'efficacité de l'équipe
+
