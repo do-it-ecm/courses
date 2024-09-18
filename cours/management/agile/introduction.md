@@ -8,6 +8,11 @@ sidebar_position: 1
 # Agilité
 *Guillaume LAURIE*
 
+## Liens
+- [PowerPoint Session 1](./documents/Gestion%20de%20projet_CENTRALE.pptx)
+- [PowerPoint Session 2](./documents/Gestion%20de%20projet_CENTRALE_Session2.pptx)
+- [PowerPoint Session 3](./documents/Gestion%20de%20projet_CENTRALE_Session3.pptx)
+
 ## Projet
 Un projet répond à 3 conditions:
 - Temporaire
