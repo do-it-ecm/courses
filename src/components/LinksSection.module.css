@@ -1,0 +1,24 @@
+.linksSection {
+    background-color: #b1e8f0;
+    border-left: 8px solid #007bff;
+    padding: 3px 10px 2px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.linksSection a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.linksSection a:hover {
+    text-decoration: underline;
+}
+
+.titleContainer {
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 3px;
+    align-items: center;
+
+}
