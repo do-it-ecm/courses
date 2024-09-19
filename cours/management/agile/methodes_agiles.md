@@ -3,9 +3,22 @@ title: "Autres méthodes AGILES"
 date: "2024-09-13"
 sidebar_label: "Autres Méthodes AGILES"
 sidebar_position: 4
+tags: ["agile", "gestion de projet"]
 ---
 
+import LinksSection from '@site/src/components/LinksSection';
+
 # Autres méthodes AGILES
+
+<LinksSection
+    title="Ressources"
+    links={[
+        {displayName: "Présentation Agile Unified Process", url: "./documents/AUP.pdf"},
+        {displayName: "Présentation Disciplined Agile Delivery", url: "./documents/DAD.pdf"},
+        {displayName: "Présentation Extreme Programming", url: "./documents/XP.pdf"},
+        {displayName: "Présentation Feature Driven Development", url: "./documents/FDD.pdf"},
+        ]}
+/>
 
 ## Sommaire<a name="sommaire"></a>
 * [Rational Unified Process](#rational-unified-process)
