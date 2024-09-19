@@ -1,0 +1,24 @@
+import React from 'react';
+import styles from './LinksSection.module.css';
+
+const LinksSection = ({ title, links }) => {
+  return (
+    <div className={styles.linksSection}>
+      <div className={styles.titleContainer}>
+      <img src="/do_it/icons/link.png" alt="links" />
+      <b>{title ? title : 'Liens'}</b>
+      </div>
+      <ul>
+        {links.map((link, index) => (
+          <li key={index}>
+            <a href={link.url} target="_blank" rel="noopener noreferrer">
+              {link.displayName}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
+
+export default LinksSection;
