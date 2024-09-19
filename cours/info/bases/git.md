@@ -3,6 +3,7 @@ title: "Introduction Git"
 date: "2024-09-05"
 sidebar_label: "Git"
 sidebar_position: 1
+tags: ["git", "informatique"]
 ---
 
 # Git
