@@ -3,6 +3,7 @@ title: "Méthodologie Cristal Clear"
 date: "2024-09-04"
 sidebar_label: "Cristal Clear"
 sidebar_position: 3
+tags: ["agile", "cristal clear", "gestion de projet"]
 ---
 
 # Cristal Clear
