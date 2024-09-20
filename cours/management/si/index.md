@@ -18,7 +18,7 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Ressources"
     links={[
-      {displayName: "Slides Cours d'introduction MSI", url: "/documents/MSI_INTRO.pdf"},
+      {displayName: "Slides Cours d'introduction MSI", url: "./documents/MSI_INTRO.pdf"},
       ]}
 />
 
