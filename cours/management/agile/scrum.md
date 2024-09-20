@@ -3,7 +3,10 @@ title: "Méthodologie SCRUM"
 date: "2024-09-04"
 sidebar_label: "SCRUM"
 sidebar_position: 2
-tags: ["agile", "scrum", "gestion de projet"]
+tags: ["agile", "scrum", "gestion de projet","management"]
+authors: ["Guillaume LAURIE","BoxBoxJason"]
+description: "Cours d'introduction à la méthode SCRUM, une méthode agile de gestion de projet"
+keywords: ["gestion de projet", "management", "agile", "scrum"]
 ---
 
 import LinksSection from '@site/src/components/LinksSection';

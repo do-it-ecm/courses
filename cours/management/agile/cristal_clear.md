@@ -3,7 +3,10 @@ title: "Méthodologie Cristal Clear"
 date: "2024-09-04"
 sidebar_label: "Cristal Clear"
 sidebar_position: 3
-tags: ["agile", "cristal clear", "gestion de projet"]
+tags: ["agile", "cristal clear", "gestion de projet","management"]
+authors: ["BoxBoxJason"]
+description: "Cours d'introduction à la méthode Cristal Clear, une méthode agile de gestion de projet"
+keywords: ["gestion de projet", "management", "agile", "cristal clear"]
 ---
 
 # Cristal Clear

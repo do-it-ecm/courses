@@ -4,9 +4,21 @@ date: "2024-09-05"
 sidebar_label: "Git"
 sidebar_position: 1
 tags: ["git", "informatique"]
+authors: ["François Brucker","BoxBoxJason"]
+description: "Cours d'introduction à Git, un logiciel de gestion de versions décentralisé"
+keywords: ["git"]
 ---
 
+import LinksSection from '@site/src/components/LinksSection';
+
 # Git
+
+<LinksSection
+    title="Liens utiles"
+    links={[
+      {displayName: "Cours Git / GitHub", url: "https://francoisbrucker.github.io/cours_informatique/cours/gestion-des-sources/"},
+      ]}
+/>
 
 ```mermaid
 gitGraph
@@ -103,4 +115,36 @@ git remote add origin <url>
 
 # Envoi des modifications
 git push -u origin ma-branche
+```
+
+## .gitignore
+Le fichier `.gitignore` permet d'ignorer certains fichiers ou répertoires lors des opérations de suivi des modifications. Il est utile pour exclure des fichiers temporaires, des fichiers de configuration locaux, des fichiers de build, des fichiers sensibles, etc.
+
+Pour créer un fichier `.gitignore`, il suffit de créer un fichier nommé `.gitignore` à la racine du repository et d'y ajouter les fichiers ou répertoires à ignorer, un par ligne. Les règles de syntaxe permettent d'utiliser des wildcards (*) pour spécifier des motifs de fichiers à ignorer.\
+Pour spécifier un directory entier, il suffit de mettre le nom du directory suivi d'un `/`.
+
+
+Exemple de contenu d'un fichier `.gitignore`:
+```plaintext
+# Fichiers temporaires
+*.tmp
+*.log
+
+# Répertoires de build
+build/
+dist/
+
+# Fichiers de configuration locaux
+.env
+config.json
+
+# Fichiers sensibles
+passwords.txt
+
+# Contenu spécifique à un éditeur
+.vscode/
+.idea/
+
+# Node.js
+node_modules/
 ```
