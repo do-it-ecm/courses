@@ -16,7 +16,7 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Ressources"
     links={[
-      {displayName: "Slides Cours Sobriété Numérique", url: "/documents/sobriete_numerique.pdf"},
+      {displayName: "Slides Cours Sobriété Numérique", url: "./documents/sobriete_numerique.pdf"},
       ]}
 />
 

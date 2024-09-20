@@ -1,8 +1,12 @@
 ---
 title: "Service Design"
 date: "2024-09-06"
-sidebar_label: "Service Design"
+sidebar_label: "Introduction"
 sidebar_position: 1
+tags: ["service design", "design thinking", "user experience", "user interface"]
+authors: ["BoxBoxJason"]
+description: "Cours d'introduction au service design"
+keywords: ["service design", "design thinking", "user experience", "user interface"]
 ---
 
 # Service Design
