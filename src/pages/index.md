@@ -18,8 +18,12 @@ Bienvenue sur LessonBox, la plateforme des cours de DoIt. Vous trouverez ici l'e
 Pour accéder à un cours, il vous suffit de cliquer sur le lien correspondant. Vous serez redirigé vers la page du cours, où vous trouverez l'ensemble des informations nécessaires pour suivre le cours.
 
 ## Les catégories
-- [Agilité](/cours/management/agile/introduction)
-- [Système d'Information](/cours/management/si/introduction)
-- [Git](/cours/info/bases/git)
-- [Service Design](/cours/gestion_modelisation/ui_ux/service_design)
-- [Avis](/cours/avis)
+- Management
+    - [Agilité](/cours/management/agile)
+    - [Système d'Information](/cours/management/si)
+    - [Sobriété Numérique](/cours/management/sobriete)
+- Informatique
+    - [Git](/cours/info/bases/git)
+    - [Low Code](/cours/info/low_code)
+- Gestion de projet & Modélisation
+    - [Service Design](/cours/gestion_modelisation/service_design)
