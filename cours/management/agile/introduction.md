@@ -3,7 +3,10 @@ title: "Gestion de projet"
 date: "2024-09-04"
 sidebar_label: "Gestion de projet"
 sidebar_position: 1
-tags: ["gestion de projet"]
+tags: ["gestion de projet","management"]
+authors: ["Guillaume LAURIE","BoxBoxJason"]
+description: "Cours d'introduction à la gestion de projet"
+keywords: ["gestion de projet", "management"]
 ---
 
 import LinksSection from '@site/src/components/LinksSection';

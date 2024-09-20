@@ -3,12 +3,22 @@ title: "Introduction MSI"
 date: "2024-09-03"
 sidebar_label: "Introduction"
 sidebar_position: 1
+tags: ["management","si"]
+authors: ["Laetitia PIET","BoxBoxJason"]
+description: "Cours d'introduction au Management des Systèmes d'Information"
+keywords: ["management", "si", "systèmes d'information"]
 ---
 
 # Introduction au Management des Systèmes d'Information
 
-*Laetitia Piet*\
-[Diaporama](./documents/MSI_INTRO.pdf)
+*Laetitia Piet*
+
+<LinksSection
+    title="Ressources"
+    links={[
+      {displayName: "Slides Cours d'introduction MSI", url: "/documents/MSI_INTRO.pdf"},
+      ]}
+/>
 
 ## Définitions
 
