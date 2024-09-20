@@ -9,6 +9,8 @@ description: "Cours d'introduction au Management des Systèmes d'Information"
 keywords: ["management", "si", "systèmes d'information"]
 ---
 
+import LinksSection from '@site/src/components/LinksSection';
+
 # Introduction au Management des Systèmes d'Information
 
 *Laetitia Piet*
