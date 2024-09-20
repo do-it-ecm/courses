@@ -3,7 +3,10 @@ title: "Autres méthodes AGILES"
 date: "2024-09-13"
 sidebar_label: "Autres Méthodes AGILES"
 sidebar_position: 4
-tags: ["agile", "gestion de projet"]
+tags: ["agile", "gestion de projet","management"]
+authors: ["BoxBoxJason"]
+description: "Cours et présentations de méthodes agiles : Rational Unified Process, Agile Unified Process, Disciplined Agile Delivery, Extreme Programming, Feature Driven Development, Lean Software Development"
+keywords: ["gestion de projet", "management", "agile", "méthodes agiles"]
 ---
 
 import LinksSection from '@site/src/components/LinksSection';
