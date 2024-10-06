@@ -2,7 +2,7 @@
 title: "Introduction Git"
 date: "2024-09-05"
 sidebar_label: "Git"
-sidebar_position: 1
+sidebar_position: 3
 tags: ["git", "informatique"]
 authors: ["François Brucker","BoxBoxJason"]
 description: "Cours d'introduction à Git, un logiciel de gestion de versions décentralisé"
