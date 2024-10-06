@@ -15,15 +15,21 @@ Bienvenue sur LessonBox, la plateforme des cours de DoIt. Vous trouverez ici l'e
 </div>
 
 ## Comment ça marche ?
-Pour accéder à un cours, il vous suffit de cliquer sur le lien correspondant. Vous serez redirigé vers la page du cours, où vous trouverez l'ensemble des informations nécessaires pour suivre le cours.
+Pour accéder à un cours, il vous suffit de **cliquer sur le lien correspondant** juste en dessous. Vous serez redirigé vers la page du cours, où vous trouverez l'ensemble des informations nécessaires pour suivre le cours.\
+Vous pouvez aussi utiliser la **barre de navigation** pour accéder directement à une catégorie de cours.
 
-## Les catégories
+## Cours
 - Management
     - [Agilité](/cours/management/agile)
     - [Système d'Information](/cours/management/si)
     - [Sobriété Numérique](/cours/management/sobriete)
 - Informatique
+    - [Fondamentaux de l'ordinateur](/cours/info/bases/ordinateur)
+    - [Linux](/cours/info/bases/linux)
     - [Git](/cours/info/bases/git)
     - [Low Code](/cours/info/low_code)
 - Gestion de projet & Modélisation
     - [Service Design](/cours/gestion_modelisation/service_design)
+    - [UI/UX](/cours/gestion_modelisation/ui_ux)
+- Tronc Commun
+    - [Gestion du Changement](/cours/tronc_commun/change_management)
