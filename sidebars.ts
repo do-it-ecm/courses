@@ -82,6 +82,18 @@ const sidebars: SidebarsConfig = {
           ]
         },
       ]
+    },
+
+    {
+      type: 'category',
+      label: 'Tronc Commun',
+      items: [
+        {
+          type: 'doc',
+          label: 'Conduite du Changement',
+          id: 'tronc_commun/change_management/index'
+        }
+      ]
     }
   ],
 };
