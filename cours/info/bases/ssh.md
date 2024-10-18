@@ -93,3 +93,20 @@ Host ecm
 Vous pouvez bien sûr choisir un autre nom que `ecm` pour l'hôte.
 
 Maintenant, pour vous connecter à Centrale Marseille, il vous suffit de taper `ssh ecm` dans votre terminal.
+
+## Connexion à aioli
+La promo Do_It possède **son propre serveur dédié** nommé `aioli`. Pour vous connecter à aioli, le processus est similaire à celui de Centrale Marseille.
+
+La seule différence est que vous n'avez pas forcément un compte sur aioli, il faudra donc demander à FB, de vous créer un compte. Chaque compte sur aioli possède un nom bien provençal. Et ce compte n'est **pas accessible via mot de passe**, il faut obligatoirement se connecter via clé SSH. Cela veut dire que vous devrez **transmettre votre clé SSH <u>PUBLIQUE</u> à FB** pour qu'il puisse l'ajouter à votre compte.
+
+Pour vous connecter à aioli, vous pouvez taper `ssh <votre_login_aioli>@aioli.ec-m.fr` dans votre terminal. Si vous avez configuré un hôte SSH pour aioli, vous pouvez taper `ssh aioli` dans votre terminal. *S'il vous demande un mot de passe, c'est que vous avez merdé quelque part*.
+
+### Gagner du temps
+Si vous voulez gagner du temps, vous pouvez configurer un hôte SSH pour aioli dans votre fichier de configuration SSH. Pour cela, il faut ajouter les lignes suivantes dans le fichier `/etc/ssh/ssh_config` si vous êtes administrateur et unique utilisateur de votre machine, ou dans le fichier `~/.ssh/config` si vous êtes un utilisateur lambda. (Si le fichier n'existe pas, vous pouvez le créer)
+```bash
+Host aioli
+    HostName aioli.ec-m.fr
+    User <votre_login_aioli>
+    Port 22
+```
+Vous pouvez bien sûr choisir un autre nom que `aioli` pour l'hôte.
