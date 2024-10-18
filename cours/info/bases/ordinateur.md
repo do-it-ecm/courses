@@ -35,11 +35,17 @@ graph LR
 ## Architecture ordinateur
 
 ```mermaid
-graph LR
-    A[Users]
-    B[Sofware]
-    C[Operating System]
-    D[Hardware]
+architecture-beta
+    service users(clarity:users-solid)[Utilisateurs]
+
+    group computer(server)[Computer]
+    service software(cloud)[Software] in computer
+    service os(database)[Operating System] in computer
+    service hardware(disk)[Hardware] in computer
+
+    users:B <--> T:software
+    software:R <--> L:os
+    os:R <--> L:hardware
 ```
 
 ### Hardware
