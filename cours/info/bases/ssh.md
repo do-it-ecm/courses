@@ -2,7 +2,7 @@
 title: "SSH"
 date: "2024-10-17"
 sidebar_label: "SSH"
-sidebar_position: 1
+sidebar_position: 4
 tags: ["informatique", "os", "linux","ssh"]
 authors: ["François Brucker","BoxBoxJason"]
 description: "Cours d'introduction à Linux, un système d'exploitation open-source"
@@ -67,8 +67,8 @@ Les agents SSH sont des programmes qui permettent de gérer automatiquement l'au
 
 Si vous avez activé le service SSH sur votre machine, il y a des chances que le service SSH-agent soit aussi actif par défaut. Pour vérifier si vous avez un agent SSH actif, vous pouvez taper `ssh-add -l` dans votre terminal.\
 Si vous avez un message de type: `could not open a connection to your authentication agent`, c'est que vous n'avez pas d'agent SSH actif. Vous pouvez alors faire au choix:
-- Taper `eval "$(ssh-agent)"` pour lancer un nouvel agent SSH.. *Le eval est important, ne tentez pas de gagner 0.31ms* (il faudra relancer cette commande avec chaque nouveau terminal depuis lequel on souhaite lancer une connexion SSH)
-- Activer l'agent SSH au démarrage de votre terminal en ajoutant la commande `eval "$(ssh-agent)"` dans votre fichier de configuration de shell (`~/.bashrc` OU `~/.zshrc` OU `~/.profile`,...). Il faudra immédiatement relancer le terminal
+- Taper `eval "$(ssh-agent)"` pour lancer un nouvel agent SSH. *Le eval est important, ne tentez pas de gagner 0.31ms* (il faudra relancer cette commande avec chaque nouveau terminal depuis lequel on souhaite lancer une connexion SSH)
+- Activer l'agent SSH au démarrage de votre terminal en ajoutant la commande `eval "$(ssh-agent)"` dans votre fichier de configuration de shell (`~/.bashrc` OU `~/.zshrc` OU `~/.profile`,...). Il faudra immédiatement relancer le terminal.
 - Activer le service SSH-agent au démarrage de votre machine. La commande exacte dépend de votre OS mais devrait ressembler à `systemctl enable ssh-agent.service`
 
 ### Clés SSH
