@@ -203,7 +203,6 @@ Pour définir les permissions d'un fichier, il faut déterminer les **droits d'a
 
 ### Commandes
 Voici quelques commandes utiles pour gérer les fichiers et les répertoires sous Linux. Toutes ces commandes s'utilisent dans le terminal. Elles peuvent être suivies d'options pour personnaliser leur comportement. ATTENTION, il n'y a pas de corbeille, les fichiers supprimés le sont définitivement. Il n'y a pas non plus de raccourcis clavier pour annuler une commande.
-
 - **Navigation**
     - **`ls`** : Affiche la liste des fichiers et des répertoires.
     - **`cd`** : Change de répertoire.
@@ -241,6 +240,59 @@ Voici quelques commandes utiles pour gérer les fichiers et les répertoires sou
 
 ## Processus
 Un **processus** est un programme en cours d'exécution sur un système d'exploitation. Chaque processus possède un identifiant unique appelé **PID** (Process IDentifier) qui permet de le distinguer des autres processus.\
+Sur Linux, il est possible d'avoir une multitude de processus en cours d'exécution, chacun effectuant une tâche spécifique.\
+Les processus peuvent être **interactifs** (lancés depuis un terminal) ou **démon** (lancés en arrière-plan).\
+Vous pouvez consulter les processus dans `/proc`, chaque processus a un répertoire correspondant à son PID.
+
+### Notions de base
+
+#### Hierarchie
+Les processus sous Linux sont organisés en **arborescence**. Chaque processus a un **processus parent** qui l'a créé, et peut avoir des **processus enfants** qu'il a créés.\
+Le premier processus créé par le noyau est appelé **init**, et il est le parent de tous les autres processus. Il est responsable du démarrage et de l'arrêt du système. Il est souvent remplacé par **systemd** sur les distributions récentes.
+
+Lorsqu'un processus se termine, il envoie un **signal** à son processus parent pour l'informer de sa terminaison. Le processus parent peut alors récupérer le **code de sortie** du processus enfant pour savoir s'il s'est terminé correctement.
+
+Lorsqu'un processus parent se termine, ses processus enfants meurent également. Cependant, il est possible de **détacher** un processus de son processus parent pour qu'il continue à s'exécuter de manière autonome. Cela n'est pas automatique.
+
+#### Priorité
+Chaque processus sous Linux possède une **priorité** qui détermine son ordre d'exécution par rapport aux autres processus.\
+La priorité d'un processus est définie par son **niceness**, qui peut prendre des valeurs entre -20 et 19. Plus la valeur est basse, plus la priorité est élevée.\
+Un processus avec une priorité élevée sera exécuté avant les autres processus, tandis qu'un processus avec une priorité basse sera exécuté après les autres processus. La priorité par défaut est 0. *Il est possible de modifier la priorité d'un processus en cours d'exécution*.
+
+#### État
+Un processus sous Linux peut se trouver dans différents **états** en fonction de son activité:
+- **En cours d'exécution** : Le processus est en train de s'exécuter.
+- **En attente** : Le processus attend un événement ou une ressource.
+- **Arrêté** : Le processus est arrêté ou en pause.
+- **Zombie** : Le processus s'est terminé mais son processus parent ne l'a pas encore récupéré. Il occupe toujours une entrée dans la table des processus.
+
+#### Foreground et Background
+Un processus peut s'exécuter en **foreground** ou en **background**.\
+Lorsqu'un processus s'exécute en **foreground**, il occupe le terminal et attend que l'utilisateur interagisse avec lui. Il bloque l'entrée du terminal et empêche l'exécution d'autres commandes tant qu'il n'est pas terminé.\
+Lorsqu'un processus s'exécute en **background**, il ne bloque pas le terminal mais continue à s'exécuter en arrière-plan. Il communique toujours avec la sortie standard du terminal, mais n'attend pas d'entrée de l'utilisateur.
+
+Pour exécuter en background un processus supposé s'exécuter en foreground, il suffit de rajouter `&` à la fin de la commande.\
+Pour passer un processus en background, il suffit de taper `Ctrl+Z` pour le mettre en pause, puis `bg` pour le passer en background.
+
+### Commandes
+Voici quelques commandes utiles pour gérer les processus sous Linux. Toutes ces commandes s'utilisent dans le terminal. Elles peuvent être suivies d'options pour personnaliser leur comportement.
+- **Affichage**
+    - **`ps`** : Affiche les processus en cours
+    - **`pstree`** : Affiche les processus en cours sous forme d'arborescence
+    - **`top`** : Affiche les processus en cours et leur consommation de ressources
+    - **`htop`** : Affiche les processus en cours et leur consommation de ressources de manière plus détaillée
+- **Gestion**
+    - **`nohup`** : Rattache un processus à un autre terminal
+    - **`kill`** : Arrête un processus
+    - **`killall`** : Arrête tous les processus portant un nom donné
+    - **`pkill`** : Arrête les processus correspondant à un motif donné
+    - **`pgrep`** : Affiche les PID des processus correspondant à un motif donné
+    - **`nice`** : Modifie la priorité d'un processus
+    - **`renice`** : Modifie la priorité d'un processus en cours
+- **Autres**
+    - **`bg`** : Passe un processus en arrière-plan
+    - **`fg`** : Passe un processus en premier plan
+    - **`jobs`** : Affiche les processus en cours et leur état
 
 ## Lexique
 - **Noyau** : Partie centrale du système d'exploitation, qui gère les ressources matérielles de l'ordinateur.
