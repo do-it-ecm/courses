@@ -14,6 +14,14 @@ import SizedImage from '@site/src/components/SizedImage';
 
 # Linux
 
+<LinksSection
+    title="Liens utiles"
+    links={[
+      {displayName: "Cours Bases Linux", url: "https://francoisbrucker.github.io/cours_informatique/cours/syst%C3%A8me-et-r%C3%A9seau/linux/bases-linux/"},
+      ]}
+/>
+
+
 ## Introduction
 Linux est un **noyau de système d'exploitation**, c'est à dire une base logicielle qui permet à un ordinateur de fonctionner. Il est utilisé dans de nombreux systèmes d'exploitation, appelés **distributions**, qui ajoutent des logiciels et des outils pour en faire un système complet.
 
@@ -144,6 +152,95 @@ Linux est **sécurisé** par nature, car il est basé sur des principes de sécu
 - **plus respectueux de la vie privée** que Windows, car il ne collecte pas de données personnelles.
 
 Cependant il n'est pas invulnérable, il faut quand même **faire attention** à ce qu'on fait sur internet, à ce qu'on installe, à ce qu'on télécharge, à ce qu'on partage. Il faut bien sûr faire les mises à jour de sécurité et éventuellement installer un antivirus (ClamAV, Sophos, Bitdefender, ESET).
+
+## Architecture fichiers
+Linux a pour principe de tout considérer comme un fichier, ce qui simplifie la gestion des ressources. Ainsi, toutes les interactions avec le système se font via des fichiers, que ce soit pour les périphériques, les processus, les réseaux, les utilisateurs, les logs, les configurations,...
+
+### Types de fichiers
+Il existe 4 catégories de fichiers sous Linux:
+- **Fichiers ordinaires** : Contiennent des données textuelles, binaires, ou autre.
+- **Répertoires** : Contiennent des fichiers et d'autres répertoires. C'est ce que vous appelez **A TORT** des dossiers.
+- **Pseudo-fichiers** : Représentent des ressources matérielles ou logicielles, comme les périphériques, les processus, les sockets, les partitions, les montages, les systèmes de fichiers, les informations système,...
+- **Liens** : Permettent de créer des raccourcis vers des fichiers ou des répertoires.
+
+### Arborescence
+Sur linux, les fichiers sont organisés dans une **arborescence** qui commence à la racine (UNIQUE) du système de fichiers (`/`). Voici une vue simplifiée de l'arborescence Linux:
+```
+/ : racine du système de fichiers
+├── bin : programmes executables essentiels (binaires)
+├── boot : fichiers nécessaires au démarrage du système
+├── dev : fichiers de périphériques (devices)
+├── etc : fichiers de configuration
+├── home : répertoires personnels des utilisateurs
+├── lib : bibliothèques partagées
+├── media : points de montage pour les supports amovibles
+├── mnt : points de montage temporaires pour les supports amovibles
+├── opt : logiciels installés manuellement
+├── proc : informations sur les processus
+├── root : répertoire personnel de l'administrateur
+├── run : fichiers temporaires
+├── sbin : programmes executables essentiels (binaires système)
+├── srv : données des services
+├── sys : informations sur le système
+├── tmp : fichiers temporaires
+├── usr : programmes et fichiers partagés
+└── var : fichiers variables (logs, spools, etc.)
+```
+
+### Permissions
+Linux est un système **multi-utilisateurs** et **multi-tâches**, ce qui signifie que plusieurs utilisateurs peuvent utiliser le système en même temps, et que plusieurs tâches peuvent s'exécuter simultanément.\
+Pour garantir la **sécurité** et la **confidentialité** des données, Linux utilise un système de **permissions** qui définit les **droits d'accès** aux fichiers et aux répertoires.
+
+Chaque fichier et répertoire possède des **permissions** qui définissent les actions que chaque utilisateur peut effectuer sur ce fichier ou ce répertoire. Il existe trois types de permissions:
+- **Lecture** (r) : Permet de lire le contenu du fichier ou du répertoire.
+- **Écriture** (w) : Permet de modifier le contenu du fichier ou du répertoire.
+- **Exécution** (x) : Permet d'exécuter le fichier ou d'accéder au contenu du répertoire.
+
+Pour définir les permissions d'un fichier, il faut déterminer les **droits d'accès** pour les trois catégories d'utilisateurs:
+- **Propriétaire** : L'utilisateur qui possède le fichier ou le répertoire.
+- **Groupe** : Un ensemble d'utilisateurs qui partagent des droits d'accès communs.
+- **Autres** : Tous les autres utilisateurs du système.
+
+### Commandes
+Voici quelques commandes utiles pour gérer les fichiers et les répertoires sous Linux. Toutes ces commandes s'utilisent dans le terminal. Elles peuvent être suivies d'options pour personnaliser leur comportement. ATTENTION, il n'y a pas de corbeille, les fichiers supprimés le sont définitivement. Il n'y a pas non plus de raccourcis clavier pour annuler une commande.
+
+- **Navigation**
+    - **`ls`** : Affiche la liste des fichiers et des répertoires.
+    - **`cd`** : Change de répertoire.
+    - **`pwd`** : Affiche le chemin du répertoire courant.
+- **Gestion**
+    - **`touch`** : Crée un nouveau fichier.
+    - **`mkdir`** : Crée un nouveau répertoire.
+    - **`cp`** : Copie un fichier ou un répertoire.
+    - **`mv`** : Déplace un fichier ou un répertoire.
+    - **`rmdir`** : Supprime un répertoire vide.
+    - **`rm`** : Supprime un fichier ou un répertoire.
+- **Permissions**
+    - **`chmod`** : Modifie les permissions d'un fichier ou d'un répertoire.
+    - **`chown`** : Modifie le propriétaire et le groupe d'un fichier ou d'un répertoire.
+    - **`chgrp`** : Modifie le groupe d'un fichier ou d'un répertoire.
+- **Recherche**
+    - **`find`** : Recherche des fichiers et des répertoires.
+    - **`grep`** : Recherche des motifs dans les fichiers.
+- **Affichage**
+    - **`cat`** : Affiche le contenu d'un fichier.
+    - **`more`** : Affiche le contenu d'un fichier page par page.
+    - **`less`** : Affiche le contenu d'un fichier page par page avec plus de fonctionnalités.
+    - **`head`** : Affiche les premières lignes d'un fichier.
+    - **`tail`** : Affiche les dernières lignes d'un fichier.
+- **Compression**
+    - **`tar`** : Archive des fichiers, peut aussi les compresser ou les décompresser.
+    - **`zip`** : Compresse des fichiers.
+    - **`unzip`** : Décompresse des fichiers.
+- **Autres**
+    - **`ln`** : Crée un lien symbolique ou un lien dur.
+    - **`du`** : Affiche l'espace disque utilisé par les fichiers et les répertoires.
+    - **`df`** : Affiche l'espace disque disponible sur les systèmes de fichiers.
+    - **`mount`** : Montre les systèmes de fichiers montés.
+    - **`umount`** : Démonte un système de fichiers.
+
+## Processus
+Un **processus** est un programme en cours d'exécution sur un système d'exploitation. Chaque processus possède un identifiant unique appelé **PID** (Process IDentifier) qui permet de le distinguer des autres processus.\
 
 ## Lexique
 - **Noyau** : Partie centrale du système d'exploitation, qui gère les ressources matérielles de l'ordinateur.
