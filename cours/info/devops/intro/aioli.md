@@ -1,7 +1,7 @@
 ---
 title: "aioli"
 date: "2024-10-20"
-sidebar_label: "SSH"
+sidebar_label: "aioli"
 sidebar_position: 1
 tags: ["informatique", "aioli", "serveur"]
 authors: ["BoxBoxJason"]
