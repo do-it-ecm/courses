@@ -41,7 +41,8 @@ Le reverse proxy rend disponible les deux services web suivants:
 - N'importe quel service web (HTTP ou HTTPS) que vous démarrez sur le port correspondant à votre UID (par exemple, le port 1105 pour l'herbe cumin (1105)) est proxyfié par nginx à l'adresse `https://cumin.aioli.ec-m.fr/`. Attention, vous DEVEZ utiliser le port de VOTRE UID pour que le reverse proxy fonctionne.
 
 ## Services
-Aioli est un serveur de test, de développement et de déploiement. Vous pouvez y déployer vos projets web, vos services, vos applications. Vous ne pouvez rien installer au niveau système, mais vous pouvez installer des logiciels dans votre répertoire personnel.
+Aioli est un serveur de test, de développement et de déploiement. Vous pouvez y déployer vos projets web, vos services, vos applications. Vous ne pouvez rien installer au niveau système, mais vous pouvez installer des logiciels dans votre répertoire personnel.\
+Voici la liste des services disponibles sur aioli à l'heure actuelle
 
 ### PostgreSQL
 Aioli possède un cluster de base de données postgresql. Chaque herbe est identifiée via le **socket unix** `/var/run/postgresql/.s.PGSQL.5432` et peut se connecter à la base de données qui porte le même nom que son herbe, le tout **sans mot de passe**. Vous ne POUVEZ **PAS créer de nouvelles bases de données** ou d'utilisateurs. Vous ne pouvez que vous connecter à votre base de données, pas celle des autres herbes.
@@ -59,7 +60,7 @@ La version 3.11.2 de Python est installée sur aioli. Vous pouvez l'utiliser pou
 Vous disposez également de **pip** pour gérer les dépendances de vos projets. Cependant vous n'aurez pas les droits pour installer des paquets globalement. Utilisez des environnements virtuels pour installer des paquets spécifiques à vos projets. Vous pouvez égaler utilsier `pip install --user` pour installer des paquets dans votre répertoire personnel.
 
 ### Nginx
-Un serveur nginx est installé sur aioli. Vous pouvez l'utiliser pour servir des fichiers statiques ou pour reverse proxyfier des services web. Vous ne pouvez pas modifier la configuration globale de nginx mais sachant que vous avez un reverse proxy à votre disposition.
+Un serveur nginx est installé sur aioli. Vous pouvez l'utiliser pour servir des fichiers statiques ou pour reverse proxyfier des services web. Vous ne pouvez pas modifier la configuration globale de nginx mais sachez que vous avez un reverse proxy à votre disposition.
 
 ### Git
 Git est installé sur aioli. Vous avez accès à toutes les commandes de git pour gérer vos projets.
