@@ -126,14 +126,15 @@ Pour se connecter à la base de données, vous devez créer une instance de `Seq
 ```javascript
 import { Sequelize } from 'sequelize';
 import dotenv from 'dotenv';
-import pkg from 'pg';
-const { Client } = pkg;
 
+// Importe les variables d'environnement depuis le fichier .env (la variable USER est déjà définie dans l'environnement de base d'aioli, pas besoin de la définir dans le fichier .env)
 dotenv.config();
 
+// Définition des variables de connexion
 const DBUSER = process.env.USER;
 const DBNAME = process.env.USER;
 
+// Création de l'instance Sequelize
 const sequelize = new Sequelize(DBNAME, DBUSER, null, {
   dialect: 'postgres',
   host: '/var/run/postgresql',
@@ -141,6 +142,7 @@ const sequelize = new Sequelize(DBNAME, DBUSER, null, {
   logging: false,
 });
 
+// Connexion à la base de données
 (async () => {
   try {
     await sequelize.authenticate();
@@ -150,6 +152,7 @@ const sequelize = new Sequelize(DBNAME, DBUSER, null, {
   }
 })();
 
+// Exporte l'instance sequelize pour l'utiliser dans d'autres fichiers
 export default sequelize;
 ```
 
