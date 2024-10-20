@@ -148,3 +148,38 @@ passwords.txt
 # Node.js
 node_modules/
 ```
+
+## Guide de debug
+Spécialement pour vous, voici un guide de debug pour les erreurs les plus courantes (lorsque l'on veut publier son code)
+
+```mermaid
+flowchart TD
+    giterror{{J'ai une erreur avec Git ?}} -->|Erreur repo distant / origin|originerror[git remote -v]
+
+    originerror -->|Pas de remote|gitremoteadd[git remote add origin URL]
+    originerror -->|Mauvaise URL|gitremotechange[git remote set-url origin URL]
+
+    gitremoteadd --> problemsolvedquestion{{Problème résolu ?}}
+    gitremotechange --> problemsolvedquestion
+    problemsolvedquestion -->|Oui|problemsolved([Problème résolu])
+    problemsolvedquestion -->|Oui mais nouvelle erreur|giterror
+    problemsolvedquestion -->|Non|askforhelp([Chercher sur internet ou demander de l'aide])
+
+    giterror -->|Erreur de branche|brancherror[git branch]
+    brancherror -->|Pas de branche|gitcheckout[git checkout -b NOM_BRANCHE]
+    brancherror -->|Mauvaise branche|gitcheckout[git checkout NOM_BRANCHE]
+    brancherror -->|Pas droit de push|gitpush[git push --set-upstream origin NOM_BRANCHE_AVEC_DROITS]
+
+    gitcheckout --> problemsolvedquestion
+    gitpush --> problemsolvedquestion
+
+    giterror -->|Synchronisation|syncerror[synchronisation]
+
+    syncerror -->|Dépassement de commits ahead/behind|syncpullpush[git pull origin NOM_BRANCHE puis git push]
+    syncerror -->|Conflits de merge|mergeconflict[Résoudre les conflits puis git add . et git commit]
+    syncerror -->|Changements locaux non commités|stagedchanges[git add . puis git commit -m MESSAGE]
+
+    syncpullpush --> problemsolvedquestion
+    mergeconflict --> problemsolvedquestion
+    stagedchanges --> problemsolvedquestion
+```
