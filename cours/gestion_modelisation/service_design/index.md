@@ -9,7 +9,16 @@ description: "Cours d'introduction au service design"
 keywords: ["service design", "design thinking", "user experience", "user interface"]
 ---
 
+import LinksSection from '@site/src/components/LinksSection';
+
 # Service Design
+
+<LinksSection
+    title="Ressources"
+    links={[
+      {displayName: "Slides Cours Design Thinking", url: "./service_design.png"},
+    ]}
+/>
 
 ## Composantes d'un projet de transformation
 
