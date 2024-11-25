@@ -7,5 +7,4 @@ tags: ["gestion", "projet"]
 authors: ["Guillaume Oliana"]
 description: "Cours sur la gestion de projet"
 keywords: ["gestion", "projet"]
-draft: true
 ---
