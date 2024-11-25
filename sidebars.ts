@@ -89,7 +89,7 @@ const sidebars: SidebarsConfig = {
               dirName: 'management/sobriete'
             },
           ]
-        }
+        },
       ],
     },
 
