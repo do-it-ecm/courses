@@ -17,7 +17,7 @@ import LinksSection from '@site/src/components/LinksSection';
     title="Ressources"
     links={[
       {displayName: "Slides Cours UI/UX", url: "./documents/UI_UX.pdf"},
-      {displayName: "Slides Cours Design Thinking", url: "../service_design"},
+      {displayName: "Cours Design Thinking", url: "../service_design"},
     ]}
 />
 
