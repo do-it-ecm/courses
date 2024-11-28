@@ -1,7 +1,7 @@
 ---
 title: "Introduction MSI"
 date: "2024-09-03"
-sidebar_label: "Introduction"
+sidebar_label: "Management des Systèmes d'Information"
 sidebar_position: 1
 tags: ["management","si"]
 authors: ["Laetitia PIET","BoxBoxJason"]
@@ -11,9 +11,7 @@ keywords: ["management", "si", "systèmes d'information"]
 
 import LinksSection from '@site/src/components/LinksSection';
 
-# Introduction au Management des Systèmes d'Information
-
-*Laetitia Piet*
+# Management des Systèmes d'Information
 
 <LinksSection
     title="Ressources"

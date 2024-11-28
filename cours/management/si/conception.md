@@ -2,7 +2,7 @@
 title: "Conception SI"
 date: "2024-10-25"
 sidebar_label: "Conception SI"
-sidebar_position: 1
+sidebar_position: 2
 tags: ["management","si","conception"]
 authors: ["Laetitia PIET","BoxBoxJason"]
 description: "Course on Information Systems Design"

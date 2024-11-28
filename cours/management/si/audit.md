@@ -1,8 +1,8 @@
 ---
-title: "Conception SI"
+title: "Audit Organisationnel"
 date: "2024-10-25"
-sidebar_label: "Conception SI"
-sidebar_position: 2
+sidebar_label: "Audit Organisationnel"
+sidebar_position: 3
 tags: ["management","si","conception"]
 authors: ["Camille GIRARD","BoxBoxJason"]
 description: "Course on Information Systems Design"
