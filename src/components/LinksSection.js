@@ -6,7 +6,7 @@ const LinksSection = ({ title, links }) => {
     <div className={styles.linksSection}>
       <div className={styles.titleContainer}>
       <img src="/do_it/icons/link.png" alt="links" />
-      <b>{title ? title : 'Liens'}</b>
+      <big><b>{title ? title : 'Liens'}</b></big>
       </div>
       <ul>
         {links.map((link, index) => (
