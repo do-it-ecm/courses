@@ -2,14 +2,27 @@
 title: "Gestion de Projet"
 date: "2024-10-21"
 sidebar_label: "Gestion de Projet"
-sidebar_position: 1
+sidebar_position: 3
 tags: ["gestion", "projet"]
 authors: ["Guillaume Oliana"]
 description: "Cours sur la gestion de projet"
 keywords: ["gestion", "projet"]
 ---
 
-# Résumé des Fondamentaux de la Gestion de Projet
+import LinksSection from '@site/src/components/LinksSection';
+
+# Fondamentaux de la Gestion de Projet
+
+<LinksSection
+    title="Ressources"
+    links={[
+      {displayName: "Slides Gestion de projet 1", url: "./documents/gdp1.pdf"},
+      {displayName: "Slides Gestion de projet 2", url: "./documents/gdp2.pdf"},
+      {displayName: "Slides Gestion de projet 3", url: "./documents/gdp3.pdf"},
+      {displayName: "Slides Gestion de projet 4", url: "./documents/gdp4.pdf"},
+      {displayName: "Slides Gestion de projet 5", url: "./documents/gdp5.pdf"},
+    ]}
+/>
 
 ## 1. Introduction à la Gestion de Projet
 - **Définition d’un projet** :
