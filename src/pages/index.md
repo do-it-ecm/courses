@@ -30,6 +30,8 @@ Vous pouvez aussi utiliser la **barre de navigation** pour accéder directement 
     - [Low Code](/cours/info/low_code)
 - Gestion de projet & Modélisation
     - [Service Design](/cours/gestion_modelisation/service_design)
-    - [UI/UX](/cours/gestion_modelisation/ui_ux)
+    - [UI/UX](/cours/gestion_modelisation/uiux)
+    - [Gestion de Projet](/cours/gestion_modelisation/gdp)
+    - [High Performance Team](/cours/gestion_modelisation/hpt)
 - Tronc Commun
     - [Gestion du Changement](/cours/tronc_commun/change_management)
