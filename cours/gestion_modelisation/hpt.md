@@ -29,14 +29,10 @@ You must provide the tools (and environment) to let people become their best.* -
 
 Lors de nos interactions avec des personnes, des équipes, des proches, on **ne contrôle pas** les résultats. On ne peut pas forcer quelqu'un à être productif, à être créatif, à être innovant. On ne peut pas forcer quelqu'un à être heureux.
 
-## Team Performance
-
-### High Performance Team
-
-#### Définition
+### Définition
 Une équipe hautement performante est un group de personnes qui travaillent en synergie au travers de différents rôles. Ils travaillent ensemble avec vers un objectif commun. Ils délivrent de manière consistantes des résultats exceptionnels.
 
-#### Pourquoi ?
+### Pourquoi ?
 Une équipe hautement performante est capable de délivrer des **résultats 5 fois supérieurs** à la moyenne. C'est une équipe qui **décuple les performances individuelles** en les faisant collaborer en **synergie**. Elle **attire** et **retient** les meilleurs talents. Elle crée une grande satisfaction des membres de l'équipe, un bien-être et un amusement.
 
 ## Les 5 dysfonctionnements d'une équipe
@@ -90,6 +86,36 @@ quadrantChart
 Un *conflit productif* est un conflit qui se déroule sous la forme d'une **conversation structuré**. Il faut s'assurer qu'il y a bien un **dialogue**, de l'**écoute active**, de la **négotiation**. Cela permet d'établir une **conversation productive**.\
 Il en découle de **meilleures solutions** et une **confiance renforcée**.
 
+#### Ecoute productive
+Quelques règles d'or pour assurer une écoute active et utile:
+- **Ecouter** sans chercher à interrompre
+- **Ne pas se battre** pour son tour de parole
+- Chercher à **comprendre d'abord**, puis à être compris. On influence plus en écoutant qu'en parlant
+- Avoir l'**intention d'apprendre** (être ouvert au changement) et de construire ensemble, pas de convaincre
+- LIE: *Listen*, *Inquire*, *Explore*
+- Montrer que l'on écoute, avec son corps, ses expressions et des résumés de ce qu'on a compris
+
+##### Déroulé idéal
+Dans l'idéal, une conversation productive suit ce déroulement:
+1. Trouver un objectif commun
+2. S'accorder sur le fait que chacun détient une part de la solution et de la vérité. Les deux contribuent à la solution
+3. Expliquer que l'on souhaite d'abord comprendre l'autre, puis être compris
+4. Repasser les solutions qui prennent en compte les deux points de vue
+5. S'accorder et s'engager
+6. Penser ensemble au futur
+
+##### Eviter la défensive
+Il faut éviter de pousser l'autre à se défendre. Il faut éviter de lui donner l'impression qu'il est attaqué. Quelques bonnes pratiques pour éviter cela:
+- Utiliser la première personne le plus possible afin de décrire l'impact sur soi
+    - ✅ Quand je t'ai vu faire X, j'ai pensé Y, j'ai pensé Z
+    - ❌ Tu as fait X, tu voulais me faire Y, tu m'as fait me sentir Z
+- Utiliser **je pense** au lieu d'énoncer ses interprétations comme des faits
+- Ne pas catégoriser ou juger les actions ou la personne
+    - ❌ Tu as été méchant avec moi. Pourquoi tu m'as fait ça ?
+    - ❌ Tu n'as pas agi correctement quand...
+- Ne pas utiliser **jamais** ou **toujours**
+    - ❌ Tu fais toujours/jamais ça !
+
 ## Modèles
 
 ### Modèles de leadership
@@ -106,8 +132,24 @@ Il est **conscient de ses limites** et il **compte sur les autres** pour les com
 
 Les objectifs et les stratégies sont définis **ensemble**. Le but est de faire **gagner toute l'équipe**. Il y a une bonne **transparence des informations**. Il crée un **sentiment d'engagement et de responsabilité**. Il montre ses émotions.
 
-### Modèle de Mentalité
+### Chemin de Mentalité
 *Certainty is lethal to two of our most redeeming and humane qualities, imagination and empathy* - Being Wrong: Adventures in the Margin of Error by Kathryn Schulz
+
+Il est essentiel de garder en tête que son chemin n'est pas le seul chemin possible.
+```mermaid
+graph LR
+    A[<big><b>Faits</b></big><br><small>possiblement partiel ou erroné</small>] --> B[<big><b>Interprétation</b></big><br><small>influencés par nos biais, émotions, expériences</small>]
+    B --> C[<big><b>Conclusions</b></big><br><small>influencé par nos croyances, valeurs, mentalité</small>]
+    C --> D[<big><b>Emotions et Actions</b></big>]
+```
+
+Il faut prendre garde à ne pas deviner les intentions des autres
+```mermaid
+graph LR
+    A[A connaît ses <b>intentions</b>] --> B[B <b>constate</b> les <b>actions</b> de A]
+    B --> C[B <b>devine</b> les <b>intentions</b> de A]
+    C --> D((B <b>interprète</b> les impacts de l'action de A))
+```
 
 #### Je-Sais-Tout
 Le **Je-Sais-Tout** est une personne qui a une **mentalité fixe**. Elle pense que ses capacités et ses talents sont **innés** et **immuables**. Elle pense qu'elle est **meilleure** que les autres. Elle a **peur de l'échec** et de montrer ses faiblesses.\
@@ -117,3 +159,4 @@ Pour motiver cette personne, il faut faire preuve de patience et de persévéran
 
 #### Apprenant
 L'**Apprenant** est une personne qui a une **mentalité de croissance**. Elle pense que ses capacités et ses talents sont **développables**. Elle pense qu'elle peut **apprendre** et **grandir**. Elle est **curieuse** et **ouverte**. Elle **accepte** l'échec et les critiques.
+
