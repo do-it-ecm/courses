@@ -17,7 +17,7 @@ import LinksSection from '@site/src/components/LinksSection';
     title="Ressources"
     links={[
       {displayName: "Slides Cours UI/UX", url: "./documents/UI_UX.pdf"},
-      {displayName: "Cours Design Thinking", url: "../service_design"},
+      {displayName: "Cours Design Thinking", url: "./service_design"},
     ]}
 />
 
@@ -25,8 +25,8 @@ import LinksSection from '@site/src/components/LinksSection';
 
 **UI**: User Interface, c'est l'interface utilisateur. C'est ce que l'utilisateur voit et avec quoi il interagit.\
 **UX**: User Experience, c'est l'expérience utilisateur. C'est ce que l'utilisateur ressent lorsqu'il utilise une interface.\
-**Design Thinking**: Méthode de conception centrée sur l'utilisateur. (Voir [Cours Design Thinking](../service_design))\
-**Mock**: Maquette, prototype d'une interface utilisateur.\
+**Design Thinking**: Méthode de conception centrée sur l'utilisateur. (Voir [Cours Design Thinking](./service_design))\
+**Mock**: Maquette, prototype d'une interface utilisateur.
 
 
 Il est important de bien distinguer ces deux notions. L'UI est ce que l'utilisateur voit, tandis que l'UX est ce qu'il ressent. L'UI est donc une partie de l'UX.
