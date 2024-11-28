@@ -1,7 +1,7 @@
 ---
 title: "UI/UX Design"
 date: "2024-10-02"
-sidebar_label: "Introduction"
+sidebar_label: "UI/UX Design"
 sidebar_position: 1
 tags: ["UI", "UX", "Design"]
 authors: ["BoxBoxJason","Mickael LAVALLEE"]

@@ -1,8 +1,8 @@
 ---
 title: "Service Design"
 date: "2024-09-06"
-sidebar_label: "Introduction"
-sidebar_position: 1
+sidebar_label: "Service Design"
+sidebar_position: 2
 tags: ["service design", "design thinking", "user experience", "user interface"]
 authors: ["BoxBoxJason"]
 description: "Cours d'introduction au service design"
@@ -16,7 +16,7 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Ressources"
     links={[
-      {displayName: "Slides Cours Design Thinking", url: "./service_design.png"},
+      {displayName: "Slides Cours Design Thinking", url: "./documents/service_design.pdf"},
     ]}
 />
 
