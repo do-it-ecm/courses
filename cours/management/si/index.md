@@ -10,6 +10,7 @@ keywords: ["management", "si", "systèmes d'information"]
 ---
 
 import LinksSection from '@site/src/components/LinksSection';
+import SizedImage from '@site/src/components/SizedImage';
 
 # Management des Systèmes d'Information
 
@@ -55,12 +56,10 @@ Un système d’information est un système d’acteurs sociaux qui mémorisent 
 et des modes opératoires.\
 *(d’après R.Reix et F. Rowe, 2002)*
 
-![definition analytique](./illustrations/dimensions_si.png)
-
 Il existe 3 dimensions dans un SI:
-1. Dimension informationnelle
-2. Dimension technologique
-3. Dimension organisationnelle
+1. **Dimension informationnelle**: Le SI produit des représentations de l'information
+2. **Dimension technologique**: Le SI se construit à partir de technologies physiques et logicielles de l'information
+3. **Dimension organisationnelle**: Le SI est un élément des processus et de la structure de l'organisation
 
 #### Dimension informationnelle
 
@@ -75,47 +74,50 @@ graph LR;
   B -->|Interprétation| C(Information)
 ```
 
-<u>Schema complet:</u>
-![Relation entre données, informations et connaissances](./illustrations/schema_information.jpg)
-
 L'information est une donnée interprétée par un individu ou un système. Elle est le résultat d'un traitement de données. Elle est utile pour la prise de décision.
 
 ##### Critères d'évaluation d'un SI
 
 ```mermaid
-graph TD;
+graph RL;
   A(Pertinence)
 
-  A <--> B[Complétude]
-  A <--> C[Finesse<br><small>Accroît la pertinence<br>mais attention aux effets<br>sur l'accessibilité</small>]
-  A <--> D[Actualité<br><small>La réductions des délais<br>accroît la pertinence<br>mais effets pervers<br>sur le volume</small>]
-  A <--> E[Ponctualité<br><small>Respect des limites<br>de temps des processus<br>d'utilisation</small>]
-  A <--> F[Forme & Richesse]
-  A <--> G[[Accessibilité<br><small>Déterminant majeur de l'utilisation effective</small>]]
-  A <--> H[Exactitude<br><small>Qualité des données<br>et des informations</small>]
-  A <--> I[Fiabilité<br><small>Degré de confiance<br>dans la source</small>]
+  A <--> B[<b>Complétude</b>]
+  A <--> C[<b>Finesse</b><br><small>Accroît la pertinence<br>mais attention aux effets<br>sur l'accessibilité</small>]
+  A <--> D[<b>Actualité</b><br><small>La réductions des délais<br>accroît la pertinence<br>mais effets pervers<br>sur le volume</small>]
+  A <--> E[<b>Ponctualité</b><br><small>Respect des limites<br>de temps des processus<br>d'utilisation</small>]
+  A <--> F[<b>Forme & Richesse</b>]
+  A <--> G[[<b>Accessibilité</b><br><small>Déterminant majeur de l'utilisation effective</small>]]
+  A <--> H[<b>Exactitude</b><br><small>Qualité des données<br>et des informations</small>]
+  A <--> I[<b>Fiabilité</b><br><small>Degré de confiance<br>dans la source</small>]
 ```
 
 Il faut rester vigilant, un système d'information générant une quantité massive de données à faible coût risque de produire des informations inutiles et de saturer les utilisateurs.
 
 ### Dimension technologique
-Un SI est un système qui utilise des technologies de l'information au sein d'une architecture (réseaux, serveurs, ordinateurs, logiciels...)
-![Composants essentiels des technologies de l'information](./illustrations/composants_si.png)
+Un SI est un système qui utilise des technologies de l'information au sein d'une architecture technique
+- Réseaux
+- Serveurs
+- Ordinateurs (stations de travail)
+- Logiciels
+- Bases de données
+- Automates
 
-La technologie est à la fois une ressource et une contrainte pour l’exécution des tâches par les utilisateurs\
-La technologie « en usage » est le résultat d’un double processus de construction (réalisé par les acteurs décideurs, concepteurs et utilisateurs)
-- un processus au départ planifié
-- puis un processus émergent ; ce résultat est partiellement indéterminé.
-Les caractéristiques de la technologie, ainsi que les conditions de sa mise en place dans un contexte, ont un effet sur le processus d’appropriation
+La technologie est à la fois une ressource et une contrainte pour l’exécution des tâches par les utilisateurs. Il faut s'assurer que cette technologie est **adaptée aux besoins** des utilisateurs.\
+Ainsi, le système d'information est en **amélioration continue** (réalisée par les acteurs décideurs, concepteurs et utilisateurs)
+1. Au départ planifiée à la conception
+2. Spontanée en fonction des retours et des besoins des utilisateurs
+
+Il faut toujours garder en tête que la technologie n'est pas une fin en soi, c'est son **appropriation** par les utilisateurs qui en fait un outil efficace.
 
 ### Dimension organisationnelle
 
-Un SI est un système qui supporte les processus de travail et la structure d’une organisation. Il y a 2 perspectives selon lesquelles on peut observer un SI:
+Un SI est un système qui supporte les **processus de travail** et la **structure d’une organisation**. Le SI de l'entreprise porte les deux aspects:
 - Le fonctionnement de l'organisation, le déroulement des processus de travail, à l'intérieur et aux frontières de l'organisation
 - La structure de l'organisation, qui concerne les caractéristiques stables de toute l'organisation\
-Un SI est à la fois un élément clé, essentiel au fonctionnement ainsi qu'à la structure de l'organisation.
+Un SI est un élément clé, *essentiel* au **fonctionnement** ainsi qu'à la **structure** de l'organisation.
 
-#### Perspective des processus
+#### Processus
 Un processus est un ensemble d’activités et de tâches corrélées et synchronisées qui :
 - A un objectif clair et précis rattaché, directement ou indirectement, au métier et aux activités de l ’entreprise
 - Consomme des ressources et produit des résultats
@@ -130,12 +132,12 @@ graph LR;
 **<u>Catégories de processus:</u>**
 ```mermaid
 graph TD;
-  A[Processus opérationnels<br><small>coeur de métier</small>]
-  B[Processus de pilotage<br><small>management</small>]
-  C[Processus de soutien<br><small>support</small>]
+  A[<b>Processus opérationnels</b><br><small>coeur de métier</small>]
+  B[<b>Processus de pilotage</b><br><small>management</small>]
+  C[<b>Processus de soutien</b><br><small>support</small>]
 ```
 
-#### Perspective de la structure
+#### Structure
 La construction de tout SI implique des choix déterminants quant à la conception de l’organisation :
 - Choix relatifs au partage d’informations entre les acteurs
   - Répartition du pouvoir décisionnel et des responsabilités (degré de décentralisation)
@@ -173,7 +175,7 @@ Elle peut choisir un modèle coercitif ou habilitant. Dans le premier cas, l'uti
 | **Participation à l'implémentation** | Capable de participer à l'implémentation de l'outil car est source d'information utile |
 
 ### Classification des SI
-![Classification des SI](./illustrations/classification_si.png)
+<SizedImage src='/do-it/img/management/classification_si.png' alt='Classification des SI' type='bigImg' center/>
 
 ## Enjeux
 Via leur SI, les entreprises s’insèrent plus intensivement dans une mondialisation agitée
