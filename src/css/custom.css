@@ -29,4 +29,8 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+h1 {
+  font-size: '3rem';
+}
+
 @import url('./sized-images.css')
