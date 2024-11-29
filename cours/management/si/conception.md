@@ -5,20 +5,11 @@ sidebar_label: "Conception SI"
 sidebar_position: 2
 tags: ["management","si","conception"]
 authors: ["Laetitia PIET","BoxBoxJason"]
-description: "Course on Information Systems Design"
+description: "Cours sur la conception des systèmes d'information"
 keywords: ["management", "si", "conception"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
 # Conception SI
-
-<LinksSection
-    title="Ressources"
-    links={[
-      {displayName: "Slides Cours d'introduction MSI", url: "./documents/MSI_INTRO.pdf"},
-      ]}
-/>
 
 ## Enjeux de l'organistation
 
