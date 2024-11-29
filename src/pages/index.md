@@ -9,7 +9,7 @@ Bienvenue sur LessonBox, la plateforme des cours de DoIt. Vous trouverez ici l'e
 
 <div style={{'margin': 'auto', 'width': 'fit-content'}}>
 <video style={{'max-height': 'min(50vh, 300px)'}} controls autoplay loop>
-  <source src="/do_it/vid/happy_cat.mp4" type="video/mp4"/>
+  <source src="/do-it/vid/happy_cat.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 </div>

@@ -5,7 +5,7 @@ sidebar_label: "aioli"
 sidebar_position: 1
 tags: ["informatique", "aioli", "serveur"]
 authors: ["BoxBoxJason"]
-description: "Présentation du serveur dédié à la promotion Do_It de Centrale Marseille: aioli"
+description: "Présentation du serveur dédié à la promotion Do-It de Centrale Marseille: aioli"
 keywords: ["informatique", "aioli", "serveur"]
 ---
 
@@ -16,19 +16,19 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Liens utiles"
     links={[
-      {displayName: "Cours SSH connexion aioli", url: "https://boxboxjason.github.io/do_it/cours/info/bases/ssh/#connexion-%C3%A0-aioli"},
+      {displayName: "Cours SSH connexion aioli", url: "https://boxboxjason.github.io/do-it/cours/info/bases/ssh/#connexion-%C3%A0-aioli"},
       ]}
 />
 
 ## Introduction
-Aioli est une **machine virtuelle** dédiée à la promotion Do_It de Centrale Marseille. Elle est hébergée sur une machine physique en Angleterre. Elle est accessible par les élèves via SSH. Il s'agit d'un serveur de test, de développement et de déploiement pour les projets de la promotion. La machine tourne sous **Debian 12** (Bookworm).\
+Aioli est une **machine virtuelle** dédiée à la promotion Do-It de Centrale Marseille. Elle est hébergée sur une machine physique en Angleterre. Elle est accessible par les élèves via SSH. Il s'agit d'un serveur de test, de développement et de déploiement pour les projets de la promotion. La machine tourne sous **Debian 12** (Bookworm).\
 Il s'agit d'**une UNIQUE machine virtuelle partagée par tous les élèves de la promotion**. Il est donc important de ne pas interférer avec les projets des autres élèves.
 
 ## Accès
-Chaque personne possède un compte dédié sur aioli. Les identifiants portent des noms bien provençaux. Pour obtenir vos identifiants, contactez un membre de l'équipe Do_It. Une fois votre identifiant obtenu, vous pouvez vous connecter à aioli via SSH. Nous le noterons `<HERBE>` *Retenez le bien*
+Chaque personne possède un compte dédié sur aioli. Les identifiants portent des noms bien provençaux. Pour obtenir vos identifiants, contactez un membre de l'équipe Do-It. Une fois votre identifiant obtenu, vous pouvez vous connecter à aioli via SSH. Nous le noterons `<HERBE>` *Retenez le bien*
 
 ### Connexion SSH
-Suivez le [cours sur la connexion à aioli](https://boxboxjason.github.io/do_it/cours/info/bases/ssh/#connexion-%C3%A0-aioli) pour vous connecter à aioli.
+Suivez le [cours sur la connexion à aioli](https://boxboxjason.github.io/do-it/cours/info/bases/ssh/#connexion-%C3%A0-aioli) pour vous connecter à aioli.
 Une fois que vous êtes connecté, vous pouvez commencer à travailler sur vos projets.
 
 Vous pouvez **trouver votre UID** en tapant la commande `id -u` dans le terminal. Il est important de connaître votre UID pour le reverse proxy et pour les ports de services web.
@@ -69,7 +69,7 @@ Git est installé sur aioli. Vous avez accès à toutes les commandes de git pou
 Les outils de compilation sont installés sur aioli. Vous pouvez compiler des projets C/C++.
 
 ## Lexique
-- **Herbe**: Nom provençal donné à chaque élève de la promotion Do_It. C'est le nom de votre compte sur aioli.
+- **Herbe**: Nom provençal donné à chaque élève de la promotion Do-It. C'est le nom de votre compte sur aioli.
 - **UID**: User ID, identifiant unique de chaque utilisateur sur aioli. Il est utilisé pour le reverse proxy et pour les ports de services web.
 - **Reverse proxy**: Serveur qui redirige les requêtes HTTP(S) vers d'autres serveurs en fonction de la requête. Sur aioli, il redirige les requêtes vers les services web des élèves en fonction de leur UID.
 - **Nginx**: Serveur web et reverse proxy. Il est utilisé sur aioli pour servir des fichiers statiques et pour rediriger les requêtes HTTP(S) vers les services web des élèves.

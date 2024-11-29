@@ -1,4 +1,4 @@
-# Do_It
+# Do-It
 
 This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
 
@@ -7,11 +7,10 @@ This website is built using [Docusaurus](https://docusaurus.io/), a modern stati
 - [npm](https://www.npmjs.com/)
 
 ## Installation
-1. Clone the repository: `git clone https://github.com/boxboxjason/do_it.git`
-2. Navigate to the project directory: `cd do_it`
+1. Clone the repository: `git clone https://github.com/boxboxjason/do-it.git`
+2. Navigate to the project directory: `cd do-it`
 3. Install the dependencies: `npm install`
-4. Build the static website: `npm run build`
-5. Serve the website at http://localhost:3000/do_it : `npm run serve`
+5. Serve the website at http://localhost:3000/do-it : `npm start`
 
 ## How to contribute
 1. Create a new branch: `git checkout -b COURSE_NAME`
