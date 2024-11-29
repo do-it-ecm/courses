@@ -16,7 +16,7 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Ressources"
     links={[
-      {displayName: "Slides Cours Audit Organisationnel", url: "./documents/conception_si1_2.pdf"},
+      {displayName: "Slides Cours Audit Organisationnel", url: "/do-it/documents/management/conception_si1_2.pdf"},
       ]}
 />
 

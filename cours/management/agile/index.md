@@ -17,9 +17,9 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Ressources"
     links={[
-        {displayName: "Slides Gestion de Projet", url: "./documents/Gestion_de_projet.pdf"},
-        {displayName: "Slides Gestion de Projet Agile SCRUM", url: "./documents/Gestion_de_projet_agile.pdf"},
-        {displayName: "Slides Ateliers autres méthodes agiles", url: "./documents/Gestion_de_projet_ateliers.pdf"},
+        {displayName: "Slides Gestion de Projet", url: "/do-it/documents/management/Gestion_de_projet.pdf"},
+        {displayName: "Slides Gestion de Projet Agile SCRUM", url: "/do-it/documents/management/Gestion_de_projet_agile.pdf"},
+        {displayName: "Slides Ateliers autres méthodes agiles", url: "/do-it/documents/management/Gestion_de_projet_ateliers.pdf"},
         ]}
 />
 

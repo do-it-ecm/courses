@@ -16,6 +16,6 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Ressources"
     links={[
-      {displayName: "Slides Cours Low Code & No Code", url: "./documents/No-code-low-code.pdf"},
+      {displayName: "Slides Cours Low Code & No Code", url: "/do-it/documents/info/No-code-low-code.pdf"},
       ]}
 />

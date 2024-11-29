@@ -16,7 +16,7 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Ressources"
     links={[
-        {displayName: "Slides Gestion de Projet Agile SCRUM", url: "./documents/Gestion_de_projet_agile.pdf"},
+        {displayName: "Slides Gestion de Projet Agile SCRUM", url: "/do-it/documents/management/Gestion_de_projet_agile.pdf"},
         ]}
 />
 
