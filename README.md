@@ -56,6 +56,21 @@ function hello() {
 
 ### Custom components
 - [LinksSection](./src/components/LinksSection.js): Custom component to display a list of links that were used in the course
+- [IconTitle](./src/components/IconTitle.js): Custom component to display a title with an icon, it is recommended to set hide_title to true if you don't want 2 titles to be displayed
+- [SizedImage](./src/components/SizedImage.js): Template img elements sizer. Can also center the image in its container. You can select any of our default image sizes when using this component:
+    - smallBanner
+    - banner
+    - bigBanner
+    - hugeIcon
+    - biggerIcon
+    - bigIcon
+    - icon
+    - smallIcon
+    - tinyIcon
+    - veryTinyIcon
+    - bigImg
+    - img
+    - smallImg
 
 #### LinksSection
 ```markdown
@@ -72,4 +87,21 @@ import LinksSection from '@site/src/components/LinksSection';
 
 ## First Chapter
 ...
+```
+
+#### IconTitle
+```markdown
+import IconTitle from '@site/src/components/IconTitle';
+
+<IconTitle title="PostgreSQL" icon="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" alt='PostgreSQL logo'/>
+
+## First Chapter
+...
+```
+
+#### SizedImage
+```markdown
+import SizedImage from '@site/src/components/SizedImage';
+
+<SizedImage src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" type="bigIcon" alt='PostgreSQL logo' center/>
 ```
