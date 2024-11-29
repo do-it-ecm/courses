@@ -21,7 +21,6 @@ import SizedImage from '@site/src/components/SizedImage';
       ]}
 />
 
-
 ## Introduction
 Linux est un **noyau de système d'exploitation**, c'est à dire une base logicielle qui permet à un ordinateur de fonctionner. Il est utilisé dans de nombreux systèmes d'exploitation, appelés **distributions**, qui ajoutent des logiciels et des outils pour en faire un système complet.
 

@@ -7,11 +7,13 @@ tags: ["git", "informatique"]
 authors: ["François Brucker","BoxBoxJason"]
 description: "Cours d'introduction à Git, un logiciel de gestion de versions décentralisé"
 keywords: ["git"]
+hide_title: true
 ---
 
 import LinksSection from '@site/src/components/LinksSection';
+import IconTitle from '@site/src/components/IconTitle';
 
-# Git
+<IconTitle title='Git' icon='https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' alt='Git Logo'/>
 
 <LinksSection
     title="Liens utiles"
