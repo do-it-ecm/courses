@@ -2,7 +2,7 @@
 title: "Fondamentaux de l'ordinateur"
 date: "2024-10-03"
 sidebar_label: "Fondamentaux Ordinateur"
-sidebar_position: 1
+sidebar_position: 2
 tags: ["informatique","hardware","software","OS","fondamentaux"]
 authors: ["François Brucker","BoxBoxJason"]
 description: "Cours d'introduction aux fondamentaux de l'ordinateur, de l'architecture matérielle à l'interface logicielle"

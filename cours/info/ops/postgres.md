@@ -2,7 +2,7 @@
 title: "PostgreSQL"
 date: "2024-10-20"
 sidebar_label: "PostgreSQL"
-sidebar_position: 1
+sidebar_position: 3
 tags: ["informatique", "bases de données", "serveur","postgresql"]
 authors: ["BoxBoxJason"]
 description: "Présentation du cluster de base de données PostgreSQL"
