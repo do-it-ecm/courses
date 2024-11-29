@@ -13,6 +13,13 @@ import LinksSection from '@site/src/components/LinksSection';
 
 # Audit Organisationnel
 
+<LinksSection
+    title="Ressources"
+    links={[
+      {displayName: "Slides Cours Audit Organisationnel", url: "./documents/conception_si1_2.pdf"},
+      ]}
+/>
+
 ## Introduction
 
 ### Définition
