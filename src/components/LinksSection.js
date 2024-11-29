@@ -5,7 +5,7 @@ const LinksSection = ({ title, links }) => {
   return (
     <div className={styles.linksSection}>
       <div className={styles.titleContainer}>
-      <img src="/do_it/icons/link.png" alt="links" />
+      <img src="/do-it/icons/link.png" alt="links" />
       <big><b>{title ? title : 'Liens'}</b></big>
       </div>
       <ul>
