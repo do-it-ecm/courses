@@ -2,7 +2,7 @@
 title: "aioli"
 date: "2024-10-20"
 sidebar_label: "aioli"
-sidebar_position: 1
+sidebar_position: 2
 tags: ["informatique", "aioli", "serveur"]
 authors: ["BoxBoxJason"]
 description: "Présentation du serveur dédié à la promotion Do-It de Centrale Marseille: aioli"
@@ -16,7 +16,7 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Liens utiles"
     links={[
-      {displayName: "Cours SSH connexion aioli", url: "https://boxboxjason.github.io/do-it/cours/info/bases/ssh/#connexion-%C3%A0-aioli"},
+      {displayName: "Cours SSH connexion aioli", url: "./ssh/#connexion-%C3%A0-aioli"},
       ]}
 />
 
