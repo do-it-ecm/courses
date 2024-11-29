@@ -1,5 +1,5 @@
 ---
-title: "aioli"
+title: "Bash"
 date: "2024-10-23"
 sidebar_label: "Bash"
 sidebar_position: 1

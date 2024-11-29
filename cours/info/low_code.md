@@ -1,10 +1,10 @@
 ---
 title: "Low Code"
 date: "2024-09-19"
-sidebar_label: "Introduction"
+sidebar_label: "Low Code"
 sidebar_position: 1
 tags: ["low code", "no code", "développement", "automatisation"]
-authors: ["BoxBoxJason"]
+authors: ["Adèle Bourgeix", "BoxBoxJason"]
 description: "Cours d'introduction au low code et au no code"
 keywords: ["low code", "no code", "développement", "automatisation"]
 ---

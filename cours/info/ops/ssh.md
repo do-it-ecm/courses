@@ -2,7 +2,7 @@
 title: "SSH"
 date: "2024-10-17"
 sidebar_label: "SSH"
-sidebar_position: 4
+sidebar_position: 1
 tags: ["informatique", "os", "linux","ssh"]
 authors: ["François Brucker","BoxBoxJason"]
 description: "Cours d'introduction à Linux, un système d'exploitation open-source"
