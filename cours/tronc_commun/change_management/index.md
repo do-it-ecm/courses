@@ -16,8 +16,8 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Ressources"
     links={[
-      {displayName: "Slides Pilotage du changement", url: "./documents/pilotage_du_changement.pdf"},
-      {displayName: "Slides Gestion des transitions", url: "./documents/gestion_des_transitions.pdf"},
+      {displayName: "Slides Pilotage du changement", url: "/do-it/documents/tc/pilotage_du_changement.pdf"},
+      {displayName: "Slides Gestion des transitions", url: "/do-it/documents/tc/gestion_des_transitions.pdf"},
     ]}
 />
 

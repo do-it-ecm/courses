@@ -16,10 +16,10 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Ressources"
     links={[
-        {displayName: "Présentation Agile Unified Process", url: "./documents/AUP.pdf"},
-        {displayName: "Présentation Disciplined Agile Delivery", url: "./documents/DAD.pdf"},
-        {displayName: "Présentation Extreme Programming", url: "./documents/XP.pdf"},
-        {displayName: "Présentation Feature Driven Development", url: "./documents/FDD.pdf"},
+        {displayName: "Présentation Agile Unified Process", url: "/do-it/documents/management/AUP.pdf"},
+        {displayName: "Présentation Disciplined Agile Delivery", url: "/do-it/documents/management/DAD.pdf"},
+        {displayName: "Présentation Extreme Programming", url: "/do-it/documents/management/XP.pdf"},
+        {displayName: "Présentation Feature Driven Development", url: "/do-it/documents/management/FDD.pdf"},
         ]}
 />
 
@@ -99,8 +99,6 @@ import LinksSection from '@site/src/components/LinksSection';
   - Assurer la traçabilité et la communication des changements
 
 ## Agile Unified Process (AUP)<a name="agile-unified-process"></a>
-
-[Télécharger la présentation](./documents/AUP.pdf)
 
 #### A propos
 * Simplification du Rational Unified Process (RUP)
@@ -182,8 +180,6 @@ import LinksSection from '@site/src/components/LinksSection';
 
 ## Disciplined Agile Delivery (DAD)<a name="disciplined-agile-delivery"></a>
 
-[Télécharger la présentation](./documents/DAD.pdf)
-
 #### Objectifs
 * Livraison incrémentale : ajustements réguliers, besoins changeants
 * Gestion des risques : pilotage par les risques
@@ -204,8 +200,6 @@ import LinksSection from '@site/src/components/LinksSection';
 UP et DAD font partie de l'*agilité* mais sont des formes de gestion de projet **hybrides** : on réfléchit avant d'agir, GEP plus classique, framework assez lourd (projets + complexes, plus lourds et donc adaptés aux plus grandes entreprises)
 
 ## Extreme Programming (XP)<a name="extreme-programming"></a>
-
-[Télécharger la présentation](./documents/XP.pdf)
 
 #### Valeurs
 * Communication
@@ -245,8 +239,6 @@ UP et DAD font partie de l'*agilité* mais sont des formes de gestion de projet 
 - tracker
 
 ## Feature Driven Development (FDD)<a name="feature-driven-development"></a>
-
-[Télécharger la présentation](./documents/FDD.pdf)
 
 #### Caractéristiques
 * Itératif

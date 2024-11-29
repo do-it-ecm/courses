@@ -16,11 +16,11 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Ressources"
     links={[
-      {displayName: "Slides Gestion de projet 1", url: "./documents/gdp1.pdf"},
-      {displayName: "Slides Gestion de projet 2", url: "./documents/gdp2.pdf"},
-      {displayName: "Slides Gestion de projet 3", url: "./documents/gdp3.pdf"},
-      {displayName: "Slides Gestion de projet 4", url: "./documents/gdp4.pdf"},
-      {displayName: "Slides Gestion de projet 5", url: "./documents/gdp5.pdf"},
+      {displayName: "Slides Gestion de projet 1", url: "/do-it/documents/gestion_modelisationgdp1.pdf"},
+      {displayName: "Slides Gestion de projet 2", url: "/do-it/documents/gestion_modelisation/gdp2.pdf"},
+      {displayName: "Slides Gestion de projet 3", url: "/do-it/documents/gestion_modelisation/gdp3.pdf"},
+      {displayName: "Slides Gestion de projet 4", url: "/do-it/documents/gestion_modelisation/gdp4.pdf"},
+      {displayName: "Slides Gestion de projet 5", url: "/do-it/documents/gestion_modelisation/gdp5.pdf"},
     ]}
 />
 
