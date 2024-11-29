@@ -66,7 +66,7 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Resources"
     links={[
-      {displayName: "Course Slides", url: "./documents/slides.pdf"},
+      {displayName: "Course Slides", url: "/do-it/documents/info/slides.pdf"},
       ]}
 />
 

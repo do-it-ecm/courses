@@ -18,8 +18,7 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Ressources"
     links={[
-      {displayName: "Slides Cours High Performance Team", url: "./documents/hpt.pdf"},
-
+      {displayName: "Slides Cours High Performance Team", url: "/do-it/documents/gestion_modelisation/hpt.pdf"},
     ]}
 />
 

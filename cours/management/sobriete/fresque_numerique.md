@@ -16,7 +16,7 @@ import LinksSection from '@site/src/components/LinksSection';
 <LinksSection
     title="Ressources"
     links={[
-      {displayName: "Fresque du numérique", url: "./documents/FDN.pdf"},
+      {displayName: "Fresque du numérique", url: "/do-it/documents/management/FDN.pdf"},
       ]}
 />
 
