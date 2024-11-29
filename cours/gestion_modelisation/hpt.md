@@ -116,6 +116,75 @@ Il faut éviter de pousser l'autre à se défendre. Il faut éviter de lui donne
 - Ne pas utiliser **jamais** ou **toujours**
     - ❌ Tu fais toujours/jamais ça !
 
+#### Négociation
+Une négociation est un processus de **communication** entre deux ou plusieurs parties qui cherchent à **trouver un accord**.\
+Il est important de **comprendre** les besoins et les intérêts de l'autre partie. Il faut **chercher des solutions** qui satisfont les deux parties.\
+Il est important de **distinguer** les **positions** des **intérêts**. Les positions sont les demandes, les intérêts sont les besoins derrière ces demandes.
+
+##### Déroulé idéal
+1. **Préparation**: Définir ses intérêts (les besoins), pas seulement ses positions (les demandes)
+    - Définir ses variables d'ajustement (ce sur quoi on peut négocier)
+    - Définir son/ses **B**est **A**lternative **T**o a **N**egotiated **A**greement
+2. **Approfondir**: Comprendre les intérêts et les variables d'ajustement de l'autre partie
+    - Poser des questions ouvertes
+    - Ecouter activement
+3. **Lister** les alternatives possibles (Gagnant-Gagnant, Gagnant-Perdant, Perdant-Perdant)
+4. **Accord ?**
+    - ✅ Engagement des deux parties
+    - ❌ Retour au BATNA, ou montée en escalade
+
+### Engagement
+|Manque d'engagement|Engagement|
+|---|---|
+|L'équipe considère les livrables comme optionnels|Saisir les occasions professionnels avant les concurrents|
+|Ambiguité sur les objectifs et les priorités|Crée de la clarté sur les objectifs et les priorités|
+|Remise en question permanente des décisions|Avance sans hésitation|
+|Favorise le doute et la méfiance|Permet de changer de direction sans hésitation / culpabilité|
+
+Pour s'assurer de l'engagement personnel d'un équipier, il faut lui donner un **sentiment de responsabilité**. Il faut lui donner un **sentiment d'appartenance**. Il faut lui donner un **sentiment de reconnaissance**.\
+Il est important de verbaliser:
+- ✅ Je veux atteindre X. Je te demande de faire Y pour la date Z. Est-ce que tu es d'accord ?
+- Réponses possibles:
+    - ✅ Oui, je suis d'accord. Je vais le faire.
+    - ✅ Non, je ne suis pas d'accord. Je ne peux pas le faire pour telle raison.
+    - ✅ Ca dépend, j'ai besoin de plus d'informations / de ressources / de temps.
+    - ✅ Ca dépend, j'ai besoin de reformuler la demande.
+    - ❌ Oui, il faudrait faire Y !
+    - ❌ Je vais faire de mon mieux
+    - ❌ Faisons le tous ensemble
+
+La réponse doit être **claire**, et surtout elle doit verbaliser l'**engagement**
+
+### Responsabilité
+|Manque de responsabilité|Responsabilité|
+|---|---|
+|Ressentiment entre les personnes avec des standards de performances différents|Etablit un respect mutuel et des standards de performances élevés|
+|Favorise la médiocrité|Encourage les moins bons à s'améliorer|
+|Rate les deadlines et les livrables clés|Identifie les problèmes rapidement en questionnant les approches des autres sans hésitation|
+|Le leader devient policier|Pas de besoin de bureaucratie pour s'assurer que les choses sont faites|
+
+Il faut s'attendre à ce que chacun des membres de l'équipe (y compris soi-même) respecte ses engagements de livrables.\
+Il faut que les membres de l'équipe (pas uniquement le chef) demandent des comptes aux autres membres de l'équipe dans l'éventualité où ils ne respectent pas leurs engagements.\
+Il faut être à même de s'excuser et de proposer des solutions pour réparer les erreurs.
+
+**Responsable** ne veut pas dire **Coupable**. Cela veut dire que l'on est capable de répondre de ses actes, de ses décisions, de ses erreurs.
+
+### Insouciance du résultat
+|Insouciance du résultat|Résultat|
+|---|---|
+|Stagnation / Absence de croissance|Partage les succès et les échecs|
+|Décrochage des employés motivés par les résultats|Attrait et rétention des meilleurs talents|
+|Encourage les équipiers à se concentrer sur leurs propres objectifs|Minimisation des comportements individualistes|
+|Beaucoup de distractions|Pas de distractions|
+
+*To optimize a system, you need to sub-optimize the subsystems*
+
+Pour motiver l'équipe et la rendre souciante des résultats, il faut:
+- **Définir des objectifs clairs** et **mesurables**
+- **Célébrer les succès** et **apprendre des échecs**
+- **Partager les succès** et les échecs
+- **Créer un sentiment d'appartenance** et de **fierté** pour l'équipe
+
 ## Modèles
 
 ### Modèles de leadership
@@ -160,3 +229,13 @@ Pour motiver cette personne, il faut faire preuve de patience et de persévéran
 #### Apprenant
 L'**Apprenant** est une personne qui a une **mentalité de croissance**. Elle pense que ses capacités et ses talents sont **développables**. Elle pense qu'elle peut **apprendre** et **grandir**. Elle est **curieuse** et **ouverte**. Elle **accepte** l'échec et les critiques.
 
+#### Victime
+La **Victime** est une personne qui se place dans une position de **faiblesse**. Elle pense que les événements sont **hors de son contrôle**. Elle pense qu'elle est **injustement traitée**. Elle **se plaint** et **blâme** les autres, les circonstances...
+
+- Qu'est-ce qu'il vient de m'arriver ?
+- Qui m'a fait ça ?
+- Qu'est ce qu'il aurait dû faire à la place ?
+- Que doit-il faire pour réparer ?
+
+#### Player
+Le **Player** est une personne qui se place dans une position de **responsabilité**. Elle pense que les événements sont **sous son contrôle**. Elle pense qu'elle peut **agir** pour changer les choses. Elle **cherche des solutions** et **prend des décisions**.
