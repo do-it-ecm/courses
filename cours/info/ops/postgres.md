@@ -7,12 +7,13 @@ tags: ["informatique", "bases de données", "serveur","postgresql"]
 authors: ["BoxBoxJason"]
 description: "Présentation du cluster de base de données PostgreSQL"
 keywords: ["informatique", "bases de données", "serveur","postgres","postgresql"]
+hide_title: true
 ---
 
 import LinksSection from '@site/src/components/LinksSection';
-import SizedImage from '@site/src/components/SizedImage';
+import IconTitle from '@site/src/components/IconTitle';
 
-# PostgreSQL
+<IconTitle title="PostgreSQL" icon="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" alt='PostgreSQL logo'/>
 
 <LinksSection
     title="Liens utiles"
@@ -20,8 +21,6 @@ import SizedImage from '@site/src/components/SizedImage';
       {displayName: "PostgreSQL", url: "https://www.postgresql.org/"},
       ]}
 />
-
-<SizedImage src="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" alt="PostgreSQL Logo" type="bigIcon"/>
 
 ## Introduction
 PostgreSQL est un système de gestion de base de données relationnelles (DBMS) open source né en 1986. Il est reconnu pour sa robustesse, sa fiabilité, ses performances et sa conformité aux standards SQL.\
