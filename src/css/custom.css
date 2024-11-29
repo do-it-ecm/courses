@@ -30,7 +30,7 @@
 }
 
 h1 {
-  font-size: '3rem';
+  font-size: 3rem;
 }
 
 @import url('./sized-images.css')
