@@ -1,25 +1,16 @@
 ---
+layout: layout/cours.njk
+
 title: "Conduite du changement"
-date: "2024-09-23"
-sidebar_label: "Conduite du changement"
-sidebar_position: 1
+date: 2024-09-23
 tags: ["management", "changement"]
 authors: ["BoxBoxJason"]
-description: "Cours sur la conduite du changement"
-keywords: ["changement", "management", "conduite du changement"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
-# Conduite du changement
-
-<LinksSection
-    title="Ressources"
-    links={[
-      {displayName: "Slides Pilotage du changement", url: "/do-it/documents/tc/pilotage_du_changement.pdf"},
-      {displayName: "Slides Gestion des transitions", url: "/do-it/documents/tc/gestion_des_transitions.pdf"},
-    ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Slides Pilotage du changement](/do-it/documents/tc/pilotage_du_changement.pdf)
+- [Slides Gestion des transitions](/do-it/documents/tc/gestion_des_transitions.pdf)
+{% endlien %}
 
 ## Introduction
 
@@ -102,11 +93,12 @@ Souvent, la direction (qui décide souvent du changement) est en avance sur les 
 
 ### Phases de la transition
 On distingue 3 phases dans le processus de transition:
-```mermaid
+
+<pre class="mermaid" style="background-color: transparent;">
 graph LR
     A[Fin] --> B[Zone neutre]
     B --> C[Nouveau départ]
-```
+</pre>
 
 - Fin
     - Quand nous nous désengageons des vieilles manières de faire et que l’on quitte qui nous étions dans cette situation (par exemple faire le deuil de son ancien métier lors d'un changement de job ou de reconversion professionnelle)

@@ -1,26 +1,17 @@
 ---
+layout: layout/cours.njk
+
 title: "Sobriété Numérique"
-date: "2024-09-12"
-sidebar_label: "Introduction"
-sidebar_position: 1
+date: 2024-09-12
 tags: ["management", "sobriété", "numérique"]
 authors: ["Nicolas Vallée","BoxBoxJason"]
-description: "Cours d'introduction au management de la sobriété numérique"
-keywords: ["sobriété numérique", "empreinte carbone", "numérique responsable", "bilan carbone"]
 ---
-
-import LinksSection from '@site/src/components/LinksSection';
-
-# Sobriété Numérique
 
 *Nicolas Vallée*, consultant en numérique chez Wavestone
 
-<LinksSection
-    title="Ressources"
-    links={[
-      {displayName: "Slides Cours Sobriété Numérique", url: "/do-it/documents/management/sobriete_numerique.pdf"},
-      ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Slides Course Sobriété Numérique](/do-it/documents/management/sobriete_numerique.pdf)
+{% endlien %}
 
 ## Numérique Responsable
 

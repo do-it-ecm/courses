@@ -1,15 +1,11 @@
 ---
+layout: layout/cours.njk
+
 title: "Méthodologie Cristal Clear"
-date: "2024-09-04"
-sidebar_label: "Cristal Clear"
-sidebar_position: 3
+date: 2024-09-04
 tags: ["agile", "cristal clear", "gestion de projet","management"]
 authors: ["BoxBoxJason"]
-description: "Cours d'introduction à la méthode Cristal Clear, une méthode agile de gestion de projet"
-keywords: ["gestion de projet", "management", "agile", "cristal clear"]
 ---
-
-# Cristal Clear
 
 Cristal Clear est une méthodologie agile de gestion de projet. Elle a été développée par Alistair Cockburn en 2004. Elle est basée sur des cycles de développement courts et itératifs appelés *itérations*. Cristal Clear est adapté aux projets de petite taille (jusqu'à 8 personnes) et aux équipes distribuées. Elle favorise la communication, la collaboration et la simplicité.
 

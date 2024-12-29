@@ -1,26 +1,15 @@
 ---
+layout: layout/cours.njk
+
 title: "PostgreSQL"
-date: "2024-10-20"
-sidebar_label: "PostgreSQL"
-sidebar_position: 3
+date: 2024-10-20
 tags: ["informatique", "bases de données", "serveur","postgresql"]
 authors: ["BoxBoxJason"]
-description: "Présentation du cluster de base de données PostgreSQL"
-keywords: ["informatique", "bases de données", "serveur","postgres","postgresql"]
-hide_title: true
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-import IconTitle from '@site/src/components/IconTitle';
-
-<IconTitle title="PostgreSQL" icon="https://wiki.postgresql.org/images/a/a4/PostgreSQL_logo.3colors.svg" alt='PostgreSQL logo'/>
-
-<LinksSection
-    title="Liens utiles"
-    links={[
-      {displayName: "PostgreSQL", url: "https://www.postgresql.org/"},
-      ]}
-/>
+{% lien "**Liens utiles**" %}
+- [PostgreSQL](https://www.postgresql.org/)
+{% endlien %}
 
 ## Introduction
 PostgreSQL est un système de gestion de base de données relationnelles (DBMS) open source né en 1986. Il est reconnu pour sa robustesse, sa fiabilité, ses performances et sa conformité aux standards SQL.\
@@ -62,7 +51,7 @@ PostgreSQL fonctionne en mode **client-serveur**. Cela signifie que le serveur P
 ### Architecture
 PostgreSQL est un système de gestion de base de données relationnelles (RDBMS) qui stocke les données dans des tables, qui sont des collections de lignes et de colonnes. Chaque table est définie par un schéma, qui définit les colonnes, les types de données, les contraintes, les index, les triggers, les vues, les procédures stockées,...
 
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 architecture-beta
     service users(clarity:users-solid)[Users]
 
@@ -76,7 +65,7 @@ architecture-beta
     group database2(database)[Database 2] in postgresql
 
     users:B --> T:table1
-```
+</pre>
 
 ## Commandes
 Voici quelques commandes utiles pour interagir avec PostgreSQL.

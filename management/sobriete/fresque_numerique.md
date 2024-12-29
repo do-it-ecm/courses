@@ -1,24 +1,15 @@
 ---
+layout: layout/cours.njk
+
 title: "Fresque Numérique"
-date: "2024-09-12"
-sidebar_label: "Fresque Numérique"
-sidebar_position: 3
+date: 2024-09-12
 tags: ["sobriété", "numérique"]
 authors: ["BoxBoxJason"]
-description: "Ressources pour la fresque du numérique, un outil pédagogique pour sensibiliser aux enjeux environnementaux et sociaux du numérique"
-keywords: ["fresque numérique", "sobriété numérique", "numérique responsable", "empreinte carbone"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
-# Fresque Numérique
-
-<LinksSection
-    title="Ressources"
-    links={[
-      {displayName: "Fresque du numérique", url: "/do-it/documents/management/FDN.pdf"},
-      ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Fresque du numérique](/do-it/documents/management/FDN.pdf)
+{% endlien %}
 
 La fresque du numérique est un outil pédagogique qui permet de sensibiliser les acteurs du numérique aux enjeux environnementaux et sociaux liés à leur activité. Elle se compose de 7 thématiques :
 - **Les ressources**

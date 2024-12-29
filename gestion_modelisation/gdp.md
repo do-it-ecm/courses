@@ -1,28 +1,19 @@
 ---
+layout: layout/cours.njk
+
 title: "Gestion de Projet"
-date: "2024-10-21"
-sidebar_label: "Gestion de Projet"
-sidebar_position: 3
+date: 2024-10-21
 tags: ["gestion", "projet"]
 authors: ["Guillaume Oliana"]
-description: "Cours sur la gestion de projet"
-keywords: ["gestion", "projet"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
-# Fondamentaux de la Gestion de Projet
-
-<LinksSection
-    title="Ressources"
-    links={[
-      {displayName: "Slides Gestion de projet 1", url: "/do-it/documents/gestion_modelisationgdp1.pdf"},
-      {displayName: "Slides Gestion de projet 2", url: "/do-it/documents/gestion_modelisation/gdp2.pdf"},
-      {displayName: "Slides Gestion de projet 3", url: "/do-it/documents/gestion_modelisation/gdp3.pdf"},
-      {displayName: "Slides Gestion de projet 4", url: "/do-it/documents/gestion_modelisation/gdp4.pdf"},
-      {displayName: "Slides Gestion de projet 5", url: "/do-it/documents/gestion_modelisation/gdp5.pdf"},
-    ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Slides Gestion de projet 1](/do-it/documents/gestion_modelisation/gdp1.pdf)
+- [Slides Gestion de projet 2](/do-it/documents/gestion_modelisation/gdp2.pdf)
+- [Slides Gestion de projet 3](/do-it/documents/gestion_modelisation/gdp3.pdf)
+- [Slides Gestion de projet 4](/do-it/documents/gestion_modelisation/gdp4.pdf)
+- [Slides Gestion de projet 5](/do-it/documents/gestion_modelisation/gdp5.pdf)
+{% endlien %}
 
 ## 1. Introduction à la Gestion de Projet
 - **Définition d’un projet** :

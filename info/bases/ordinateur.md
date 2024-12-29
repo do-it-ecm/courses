@@ -1,40 +1,31 @@
 ---
+layout: layout/cours.njk
+
 title: "Fondamentaux de l'ordinateur"
-date: "2024-10-03"
-sidebar_label: "Fondamentaux Ordinateur"
-sidebar_position: 2
+date: 2024-10-03
 tags: ["informatique","hardware","software","OS","fondamentaux"]
 authors: ["François Brucker","BoxBoxJason"]
-description: "Cours d'introduction aux fondamentaux de l'ordinateur, de l'architecture matérielle à l'interface logicielle"
-keywords: ["informatique","hardware","software","OS","fondamentaux"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
-# Fondamentaux de l'ordinateur
-
-<LinksSection
-    title="Liens utiles"
-    links={[
-      {displayName: "Cours Architecture Ordinateur", url: "https://francoisbrucker.github.io/cours_informatique/cours/syst%C3%A8me/architecture-ordinateur/"},
-      ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Cours Architecture Ordinateur](https://francoisbrucker.github.io/cours_informatique/cours/syst%C3%A8me/architecture-ordinateur/)
+{% endlien %}
 
 ## Théorème fondamental de l'ingéniérie logicielle
 On peut régler tous les problèmes en ajoutant une **couche d'indirection**. Autrement dit,\
 Si le passage d'un état A à un état B est complexe, on peut établir un état intermédiaire C, pour lequel la transition de A à C et de C à B est plus simple.
 
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 graph LR
     A[A] -->|Complexe| B[B]
 
     AA[A] -->|Simple| CC[C]
     CC -->|Simple| BB[B]
-```
+</pre>
 
 ## Architecture ordinateur
 
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 architecture-beta
     service users(clarity:users-solid)[Utilisateurs]
 
@@ -46,7 +37,7 @@ architecture-beta
     users:B <--> T:software
     software:R <--> L:os
     os:R <--> L:hardware
-```
+</pre>
 
 ### Hardware
 L'Hardware est la partie matérielle de l'ordinateur, c'est-à-dire les composants physiques qui lui permettent de fonctionner.\

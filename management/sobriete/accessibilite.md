@@ -1,24 +1,15 @@
 ---
+layout: layout/cours.njk
+
 title: "Accessibilité Numérique"
-date: "2024-09-12"
-sidebar_label: "Accessibilité Numérique"
-sidebar_position: 2
+date: 2024-09-12
 tags: ["accessibilité", "numérique"]
 authors: ["Nicolas Vallée","BoxBoxJason"]
-description: "Cours d'introduction aux bonnes pratiques d'accessibilité numérique."
-keywords: ["accessibilité", "numérique", "handicap", "RGAA", "WCAG", "bonnes pratiques"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
-# Accessibilité Numérique
-
-<LinksSection
-    title="Ressources"
-    links={[
-      {displayName: "Slides Cours Sobriété Numérique", url: "/do-it/documents/management/sobriete_numerique.pdf"},
-      ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Slides Course Sobriété Numérique](/do-it/documents/management/sobriete_numerique.pdf)
+{% endlien %}
 
 ## Définition
 L'accessibilité numérique consiste à **permettre l'utilisation et la consultation des ressources numériques** sur **tout type de support** (ordinateur, téléphone portable, tablette, mobilier digital,...) à **destination du plus grand nombre de personnes** et notamment aux personnes souffrant de handicap sensoriel, mental ou cognitif mais aussi de handicap physique lourd.

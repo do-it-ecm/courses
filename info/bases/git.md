@@ -1,28 +1,17 @@
 ---
-title: "Introduction Git"
-date: "2024-09-05"
-sidebar_label: "Git"
-sidebar_position: 1
+layout: layout/cours.njk
+
+title: "Git"
+date: 2024-09-05
 tags: ["git", "informatique"]
 authors: ["François Brucker","BoxBoxJason"]
-description: "Cours d'introduction à Git, un logiciel de gestion de versions décentralisé"
-keywords: ["git"]
-hide_title: true
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-import IconTitle from '@site/src/components/IconTitle';
+{% lien "**Liens utiles**" %}
+- [Cours Git / GitHub](https://francoisbrucker.github.io/cours_informatique/cours/gestion-des-sources/)
+{% endlien %}
 
-<IconTitle title='Git' icon='https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png' alt='Git Logo'/>
-
-<LinksSection
-    title="Liens utiles"
-    links={[
-      {displayName: "Cours Git / GitHub", url: "https://francoisbrucker.github.io/cours_informatique/cours/gestion-des-sources/"},
-      ]}
-/>
-
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 gitGraph
   commit id: "ZERO-0"
   branch "hotfix"
@@ -33,7 +22,7 @@ gitGraph
   cherry-pick id:"bugfix"
   checkout main
   merge hotfix
-```
+</pre>
 
 Git est un logiciel de gestion de versions décentralisé. C'est un logiciel libre créé par Linus Torvalds, le créateur de Linux. Il est utilisé pour le suivi des modifications apportées à un ensemble de fichiers. Il permet de travailler à plusieurs sur un même projet, de suivre l'évolution du code, de revenir en arrière, de gérer des branches, etc.
 
@@ -96,6 +85,7 @@ Git est un logiciel de gestion de versions décentralisé. C'est un logiciel lib
 - **Récupération des modifications (sur le repository distant)**: `git pull`
 
 ### Exemple
+
 ```bash
 # Initialisation d'un repository
 cd /chemin/vers/mon/projet
@@ -127,6 +117,7 @@ Pour spécifier un directory entier, il suffit de mettre le nom du directory sui
 
 
 Exemple de contenu d'un fichier `.gitignore`:
+
 ```plaintext
 # Fichiers temporaires
 *.tmp
@@ -154,14 +145,14 @@ node_modules/
 ## Guide de debug
 Spécialement pour vous, voici un guide de debug pour les erreurs les plus courantes (lorsque l'on veut publier son code)
 
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 flowchart TD
-    giterror{{J'ai une erreur avec Git ?}} -->|Erreur repo distant / origin|originerror[git remote -v]
+    giterror[\J'ai une erreur avec Git ?/] -->|Erreur repo distant / origin|originerror[git remote -v]
 
     originerror -->|Pas de remote|gitremoteadd[git remote add origin URL]
     originerror -->|Mauvaise URL|gitremotechange[git remote set-url origin URL]
 
-    gitremoteadd --> problemsolvedquestion{{Problème résolu ?}}
+    gitremoteadd --> problemsolvedquestion[\Problème résolu ?/]
     gitremotechange --> problemsolvedquestion
     problemsolvedquestion -->|Oui|problemsolved([Problème résolu])
     problemsolvedquestion -->|Oui mais nouvelle erreur|giterror
@@ -184,4 +175,4 @@ flowchart TD
     syncpullpush --> problemsolvedquestion
     mergeconflict --> problemsolvedquestion
     stagedchanges --> problemsolvedquestion
-```
+</pre>

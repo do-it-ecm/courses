@@ -1,24 +1,15 @@
 ---
+layout: layout/cours.njk
+
 title: "Audit Organisationnel"
-date: "2024-10-25"
-sidebar_label: "Audit Organisationnel"
-sidebar_position: 3
+date: 2024-10-25
 tags: ["management","si","conception"]
 authors: ["Camille GIRARD","BoxBoxJason"]
-description: "Course on Information Systems Design"
-keywords: ["management", "si", "conception"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
-# Audit Organisationnel
-
-<LinksSection
-    title="Ressources"
-    links={[
-      {displayName: "Slides Cours Audit Organisationnel", url: "/do-it/documents/management/conception_si1_2.pdf"},
-      ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Slides Cours Audit Organisationnel](/do-it/documents/management/conception_si1_2.pdf)
+{% endlien %}
 
 ## Introduction
 

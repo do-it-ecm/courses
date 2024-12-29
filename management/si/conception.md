@@ -1,15 +1,11 @@
 ---
+layout: layout/cours.njk
+
 title: "Conception SI"
-date: "2024-10-25"
-sidebar_label: "Conception SI"
-sidebar_position: 2
+date: 2024-10-25
 tags: ["management","si","conception"]
 authors: ["Laetitia PIET","BoxBoxJason"]
-description: "Cours sur la conception des systèmes d'information"
-keywords: ["management", "si", "conception"]
 ---
-
-# Conception SI
 
 ## Enjeux de l'organistation
 
@@ -44,11 +40,11 @@ Une approche "Customer Centric" consiste à placer le client au centre de tout c
 ### Schema classique
 Le client a généralement toujours accès à un conseiller de manière rapide. Ce conseiller est à même de répondre à la plupart des demandes simples. En revanche, passé un certain niveau de complexité, c'est le flou total pour le conseiller et le client. Il est alors nécessaire pour le client de s'investir lui même dans la recherche de la solution à son problème.
 
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 graph LR
     A[Client non satisfait] --> B[Client non fidèle]
     B --> C[Out of business]
-```
+</pre>
 
 En moyenne, 1 client sur 3 quitte une marque qu'il aime après 1 seule mauvaise expérience.
 Le coût d'acquisition d'un nouveau client est entre 5 et 25 fois plus élevé que le coût de fidélisation d'un client existant.
