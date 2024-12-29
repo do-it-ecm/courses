@@ -1,27 +1,18 @@
 ---
+layout: layout/cours.njk
+
 title: "Autres méthodes AGILES"
-date: "2024-09-13"
-sidebar_label: "Autres Méthodes AGILES"
-sidebar_position: 4
+date: 2024-09-13
 tags: ["agile", "gestion de projet","management"]
 authors: ["BoxBoxJason"]
-description: "Cours et présentations de méthodes agiles : Rational Unified Process, Agile Unified Process, Disciplined Agile Delivery, Extreme Programming, Feature Driven Development, Lean Software Development"
-keywords: ["gestion de projet", "management", "agile", "méthodes agiles"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
-# Autres méthodes AGILES
-
-<LinksSection
-    title="Ressources"
-    links={[
-        {displayName: "Présentation Agile Unified Process", url: "/do-it/documents/management/AUP.pdf"},
-        {displayName: "Présentation Disciplined Agile Delivery", url: "/do-it/documents/management/DAD.pdf"},
-        {displayName: "Présentation Extreme Programming", url: "/do-it/documents/management/XP.pdf"},
-        {displayName: "Présentation Feature Driven Development", url: "/do-it/documents/management/FDD.pdf"},
-        ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Présentation Agile Unified Process](/do-it/documents/management/AUP.pdf)
+- [Présentation Disciplined Agile Delivery](/do-it/documents/management/DAD.pdf)
+- [Présentation Extreme Programming](/do-it/documents/management/XP.pdf)
+- [Présentation Feature Driven Development](/do-it/documents/management/FDD.pdf)
+{% endlien %}
 
 ## Sommaire<a name="sommaire"></a>
 * [Rational Unified Process](#rational-unified-process)

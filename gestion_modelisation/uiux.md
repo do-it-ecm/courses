@@ -1,25 +1,16 @@
 ---
+layout: layout/cours.njk
+
 title: "UI/UX Design"
-date: "2024-10-02"
-sidebar_label: "UI/UX Design"
-sidebar_position: 1
+date: 2024-10-02
 tags: ["UI", "UX", "Design"]
 authors: ["BoxBoxJason","Mickael LAVALLEE"]
-description: "Cours d'introduction au UI/UX Design"
-keywords: ["UI", "UX", "Design"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
-# UI / UX Design
-
-<LinksSection
-    title="Ressources"
-    links={[
-      {displayName: "Slides Cours UI/UX", url: "/do-it/documents/gestion_modelisation/UI_UX.pdf"},
-      {displayName: "Cours Design Thinking", url: "../service_design"},
-    ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Slides Cours UI/UX](/do-it/documents/gestion_modelisation/UI_UX.pdf)
+- [Cours Design Thinking](./service_design)
+{% endlien %}
 
 ## Définitions
 

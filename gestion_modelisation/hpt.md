@@ -1,26 +1,17 @@
 ---
+layout: layout/cours.njk
+
 title: "High Performance Team"
-date: "2024-11-28"
-sidebar_label: "High Performance Team"
-sidebar_position: 4
+date: 2024-11-28
 tags: ["équipe", "leadership", "performance", "confiance"]
 authors: ["Leonardo Santarelli", "BoxBoxJason"]
-description: "Cours sur les équipes hautement performantes et les modèles de leadership"
-keywords: ["équipe", "leadership", "performance", "confiance"]
 ---
-
-import LinksSection from '@site/src/components/LinksSection';
-
-# High Performance Team
 
 *Driving Business Results and Human values*
 
-<LinksSection
-    title="Ressources"
-    links={[
-      {displayName: "Slides Cours High Performance Team", url: "/do-it/documents/gestion_modelisation/hpt.pdf"},
-    ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Slides Cours High Performance Team](/do-it/documents/gestion_modelisation/hpt.pdf)
+{% endlien %}
 
 ## Introduction
 *You cannot mandate productivity.\
@@ -61,7 +52,7 @@ Elle peut être renforcée par des **actions** et des **comportements**.
 - **Sécurité psychologique** pour que les membres de l'équipe se sentent en sécurité pour exprimer leurs idées, leurs opinions, leurs émotions.
 
 #### Sécurité Psychologique
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 quadrantChart
     title Psychological safety zones
     x-axis Low accountability --> High accountability
@@ -70,7 +61,7 @@ quadrantChart
     quadrant-2 Comfort zone
     quadrant-3 Apathy zone
     quadrant-4 Anxiety zone
-```
+</pre>
 
 ### Conflit
 |Peur du conflit|Conflit|
@@ -204,20 +195,20 @@ Les objectifs et les stratégies sont définis **ensemble**. Le but est de faire
 *Certainty is lethal to two of our most redeeming and humane qualities, imagination and empathy* - Being Wrong: Adventures in the Margin of Error by Kathryn Schulz
 
 Il est essentiel de garder en tête que son chemin n'est pas le seul chemin possible.
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 graph LR
     A[<big><b>Faits</b></big><br><small>possiblement partiel ou erroné</small>] --> B[<big><b>Interprétation</b></big><br><small>influencés par nos biais, émotions, expériences</small>]
     B --> C[<big><b>Conclusions</b></big><br><small>influencé par nos croyances, valeurs, mentalité</small>]
     C --> D[<big><b>Emotions et Actions</b></big>]
-```
+</pre>
 
 Il faut prendre garde à ne pas deviner les intentions des autres
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 graph LR
     A[A connaît ses <b>intentions</b>] --> B[B <b>constate</b> les <b>actions</b> de A]
     B --> C[B <b>devine</b> les <b>intentions</b> de A]
     C --> D((B <b>interprète</b> les impacts de l'action de A))
-```
+</pre>
 
 #### Je-Sais-Tout
 Le **Je-Sais-Tout** est une personne qui a une **mentalité fixe**. Elle pense que ses capacités et ses talents sont **innés** et **immuables**. Elle pense qu'elle est **meilleure** que les autres. Elle a **peur de l'échec** et de montrer ses faiblesses.\

@@ -1,24 +1,15 @@
 ---
-title: "Méthodologie SCRUM"
-date: "2024-09-04"
-sidebar_label: "SCRUM"
-sidebar_position: 2
+layout: layout/cours.njk
+
+title: "SCRUM"
+date: 2024-09-04
 tags: ["agile", "scrum", "gestion de projet","management"]
 authors: ["Guillaume LAURIE","BoxBoxJason"]
-description: "Cours d'introduction à la méthode SCRUM, une méthode agile de gestion de projet"
-keywords: ["gestion de projet", "management", "agile", "scrum"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
-# SCRUM
-
-<LinksSection
-    title="Ressources"
-    links={[
-        {displayName: "Slides Gestion de Projet Agile SCRUM", url: "/do-it/documents/management/Gestion_de_projet_agile.pdf"},
-        ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Slides Gestion de Projet Agile SCRUM](/do-it/documents/management/Gestion_de_projet_agile.pdf)
+{% endlien %}
 
 SCRUM est une méthode agile de gestion de projet inventée dans les années 1980. Elle est basée sur des cycles de développement courts et itératifs appelés *sprints*. Chaque sprint est composé de plusieurs phases: planification, développement, revue et rétrospective. SCRUM est adapté aux projets complexes et évolutifs, notamment dans le domaine du développement logiciel. Il favorise la collaboration, la transparence et l'adaptabilité.
 

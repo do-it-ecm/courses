@@ -1,27 +1,19 @@
 ---
+layout: layout/cours.njk
+
 title: "Gestion de projet"
-date: "2024-09-04"
-sidebar_label: "Gestion de projet"
-sidebar_position: 1
+date: 2024-09-04
 tags: ["gestion de projet","management"]
 authors: ["Guillaume LAURIE","BoxBoxJason"]
-description: "Cours d'introduction à la gestion de projet"
-keywords: ["gestion de projet", "management"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
-# Gestion de Projet
 *Guillaume LAURIE*
 
-<LinksSection
-    title="Ressources"
-    links={[
-        {displayName: "Slides Gestion de Projet", url: "/do-it/documents/management/Gestion_de_projet.pdf"},
-        {displayName: "Slides Gestion de Projet Agile SCRUM", url: "/do-it/documents/management/Gestion_de_projet_agile.pdf"},
-        {displayName: "Slides Ateliers autres méthodes agiles", url: "/do-it/documents/management/Gestion_de_projet_ateliers.pdf"},
-        ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Slides Gestion de Projet](/do-it/documents/management/Gestion_de_projet.pdf)
+- [Slides Gestion de Projet Agile SCRUM](/do-it/documents/management/Gestion_de_projet_agile.pdf)
+- [Slides Ateliers autres méthodes agiles](/do-it/documents/management/Gestion_de_projet_ateliers.pdf)
+{% endlien %}
 
 ## Gestion de projet
 Un projet est un ensemble d'activités coordonnées et maîtrisées, découpé et conduit en étapes, comportant des dates de début et de fin, entrepris dans le but d'atteindre un objectif conforme à des exigences spécifiques, incluant des contraintes de délais, de coûts et de ressources.\
@@ -46,13 +38,13 @@ En fonction de la portée du projet en sein de l'entreprise, on peut le qualifie
 #### Paradoxe de la gestion de projet
 Au fur et à mesure que le projet avance, notre niveau de connaissance sur le projet et son environnement augmente. Cela nous permet de mieux anticiper les risques et de mieux piloter le projet. Cependant, plus le projet avance, plus la capacité d'action sur le projet diminue car des choix déterminants ont été faits et les coûts de correction des erreurs augmentent.
 
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 xychart-beta
     title "Paradoxe de la gestion de projet"
     x-axis "Temps" [0,1,2,3,4,5,6,7,8,9,10]
     line "Connaissance du projet" [0,1,2,3.5,4,4.5,7,8,9.3,9.8,10]
     line "Capacité d'action" [10,9,8,6.5,6,5.5,3,2,0.7,0.2,0]
-```
+</pre>
 
 #### Effet tunnel
 L'effet tunnel est un biais cognitif qui se manifeste par une focalisation excessive sur un objectif ou une tâche, au détriment d'autres éléments importants. Il peut conduire à des décisions irrationnelles, à une mauvaise gestion des risques et à des erreurs de jugement.\

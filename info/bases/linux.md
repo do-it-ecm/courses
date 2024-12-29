@@ -1,25 +1,15 @@
 ---
-title: "Introduction Linux"
-date: "2024-10-03"
-sidebar_label: "Linux"
-sidebar_position: 3
+layout: layout/cours.njk
+
+title: "Linux"
+date: 2024-10-03
 tags: ["système d'exploitation", "informatique", "OS", "Linux"]
 authors: ["François Brucker","BoxBoxJason"]
-description: "Cours d'introduction à Linux, un système d'exploitation open-source"
-keywords: ["système d'exploitation", "OS", "informatique", "Linux"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-import SizedImage from '@site/src/components/SizedImage';
-
-# Linux
-
-<LinksSection
-    title="Liens utiles"
-    links={[
-      {displayName: "Cours Bases Linux", url: "https://francoisbrucker.github.io/cours_informatique/cours/syst%C3%A8me-et-r%C3%A9seau/linux/bases-linux/"},
-      ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Cours Bases Linux](https://francoisbrucker.github.io/cours_informatique/cours/syst%C3%A8me-et-r%C3%A9seau/linux/bases-linux/)
+{% endlien %}
 
 ## Introduction
 Linux est un **noyau de système d'exploitation**, c'est à dire une base logicielle qui permet à un ordinateur de fonctionner. Il est utilisé dans de nombreux systèmes d'exploitation, appelés **distributions**, qui ajoutent des logiciels et des outils pour en faire un système complet.
@@ -48,7 +38,8 @@ Linux est conçu pour offrir aux utilisateurs une grande **liberté de choix**. 
 Par principe, tout est personnalisable et configurable, ce qui permet de créer un système d'exploitation sur-mesure, adapté à ses besoins. C'est ce qui fait la force de Linux et le bonheur des développeurs, mais aussi sa complexité.
 
 ### Systèmes d'exploitation basés sur Linux
-```mermaid
+
+<pre class="mermaid" style="background-color: transparent;">
 mindmap
   root((Linux))
     Android
@@ -97,7 +88,7 @@ mindmap
     Void Linux
     NixOS
     Solus
-```
+</pre>
 
 Le noyau linux est utilisé dans tous ces systèmes d'exploitation. Chacun de ces systèmes est une distribution Linux, qui ajoute des logiciels et des outils pour en faire un système complet.
 
@@ -112,7 +103,9 @@ Certaines sont **rolling release**, c'est à dire qu'elles sont mises à jour en
 Une fois la distribution Linux installée, vous pouvez l'utiliser comme n'importe quel autre système d'exploitation. Vous pouvez lancer des applications, naviguer sur internet, lire des fichiers, programmer...
 
 ### Terminal
-<SizedImage src="https://bashlogo.com/img/symbol/svg/full_colored_dark.svg" alt="Logo Bash" type="icon"/>
+
+{% sizedImage "https://bashlogo.com/img/symbol/svg/full_colored_dark.svg", "Logo Bash", "icon", "false" %}
+
 Le **terminal** est un outil essentiel pour utiliser Linux. C'est une **interface en ligne de commande** (CLI) qui permet de communiquer avec l'ordinateur en tapant des commandes.\
 Il peut littéralement tout faire, c'est beaucoup plus puissant et rapide (quand on sait s'en servir) qu'une interface graphique. Que ce soit pour **installer des logiciels**, **gérer des fichiers**, **automatiser des tâches**, **surveiller le système**, **débugger**, **programmer**, **écrire des scripts**, **configurer le système**, **mettre en place des raccourcis**,...
 

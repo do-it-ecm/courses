@@ -1,24 +1,15 @@
 ---
+layout: layout/cours.njk
+
 title: "aioli"
-date: "2024-10-20"
-sidebar_label: "aioli"
-sidebar_position: 2
+date: 2024-10-20
 tags: ["informatique", "aioli", "serveur"]
 authors: ["BoxBoxJason"]
-description: "Présentation du serveur dédié à la promotion Do-It de Centrale Marseille: aioli"
-keywords: ["informatique", "aioli", "serveur"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
-# aioli
-
-<LinksSection
-    title="Liens utiles"
-    links={[
-      {displayName: "Cours SSH connexion aioli", url: "./ssh/#connexion-%C3%A0-aioli"},
-      ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Cours SSH connexion aioli](./ssh/#connexion-%C3%A0-aioli)
+{% endlien %}
 
 ## Introduction
 Aioli est une **machine virtuelle** dédiée à la promotion Do-It de Centrale Marseille. Elle est hébergée sur une machine physique en Angleterre. Elle est accessible par les élèves via SSH. Il s'agit d'un serveur de test, de développement et de déploiement pour les projets de la promotion. La machine tourne sous **Debian 12** (Bookworm).\

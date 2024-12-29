@@ -1,28 +1,19 @@
 ---
+layout: layout/cours.njk
+
 title: "Impacts Environnementaux du Numérique"
-date: "2024-10-03"
-sidebar_label: "Impacts Environnementaux"
-sidebar_position: 4
+date: 2024-10-03
 tags: ["numérique", "environnement", "écologie", "sobriété"]
 authors: ["BoxBoxJason", "Edlira Nano"]
-description: "Cours d'introduction aux impacts environnementaux du numérique"
-keywords: ["numérique", "environnement", "écologie", "sobriété"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
-# Impacts Environnementaux du Numérique
-
-<LinksSection
-    title="Liens utiles"
-    links={[
-      {displayName: "Cours Sobriété Numérique", url: "https://md.lqdn.fr/s/CQan4gI7j#"},
-      {displayName: "Quadrature du Net", url: "https://www.laquadrature.net/"},
-      {displayName: "Limites Numériques", url: "https://limitesnumeriques.fr/"},
-      {displayName: "Submarine Cable Map", url: "https://www.submarinecablemap.com/"},
-      {displayName: "Low Tech Magazine", url: "https://solar.lowtechmagazine.com/"},
-    ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Cours Sobriété Numérique](https://md.lqdn.fr/s/CQan4gI7j#)
+- [Quadrature du Net](https://www.laquadrature.net/)
+- [Limites Numériques](https://limitesnumeriques.fr/)
+- [Submarine Cable Map](https://www.submarinecablemap.com/)
+- [Low Tech Magazine](https://solar.lowtechmagazine.com/)
+{% endlien %}
 
 ## Ordres d'impact
 Nous placerons le numérique ici pendant ce cours dans un contexte environemental très large, et non pas uniquement un contexte indsutriel ou économique ou purement technologique.

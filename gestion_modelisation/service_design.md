@@ -1,24 +1,15 @@
 ---
+layout: layout/cours.njk
+
 title: "Service Design"
-date: "2024-09-06"
-sidebar_label: "Service Design"
-sidebar_position: 2
+date: 2024-09-06
 tags: ["service design", "design thinking", "user experience", "user interface"]
 authors: ["BoxBoxJason"]
-description: "Cours d'introduction au service design"
-keywords: ["service design", "design thinking", "user experience", "user interface"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
-# Service Design
-
-<LinksSection
-    title="Ressources"
-    links={[
-      {displayName: "Slides Cours Design Thinking", url: "/do-it/documents/gestion_modelisation/service_design.pdf"},
-    ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Slides Cours Design Thinking](/do-it/documents/gestion_modelisation/service_design.pdf)
+{% endlien %}
 
 ## Composantes d'un projet de transformation
 
@@ -37,11 +28,12 @@ Le design thinking est une démarche théorisée en 1980 par Rolf Faste, profess
 **Service Design**: On orchestre un ensemble de dispositifs en fonction des contrainttes d'usage. On ajoute du storytelling et de la cohérence
 
 #### Considération idéale
-```mermaid
+
+<pre class="mermaid" style="background-color: transparent;">
   graph RL;
     A((Service Design)) --> B((User Experience))
     A --> C((User Interface))
-```
+</pre>
 
 Le design thinking est une philosophie qui permet d'apporter des solutions adaptées en se focalisant sur l'utilisateur final. Il s'agit d'une approche centrée sur l'humain qui permet de concevoir des produits ou des services en se mettant à la place de l'utilisateur. Le design thinking est une méthode itérative qui permet de résoudre des problèmes complexes en se concentrant sur les besoins des utilisateurs.
 

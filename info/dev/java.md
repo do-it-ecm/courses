@@ -1,26 +1,16 @@
 ---
+layout: layout/cours.njk
+
 title: "Java"
-date: "2024-12-12"
-sidebar_label: "Java"
-sidebar_position: 2
+date: 2024-12-12
 tags: ["informatique", "développement", "java", "pattern", "design"]
 authors: ["BoxBoxJason", "Julien Candela"]
-description: "Cours sur le développement en Java"
-keywords: ["informatique", "développement", "java", "pattern", "design"]
-hide_title: true
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-import IconTitle from '@site/src/components/IconTitle';
-
-<IconTitle title='Java' icon='/do-it/img/dev/java.png' alt='Git Logo'/>
-
-<LinksSection
-    title="Ressources"
-    links={[
-      {displayName: "Exercism: Java", url: "https://exercism.org/tracks/java"},
-      ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Java](https://www.java.com/)
+- [Exercism: Java](https://exercism.org/tracks/java)
+{% endlien %}
 
 ```java
 public class App {
@@ -31,12 +21,13 @@ public class App {
 ```
 
 ## Introduction
-```mermaid
+
+<pre class="mermaid" style="background-color: transparent;">
 graph LR
     A[<b><big>Code java</big></b><br><small>*.java</small>] -- Compilation --> B[<b><big>Bytecode</big></b><br><small>*.class</small>]
     B -- Interprétation --> C[<b><big>JVM</big></b><br><small>JRE</small>]
     C -- Exécution --> D[<b><big>Résultat</big></b>]
-```
+</pre>
 
 Java est un langage de **programmation orienté objet** créé par Sun Microsystems en 1995. Il s'agit d'un langage très populaire en entreprise, notamment pour le développement d'applications web et mobiles.
 

@@ -1,24 +1,15 @@
 ---
+layout: layout/cours.njk
+
 title: "SSH"
-date: "2024-10-17"
-sidebar_label: "SSH"
-sidebar_position: 1
+date: 2024-10-17
 tags: ["informatique", "os", "linux","ssh"]
 authors: ["François Brucker","BoxBoxJason"]
-description: "Cours d'introduction à Linux, un système d'exploitation open-source"
-keywords: ["os", "informatique", "ssh", "linux"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-
-# SSH
-
-<LinksSection
-    title="Liens utiles"
-    links={[
-      {displayName: "Cours Linux", url: "https://francoisbrucker.github.io/cours_informatique/cours/syst%C3%A8me-et-r%C3%A9seau/ssh/"},
-      ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Cours Linux](https://francoisbrucker.github.io/cours_informatique/cours/syst%C3%A8me-et-r%C3%A9seau/ssh/)
+{% endlien %}
 
 ## Introduction
 Le SSH(Secure Shell) est un protocole de communication **sécurisé** qui permet de se **connecter à un serveur distant**, de **lancer des commandes** sur ce serveur, de **transférer des fichiers**. Tout cela en assurant la **confidentialité** et l'**intégrité** des données échangées. SSH est massivement utilisé pour administrer des serveurs à distance. C'est un protocole écrit en 1995, qui a été conçu pour remplacer les protocoles non sécurisés comme telnet, rlogin, rsh.
@@ -41,7 +32,7 @@ Une fois que l'authentification est faite, les systèmes échangent des **clés 
 ### Séquence de connexion (simplifiée)
 Voici une version simplifiée de la séquence de connexion entre un client et un serveur via SSH. Une [version complète](https://info.support.huawei.com/info-finder/encyclopedia/en/SSH.html) est disponible sur le site de Huawei.
 
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 sequenceDiagram
     participant Client
     participant Serveur
@@ -52,7 +43,7 @@ sequenceDiagram
     Client->>Serveur: Clé symétrique
     Serveur->>Client: Clé symétrique
     Client<<-->>Serveur: Données chiffrées
-```
+</pre>
 
 ## Connexion au serveur de Centrale Marseille
 Nous allons maintenant voir le cas concret de connexion à Centrale Marseille à distance via SSH.

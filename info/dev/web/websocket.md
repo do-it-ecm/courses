@@ -1,15 +1,11 @@
 ---
+layout: layout/cours.njk
+
 title: "WebSocket"
-date: "2024-10-21"
-sidebar_label: "WebSocket"
-sidebar_position: 1
+date: 2024-10-21
 tags: ["informatique", "développement", "web", "websocket"]
 authors: ["BoxBoxJason"]
-description: "Cours sur les WebSockets"
-keywords: ["informatique", "développement", "web", "websocket"]
 ---
-
-# WebSocket
 
 ## Introduction
 **WebSocket** est un **protocole de communication** qui permet une communication **bidirectionnelle** et en **temps réel** entre un client et un serveur web. Il est conçu pour être implémenté dans les navigateurs et les serveurs web, mais il peut être utilisé par n'importe quelle application client/serveur. Cela permet de créer des fonctionnalités web en temps réel, telles que des jeux multijoueurs, des applications de chat en direct et des tableaux de bord en temps réel.
@@ -24,7 +20,8 @@ Le standard RFC 6455 de WebSocket garantit une **compatibilité avec HTTP**. Cel
 Cette compatibilité est assurée par le **handshake** initial qui utilise le **HTTP Upgrade header** pour passer de HTTP à WebSocket.
 
 ### Schema de connexion
-```mermaid
+
+<pre class="mermaid" style="background-color: transparent;">
 sequenceDiagram
     participant Client
     participant Serveur
@@ -33,7 +30,7 @@ sequenceDiagram
     Client<<-->>Serveur: Connexion Persistance (WebSocket)
     Serveur<<-->>Client: Messages
     Serveur<<-->>Client: Fin de connexion
-```
+</pre>
 
 ## Avantages
 - **Communication bidirectionnelle** : Les clients et les serveurs peuvent envoyer des messages de manière asynchrone.

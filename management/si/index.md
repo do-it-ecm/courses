@@ -1,32 +1,22 @@
 ---
-title: "Introduction MSI"
-date: "2024-09-03"
-sidebar_label: "Management des Systèmes d'Information"
-sidebar_position: 1
+layout: layout/cours.njk
+
+title: "Management des Systèmes d'Information"
+date: 2024-09-03
 tags: ["management","si"]
 authors: ["Laetitia PIET","BoxBoxJason"]
-description: "Cours d'introduction au Management des Systèmes d'Information"
-keywords: ["management", "si", "systèmes d'information"]
 ---
 
-import LinksSection from '@site/src/components/LinksSection';
-import SizedImage from '@site/src/components/SizedImage';
-
-# Management des Systèmes d'Information
-
-<LinksSection
-    title="Ressources"
-    links={[
-      {displayName: "Slides Cours d'introduction MSI", url: "/do-it/documents/management/MSI_INTRO.pdf"},
-      ]}
-/>
+{% lien "**Liens utiles**" %}
+- [Slides Cours d'introduction MSI](/do-it/documents/management/MSI_INTRO.pdf)
+{% endlien %}
 
 ## Définitions
 
 ### Définition fonctionnelle
 
 **<u>Schema de principe d'un SI:</u>**
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 graph LR;
   A[Système d'Information]
   B(Personnel) --> A
@@ -37,7 +27,7 @@ graph LR;
   A --> G(Stocker des informations)
   A --> H(Traiter des informations)
   A --> I(Acquérir des informations)
-```
+</pre>
 
 Un système d’information est un ensemble organisé de ressources permettant d’acquérir, de traiter, de stocker
 et de diffuser des informations dans et entre des organisations. Il est finalisé pour répondre à des objectifs.
@@ -68,17 +58,17 @@ Il existe 3 dimensions dans un SI:
 ##### Relation entre données, informations et connaissances
 
 <u>Schema simplifié:</u>
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 graph LR;
   A(Signal) -->|Mesure par un capteur| B(Donnée)
   B -->|Interprétation| C(Information)
-```
+</pre>
 
 L'information est une donnée interprétée par un individu ou un système. Elle est le résultat d'un traitement de données. Elle est utile pour la prise de décision.
 
 ##### Critères d'évaluation d'un SI
 
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 graph RL;
   A(Pertinence)
 
@@ -90,7 +80,7 @@ graph RL;
   A <--> G[[<b>Accessibilité</b><br><small>Déterminant majeur de l'utilisation effective</small>]]
   A <--> H[<b>Exactitude</b><br><small>Qualité des données<br>et des informations</small>]
   A <--> I[<b>Fiabilité</b><br><small>Degré de confiance<br>dans la source</small>]
-```
+</pre>
 
 Il faut rester vigilant, un système d'information générant une quantité massive de données à faible coût risque de produire des informations inutiles et de saturer les utilisateurs.
 
@@ -123,19 +113,19 @@ Un processus est un ensemble d’activités et de tâches corrélées et synchro
 - Consomme des ressources et produit des résultats
 
 **<u>Schema de principe d'un processus:</u>**
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 graph LR;
   A(Evénement) --> B(Activité)
   B --> C(Résultat)
-```
+</pre>
 
 **<u>Catégories de processus:</u>**
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 graph TD;
   A[<b>Processus opérationnels</b><br><small>coeur de métier</small>]
   B[<b>Processus de pilotage</b><br><small>management</small>]
   C[<b>Processus de soutien</b><br><small>support</small>]
-```
+</pre>
 
 #### Structure
 La construction de tout SI implique des choix déterminants quant à la conception de l’organisation :
@@ -175,16 +165,17 @@ Elle peut choisir un modèle coercitif ou habilitant. Dans le premier cas, l'uti
 | **Participation à l'implémentation** | Capable de participer à l'implémentation de l'outil car est source d'information utile |
 
 ### Classification des SI
-<SizedImage src='/do-it/img/management/classification_si.png' alt='Classification des SI' type='bigImg' center/>
+
+{% sizedImage "/do-it/img/management/classification_si.png", "Classification des SI", "bigImg" %}
 
 ## Enjeux
 Via leur SI, les entreprises s’insèrent plus intensivement dans une mondialisation agitée
 
-```mermaid
+<pre class="mermaid" style="background-color: transparent;">
 graph TD;
   A[<b>Nouvelles opportunités</b><br><small>couplés à l’internet, les S.I participent<br> à l’abaissement important des coûts de transaction<br> et favorisent l’accès aux marchés et aux ressources</small>]
   B[<b>Nouvelles incertitudes</b>s<br><small>la dématérialisation de nombreux biens<br>et services bouleverse les règles établies<br>dans de nombreux secteurs économiques</small>]
-```
+</pre>
 
 ### Des évolutions majeures et des défis constants
 
