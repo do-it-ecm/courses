@@ -12,7 +12,7 @@ Le site <span style="font-family: Consolas, sans-serif;">Do_<span style="color: 
 
 ## Architecture d'un post
 
-Un post <span style="font-family: Consolas, sans-serif;">Do_<span style="color: #4a86e8">It</span></span> est un dossier à mettre dans le code source du site. Par exemple, cette page est le dossier <https://github.com/FrancoisBrucker/do-it/tree/main/src/cs/contribuer-au-site>
+Un post <span style="font-family: Consolas, sans-serif;">Do_<span style="color: #4a86e8">It</span></span> est un dossier à mettre dans le code source du site. Par exemple, cette page est le dossier <{{ site.source }}/tree/main/src/cs/contribuer-au-site>
 
 Ce dossier contient :
 
