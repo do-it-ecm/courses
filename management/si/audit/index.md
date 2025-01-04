@@ -8,7 +8,7 @@ authors: ["Camille GIRARD","BoxBoxJason"]
 ---
 
 {% lien "**Liens utiles**" %}
-- [Slides Cours Audit Organisationnel](/do-it/documents/management/conception_si1_2.pdf)
+- [Slides Cours Audit Organisationnel](./assets/documents/conception_si1_2.pdf)
 {% endlien %}
 
 ## Introduction

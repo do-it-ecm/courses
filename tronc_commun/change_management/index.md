@@ -8,8 +8,8 @@ authors: ["BoxBoxJason"]
 ---
 
 {% lien "**Liens utiles**" %}
-- [Slides Pilotage du changement](/do-it/documents/tc/pilotage_du_changement.pdf)
-- [Slides Gestion des transitions](/do-it/documents/tc/gestion_des_transitions.pdf)
+- [Slides Pilotage du changement](./assets/documents/pilotage_du_changement.pdf)
+- [Slides Gestion des transitions](./assets/documents/gestion_des_transitions.pdf)
 {% endlien %}
 
 ## Introduction
@@ -65,7 +65,7 @@ Vous vous épargnerez beaucoup de désagrément si vous vous en souvenez."* - Wi
 
 ### Courbe de deuil: Elisabeth Kübler-Ross
 
-![Courbe de deuil](./illustrations/courbe_deuil.jpeg)
+![Courbe de deuil](./assets/img/courbe_deuil.jpeg)
 
 #### Etapes du deuil
 La courbe de deuil est un modèle qui décrit les différentes étapes par lesquelles une personne passe lorsqu'elle est confrontée à une perte ou un changement majeur. Les étapes dans le modèle adapté au contexte du changement organisationnel sont les suivantes:
@@ -89,7 +89,7 @@ Selon l'étape du deuil dans laquelle se trouve la personne, le manager doit ado
 Il faut rester vigilant car il y a des différences de rythme et de réaction entre les individus.
 Notamment entre la direction, les managers et les collaborateurs, qui n'apprennent généralement pas en même temps la nouvelle. Ils ne sont pas non plus affectés de la même manière par le changement. Et ils n'ont pas les mêmes valeurs, objectifs, motivations, intérêts, vision.\
 Souvent, la direction (qui décide souvent du changement) est en avance sur les managers qui sont en avance sur les collaborateurs.
-![Vitesse de transition](./illustrations/courbe_delai.jpeg)
+![Vitesse de transition](./assets/img/courbe_delai.jpeg)
 
 ### Phases de la transition
 On distingue 3 phases dans le processus de transition:
@@ -117,7 +117,7 @@ Concernant la zone de nouveau départ, il est important de les aider à **s’ap
 La **carte des acteurs** est un outil essentiel pour faire face aux antagonismes et aux résistances lors d'un changement.\
 Il s'agit de cartographier les acteurs en fonction de leur pouvoir et de leur intérêt pour le changement et de définir une stratégie pour chacun d'eux.
 
-![Carte des acteurs](./illustrations/carte_acteurs.png)
+![Carte des acteurs](./assets/img/carte_acteurs.png)
 
 La carte des acteurs se représente sous la forme d'une matrice à deux dimensions:
 - **Antagonisme**: Sur l'axe horizontal, il s'agit de la position d'un point de vue personnel de l'acteur par rapport au changement. Il souligne le degré de soutien ou d'opposition en lien avec ses valeurs, ses croyances, ses intérêts, ses motivations, ses objectifs, sa vision, ses compétences
@@ -153,7 +153,7 @@ Si nécessaire, **neutralisez les Opposants**
 
 #### Actions à mener
 Cette image illustre les actions à mener en fonction de la position de l'acteur sur la carte des acteurs.
-![Actions à mener](./illustrations/actions.jpeg)
+![Actions à mener](./assets/img/actions.jpeg)
 
 ## Management du changement
 Nous allons traiter de deux approches pour piloter le changement:

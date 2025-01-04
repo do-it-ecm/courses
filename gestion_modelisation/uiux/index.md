@@ -8,15 +8,15 @@ authors: ["BoxBoxJason","Mickael LAVALLEE"]
 ---
 
 {% lien "**Liens utiles**" %}
-- [Slides Cours UI/UX](/do-it/documents/gestion_modelisation/UI_UX.pdf)
-- [Cours Design Thinking](./service_design)
+- [Slides Cours UI/UX](../service_design/assets/documents/service_design.pdf)
+- [Cours Design Thinking](../service_design)
 {% endlien %}
 
 ## Définitions
 
 **UI**: User Interface, c'est l'interface utilisateur. C'est ce que l'utilisateur voit et avec quoi il interagit.\
 **UX**: User Experience, c'est l'expérience utilisateur. C'est ce que l'utilisateur ressent lorsqu'il utilise une interface.\
-**Design Thinking**: Méthode de conception centrée sur l'utilisateur. (Voir [Cours Design Thinking](./service_design))\
+**Design Thinking**: Méthode de conception centrée sur l'utilisateur. (Voir [Cours Design Thinking](../service_design))\
 **Mock**: Maquette, prototype d'une interface utilisateur.
 
 

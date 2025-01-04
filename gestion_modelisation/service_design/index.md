@@ -8,7 +8,7 @@ authors: ["BoxBoxJason"]
 ---
 
 {% lien "**Liens utiles**" %}
-- [Slides Cours Design Thinking](/do-it/documents/gestion_modelisation/service_design.pdf)
+- [Slides Cours Design Thinking](./assets/documents/service_design.pdf)
 {% endlien %}
 
 ## Composantes d'un projet de transformation
@@ -21,7 +21,6 @@ Le design thinking est une démarche théorisée en 1980 par Rolf Faste, profess
 - Recentrer le collaborateur sur les activités à valeur ajoutée promise lors de l'embauche, diminuer le sentiment de perte de temps.
 - Diminuer les irritants du quotidien des collaborateurs et diminuer la fatigue nerveuse
 - Avoir des collaborateurs heureux au travail favorise la performance de l'entreprise
--
 
 **User Interface**: On conçoit l'interface entre un utilisateur et un dispositif (Interface Homme Machine). Elle erépond à des critères d'utilisabilité et d'usabilité
 **User Experience**: On prend en compte l'émotion de l'utilisateur face au dispositif. On ajoute un critère de désirabilité

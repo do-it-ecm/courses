@@ -8,5 +8,5 @@ authors: ["Adèle Bourgeix", "BoxBoxJason"]
 ---
 
 {% lien "**Liens utiles**" %}
-- [Slides Cours Low Code & No Code](/do-it/documents/info/No-code-low-code.pdf)
+- [Slides Cours Low Code & No Code](./assets/documents/No-code-low-code.pdf)
 {% endlien %}

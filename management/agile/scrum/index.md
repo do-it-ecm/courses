@@ -8,7 +8,7 @@ authors: ["Guillaume LAURIE","BoxBoxJason"]
 ---
 
 {% lien "**Liens utiles**" %}
-- [Slides Gestion de Projet Agile SCRUM](/do-it/documents/management/Gestion_de_projet_agile.pdf)
+- [Slides Gestion de Projet Agile SCRUM](./assets/documents/Gestion_de_projet_agile.pdf)
 {% endlien %}
 
 SCRUM est une méthode agile de gestion de projet inventée dans les années 1980. Elle est basée sur des cycles de développement courts et itératifs appelés *sprints*. Chaque sprint est composé de plusieurs phases: planification, développement, revue et rétrospective. SCRUM est adapté aux projets complexes et évolutifs, notamment dans le domaine du développement logiciel. Il favorise la collaboration, la transparence et l'adaptabilité.

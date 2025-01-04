@@ -10,9 +10,9 @@ authors: ["Guillaume LAURIE","BoxBoxJason"]
 *Guillaume LAURIE*
 
 {% lien "**Liens utiles**" %}
-- [Slides Gestion de Projet](/do-it/documents/management/Gestion_de_projet.pdf)
-- [Slides Gestion de Projet Agile SCRUM](/do-it/documents/management/Gestion_de_projet_agile.pdf)
-- [Slides Ateliers autres méthodes agiles](/do-it/documents/management/Gestion_de_projet_ateliers.pdf)
+- [Slides Gestion de Projet](./assets/documentst/Gestion_de_projet.pdf)
+- [Slides Gestion de Projet Agile SCRUM](../scrum/assets/documentst/Gestion_de_projet_agile.pdf)
+- [Slides Ateliers autres méthodes agiles](./assets/documentst/Gestion_de_projet_ateliers.pdf)
 {% endlien %}
 
 ## Gestion de projet

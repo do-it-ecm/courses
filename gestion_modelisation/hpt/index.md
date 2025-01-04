@@ -10,7 +10,7 @@ authors: ["Leonardo Santarelli", "BoxBoxJason"]
 *Driving Business Results and Human values*
 
 {% lien "**Liens utiles**" %}
-- [Slides Cours High Performance Team](/do-it/documents/gestion_modelisation/hpt.pdf)
+- [Slides Cours High Performance Team](./assets/documents/hpt.pdf)
 {% endlien %}
 
 ## Introduction

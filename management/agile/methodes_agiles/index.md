@@ -8,10 +8,10 @@ authors: ["BoxBoxJason"]
 ---
 
 {% lien "**Liens utiles**" %}
-- [Présentation Agile Unified Process](/do-it/documents/management/AUP.pdf)
-- [Présentation Disciplined Agile Delivery](/do-it/documents/management/DAD.pdf)
-- [Présentation Extreme Programming](/do-it/documents/management/XP.pdf)
-- [Présentation Feature Driven Development](/do-it/documents/management/FDD.pdf)
+- [Présentation Agile Unified Process](../assets/documents/AUP.pdf)
+- [Présentation Disciplined Agile Delivery](../assets/documents/DAD.pdf)
+- [Présentation Extreme Programming](../assets/documents/XP.pdf)
+- [Présentation Feature Driven Development](../assets/documents/FDD.pdf)
 {% endlien %}
 
 ## Sommaire<a name="sommaire"></a>

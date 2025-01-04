@@ -8,7 +8,7 @@ authors: ["Laetitia PIET","BoxBoxJason"]
 ---
 
 {% lien "**Liens utiles**" %}
-- [Slides Cours d'introduction MSI](/do-it/documents/management/MSI_INTRO.pdf)
+- [Slides Cours d'introduction MSI](./assets/documents/MSI_INTRO.pdf)
 {% endlien %}
 
 ## Définitions
@@ -166,7 +166,7 @@ Elle peut choisir un modèle coercitif ou habilitant. Dans le premier cas, l'uti
 
 ### Classification des SI
 
-{% sizedImage "/do-it/img/management/classification_si.png", "Classification des SI", "bigImg" %}
+{% sizedImage "./assets/img/classification_si.png", "Classification des SI", "bigImg" %}
 
 ## Enjeux
 Via leur SI, les entreprises s’insèrent plus intensivement dans une mondialisation agitée

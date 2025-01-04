@@ -10,7 +10,7 @@ authors: ["Nicolas Vallée","BoxBoxJason"]
 *Nicolas Vallée*, consultant en numérique chez Wavestone
 
 {% lien "**Liens utiles**" %}
-- [Slides Course Sobriété Numérique](/do-it/documents/management/sobriete_numerique.pdf)
+- [Slides Course Sobriété Numérique](./assets/documents/sobriete_numerique.pdf)
 {% endlien %}
 
 ## Numérique Responsable

@@ -8,7 +8,7 @@ authors: ["BoxBoxJason"]
 ---
 
 {% lien "**Liens utiles**" %}
-- [Fresque du numérique](/do-it/documents/management/FDN.pdf)
+- [Fresque du numérique](./assets/documents/FDN.pdf)
 {% endlien %}
 
 La fresque du numérique est un outil pédagogique qui permet de sensibiliser les acteurs du numérique aux enjeux environnementaux et sociaux liés à leur activité. Elle se compose de 7 thématiques :
