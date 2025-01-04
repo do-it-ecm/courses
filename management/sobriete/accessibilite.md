@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Accessibilité Numérique"
 date: 2024-09-12
 tags: ["accessibilité", "numérique"]
-authors: ["Nicolas Vallée","BoxBoxJason"]
+authors: ["Nicolas Vallée","Loïck Goupil-Hallay"]
 ---
 
 ## Définition

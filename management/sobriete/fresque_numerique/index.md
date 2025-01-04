@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Fresque Numérique"
 date: 2024-09-12
 tags: ["sobriété", "numérique"]
-authors: ["BoxBoxJason"]
+authors: ["Loïck Goupil-Hallay"]
 ---
 
 {% lien "**Liens utiles**" %}

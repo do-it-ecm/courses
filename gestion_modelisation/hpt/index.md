@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "High Performance Team"
 date: 2024-11-28
 tags: ["équipe", "leadership", "performance", "confiance"]
-authors: ["Leonardo Santarelli", "BoxBoxJason"]
+authors: ["Leonardo Santarelli", "Loïck Goupil-Hallay"]
 ---
 
 *Driving Business Results and Human values*

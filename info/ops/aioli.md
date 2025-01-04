@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "aioli"
 date: 2024-10-20
 tags: ["informatique", "aioli", "serveur"]
-authors: ["BoxBoxJason"]
+authors: ["Loïck Goupil-Hallay"]
 ---
 
 {% lien "**Liens utiles**" %}
