@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Fondamentaux de l'ordinateur"
 date: 2024-10-03
 tags: ["informatique","hardware","software","OS","fondamentaux"]
-authors: ["François Brucker","BoxBoxJason"]
+authors: ["François Brucker","Loïck Goupil-Hallay"]
 ---
 
 {% lien "**Liens utiles**" %}

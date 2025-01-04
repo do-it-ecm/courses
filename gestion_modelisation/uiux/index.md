@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "UI/UX Design"
 date: 2024-10-02
 tags: ["UI", "UX", "Design"]
-authors: ["BoxBoxJason","Mickael LAVALLEE"]
+authors: ["Loïck Goupil-Hallay","Mickael LAVALLEE"]
 ---
 
 {% lien "**Liens utiles**" %}

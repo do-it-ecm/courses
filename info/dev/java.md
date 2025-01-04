@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Java"
 date: 2024-12-12
 tags: ["informatique", "développement", "java", "pattern", "design"]
-authors: ["BoxBoxJason", "Julien Candela"]
+authors: ["Loïck Goupil-Hallay", "Julien Candela"]
 ---
 
 {% lien "**Liens utiles**" %}

@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Management des Systèmes d'Information"
 date: 2024-09-03
 tags: ["management","si"]
-authors: ["Laetitia PIET","BoxBoxJason"]
+authors: ["Laetitia PIET","Loïck Goupil-Hallay"]
 ---
 
 {% lien "**Liens utiles**" %}

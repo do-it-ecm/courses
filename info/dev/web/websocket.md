@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "WebSocket"
 date: 2024-10-21
 tags: ["informatique", "développement", "web", "websocket"]
-authors: ["BoxBoxJason"]
+authors: ["Loïck Goupil-Hallay"]
 ---
 
 ## Introduction

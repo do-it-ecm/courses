@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Gestion de projet"
 date: 2024-09-04
 tags: ["gestion de projet","management"]
-authors: ["Guillaume LAURIE","BoxBoxJason"]
+authors: ["Guillaume LAURIE","Loïck Goupil-Hallay"]
 ---
 
 *Guillaume LAURIE*

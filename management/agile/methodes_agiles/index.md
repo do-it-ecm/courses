@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Autres méthodes AGILES"
 date: 2024-09-13
 tags: ["agile", "gestion de projet","management"]
-authors: ["BoxBoxJason"]
+authors: ["Loïck Goupil-Hallay"]
 ---
 
 {% lien "**Liens utiles**" %}

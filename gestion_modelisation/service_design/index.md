@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Service Design"
 date: 2024-09-06
 tags: ["service design", "design thinking", "user experience", "user interface"]
-authors: ["BoxBoxJason"]
+authors: ["Loïck Goupil-Hallay"]
 ---
 
 {% lien "**Liens utiles**" %}

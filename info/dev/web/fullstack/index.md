@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Développement Web"
 date: 2024-11-14
 tags: ["informatique", "développement", "web"]
-authors: ["BoxBoxJason", "Adrien"]
+authors: ["Loïck Goupil-Hallay", "Adrien"]
 ---
 
 {% lien "**Liens utiles**" %}

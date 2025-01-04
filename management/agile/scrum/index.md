@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "SCRUM"
 date: 2024-09-04
 tags: ["agile", "scrum", "gestion de projet","management"]
-authors: ["Guillaume LAURIE","BoxBoxJason"]
+authors: ["Guillaume LAURIE","Loïck Goupil-Hallay"]
 ---
 
 {% lien "**Liens utiles**" %}
