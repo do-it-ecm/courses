@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Conception SI"
 date: 2024-10-25
 tags: ["management","si","conception"]
-authors: ["Laetitia PIET","BoxBoxJason"]
+authors: ["Laetitia PIET","Loïck Goupil-Hallay"]
 ---
 
 ## Enjeux de l'organistation

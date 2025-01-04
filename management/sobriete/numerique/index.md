@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Sobriété Numérique"
 date: 2024-09-12
 tags: ["management", "sobriété", "numérique"]
-authors: ["Nicolas Vallée","BoxBoxJason"]
+authors: ["Nicolas Vallée","Loïck Goupil-Hallay"]
 ---
 
 *Nicolas Vallée*, consultant en numérique chez Wavestone

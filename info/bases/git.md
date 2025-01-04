@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Git"
 date: 2024-09-05
 tags: ["git", "informatique"]
-authors: ["François Brucker","BoxBoxJason"]
+authors: ["François Brucker","Loïck Goupil-Hallay"]
 ---
 
 {% lien "**Liens utiles**" %}

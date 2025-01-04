@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "PostgreSQL"
 date: 2024-10-20
 tags: ["informatique", "bases de données", "serveur","postgresql"]
-authors: ["BoxBoxJason"]
+authors: ["Loïck Goupil-Hallay"]
 ---
 
 {% lien "**Liens utiles**" %}

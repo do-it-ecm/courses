@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Linux"
 date: 2024-10-03
 tags: ["système d'exploitation", "informatique", "OS", "Linux"]
-authors: ["François Brucker","BoxBoxJason"]
+authors: ["François Brucker","Loïck Goupil-Hallay"]
 ---
 
 {% lien "**Liens utiles**" %}

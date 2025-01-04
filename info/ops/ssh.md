@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "SSH"
 date: 2024-10-17
 tags: ["informatique", "os", "linux","ssh"]
-authors: ["François Brucker","BoxBoxJason"]
+authors: ["François Brucker","Loïck Goupil-Hallay"]
 ---
 
 {% lien "**Liens utiles**" %}

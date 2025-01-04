@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Audit Organisationnel"
 date: 2024-10-25
 tags: ["management","si","conception"]
-authors: ["Camille GIRARD","BoxBoxJason"]
+authors: ["Camille GIRARD","Loïck Goupil-Hallay"]
 ---
 
 {% lien "**Liens utiles**" %}

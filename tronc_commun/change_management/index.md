@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Conduite du changement"
 date: 2024-09-23
 tags: ["management", "changement"]
-authors: ["BoxBoxJason"]
+authors: ["Loïck Goupil-Hallay"]
 ---
 
 {% lien "**Liens utiles**" %}
