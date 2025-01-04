@@ -7,10 +7,6 @@ tags: ["accessibilité", "numérique"]
 authors: ["Nicolas Vallée","BoxBoxJason"]
 ---
 
-{% lien "**Liens utiles**" %}
-- [Slides Course Sobriété Numérique](/do-it/documents/management/sobriete_numerique.pdf)
-{% endlien %}
-
 ## Définition
 L'accessibilité numérique consiste à **permettre l'utilisation et la consultation des ressources numériques** sur **tout type de support** (ordinateur, téléphone portable, tablette, mobilier digital,...) à **destination du plus grand nombre de personnes** et notamment aux personnes souffrant de handicap sensoriel, mental ou cognitif mais aussi de handicap physique lourd.
 

@@ -8,7 +8,7 @@ authors: ["BoxBoxJason"]
 ---
 
 {% lien "**Liens utiles**" %}
-- [Cours SSH connexion aioli](./ssh/#connexion-%C3%A0-aioli)
+- [Cours SSH connexion aioli](../ssh/#connexion-%C3%A0-aioli)
 {% endlien %}
 
 ## Introduction
@@ -19,7 +19,7 @@ Il s'agit d'**une UNIQUE machine virtuelle partagée par tous les élèves de la
 Chaque personne possède un compte dédié sur aioli. Les identifiants portent des noms bien provençaux. Pour obtenir vos identifiants, contactez un membre de l'équipe Do-It. Une fois votre identifiant obtenu, vous pouvez vous connecter à aioli via SSH. Nous le noterons `<HERBE>` *Retenez le bien*
 
 ### Connexion SSH
-Suivez le [cours sur la connexion à aioli](https://boxboxjason.github.io/do-it/cours/info/bases/ssh/#connexion-%C3%A0-aioli) pour vous connecter à aioli.
+Suivez le [cours sur la connexion à aioli](../ssh/#connexion-%C3%A0-aioli) pour vous connecter à aioli.
 Une fois que vous êtes connecté, vous pouvez commencer à travailler sur vos projets.
 
 Vous pouvez **trouver votre UID** en tapant la commande `id -u` dans le terminal. Il est important de connaître votre UID pour le reverse proxy et pour les ports de services web.
