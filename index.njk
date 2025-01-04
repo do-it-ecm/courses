@@ -1,16 +1,15 @@
 ---
-layout: layout/post.njk
+layout: layout/cours.njk
 
 title: "CS"
 tags:
     - "index"
-    - "COURSE"
     - "HOME"
 
-eleventyExcludeFromCollections: ["index", "COURSE"]
+eleventyExcludeFromCollections: ["index", "COURS"]
 
 eleventyImport:
-  collections: ["COURSE", "index"]
+  collections: ["COURS", "index"]
 
 resume: "Cours de Spécialités"
 ---
@@ -24,9 +23,9 @@ resume: "Cours de Spécialités"
     <p>Do_<span style="color: #4a86e8">It</span> est organisé en 3 axes :</p>
 
     <ul>
-        <li>Info : <span class="bg-green-100 rounded-full p-1.5">Développement / Informatique</span></li>
-        <li>Mgt : <span class="bg-blue-100 rounded-full p-1.5">Systèmes d’information (SI) / Management</span></li>
-        <li>GP : <span class="bg-pink-100 rounded-full p-1.5">Modélisation / Gestion de projet</span></li>
+        <li>Info : <span class="rounded-full p-1.5" style="background-color: {{ site.colors.info }};">Développement / Informatique</span></li>
+        <li>Mgt : <span class="rounded-full p-1.5" style="background-color: {{ site.colors.mgt }};">Systèmes d’information (SI) / Management</span></li>
+        <li>GP : <span class="rounded-full p-1.5" style="background-color: {{ site.colors.gp }};">Modélisation / Gestion de projet</span></li>
     </ul>
 
     <p>

@@ -4,7 +4,7 @@ layout: layout/cours.njk
 title: "Impacts Environnementaux du Numérique"
 date: 2024-10-03
 tags: ["numérique", "environnement", "écologie", "sobriété"]
-authors: ["BoxBoxJason", "Edlira Nano"]
+authors: ["BoxBoxJason", "Eda NANO"]
 ---
 
 {% lien "**Liens utiles**" %}
