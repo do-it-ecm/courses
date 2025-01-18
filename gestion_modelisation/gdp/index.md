@@ -7,14 +7,6 @@ tags: ["gestion", "projet"]
 authors: ["Guillaume Oliana"]
 ---
 
-{% lien "**Liens utiles**" %}
-- [Slides Gestion de projet 1](./assets/documents/gdp1.pdf)
-- [Slides Gestion de projet 2](./assets/documents/gdp2.pdf)
-- [Slides Gestion de projet 3](./assets/documents/gdp3.pdf)
-- [Slides Gestion de projet 4](./assets/documents/gdp4.pdf)
-- [Slides Gestion de projet 5](./assets/documents/gdp5.pdf)
-{% endlien %}
-
 ## 1. Introduction à la Gestion de Projet
 - **Définition d’un projet** :
   Un projet est une activité temporaire, unique, et innovante, ayant pour but de produire un livrable ou un résultat spécifique.

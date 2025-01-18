@@ -7,10 +7,6 @@ tags: ["management","si"]
 authors: ["Laetitia PIET","Loïck Goupil-Hallay"]
 ---
 
-{% lien "**Liens utiles**" %}
-- [Slides Cours d'introduction MSI](./assets/documents/MSI_INTRO.pdf)
-{% endlien %}
-
 ## Définitions
 
 ### Définition fonctionnelle
