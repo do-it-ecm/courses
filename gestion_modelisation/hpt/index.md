@@ -9,10 +9,6 @@ authors: ["Leonardo Santarelli", "Loïck Goupil-Hallay"]
 
 *Driving Business Results and Human values*
 
-{% lien "**Liens utiles**" %}
-- [Slides Cours High Performance Team](./assets/documents/hpt.pdf)
-{% endlien %}
-
 ## Introduction
 *You cannot mandate productivity.\
 You must provide the tools (and environment) to let people become their best.* - Steve Jobs

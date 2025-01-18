@@ -7,14 +7,6 @@ tags: ["gestion de projet","management"]
 authors: ["Guillaume LAURIE","Loïck Goupil-Hallay"]
 ---
 
-*Guillaume LAURIE*
-
-{% lien "**Liens utiles**" %}
-- [Slides Gestion de Projet](./assets/documentst/Gestion_de_projet.pdf)
-- [Slides Gestion de Projet Agile SCRUM](../scrum/assets/documentst/Gestion_de_projet_agile.pdf)
-- [Slides Ateliers autres méthodes agiles](./assets/documentst/Gestion_de_projet_ateliers.pdf)
-{% endlien %}
-
 ## Gestion de projet
 Un projet est un ensemble d'activités coordonnées et maîtrisées, découpé et conduit en étapes, comportant des dates de début et de fin, entrepris dans le but d'atteindre un objectif conforme à des exigences spécifiques, incluant des contraintes de délais, de coûts et de ressources.\
 L'atteinte de l'objectif se matérialise par la production de livrables.
