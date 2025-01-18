@@ -7,13 +7,6 @@ tags: ["agile", "gestion de projet","management"]
 authors: ["Loïck Goupil-Hallay"]
 ---
 
-{% lien "**Liens utiles**" %}
-- [Présentation Agile Unified Process](../assets/documents/AUP.pdf)
-- [Présentation Disciplined Agile Delivery](../assets/documents/DAD.pdf)
-- [Présentation Extreme Programming](../assets/documents/XP.pdf)
-- [Présentation Feature Driven Development](../assets/documents/FDD.pdf)
-{% endlien %}
-
 ## Sommaire<a name="sommaire"></a>
 * [Rational Unified Process](#rational-unified-process)
 * [Agile Unified Process](#agile-unified-process)

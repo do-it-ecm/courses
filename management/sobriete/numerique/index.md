@@ -7,12 +7,6 @@ tags: ["management", "sobriété", "numérique"]
 authors: ["Nicolas Vallée","Loïck Goupil-Hallay"]
 ---
 
-*Nicolas Vallée*, consultant en numérique chez Wavestone
-
-{% lien "**Liens utiles**" %}
-- [Slides Course Sobriété Numérique](./assets/documents/sobriete_numerique.pdf)
-{% endlien %}
-
 ## Numérique Responsable
 
 Le numérique responsable est une démarche d’**amélioration continue** qui vise à **améliorer l’empreinte écologique et sociale du numérique**.\
