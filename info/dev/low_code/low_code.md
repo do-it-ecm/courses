@@ -7,6 +7,6 @@ tags: ["low code", "no code", "développement", "automatisation"]
 authors: ["Adèle Bourgeix", "Loïck Goupil-Hallay"]
 ---
 
-{% lien "**Liens utiles**" %}
-- [Slides Cours Low Code & No Code](./assets/documents/No-code-low-code.pdf)
-{% endlien %}
+{% sommaire %}
+[[toc]]
+{% endsommaire %}

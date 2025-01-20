@@ -7,6 +7,10 @@ tags: ["management","si"]
 authors: ["Laetitia PIET","Loïck Goupil-Hallay"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 ## Définitions
 
 ### Définition fonctionnelle

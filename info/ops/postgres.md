@@ -7,6 +7,10 @@ tags: ["informatique", "bases de données", "serveur","postgresql"]
 authors: ["Loïck Goupil-Hallay"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 {% lien "**Liens utiles**" %}
 - [PostgreSQL](https://www.postgresql.org/)
 {% endlien %}

@@ -7,8 +7,11 @@ tags: ["informatique", "développement", "web"]
 authors: ["Loïck Goupil-Hallay", "Adrien"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 {% lien "**Liens utiles**" %}
-- [Cours Web Fullstack](./assets/documents/fullstack.pdf)
 {% endlien %}
 
 ## Introduction

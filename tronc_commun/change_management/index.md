@@ -7,10 +7,9 @@ tags: ["management", "changement"]
 authors: ["Loïck Goupil-Hallay"]
 ---
 
-{% lien "**Liens utiles**" %}
-- [Slides Pilotage du changement](./assets/documents/pilotage_du_changement.pdf)
-- [Slides Gestion des transitions](./assets/documents/gestion_des_transitions.pdf)
-{% endlien %}
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
 
 ## Introduction
 
@@ -36,6 +35,7 @@ Vous vous épargnerez beaucoup de désagrément si vous vous en souvenez."* - Wi
 **Engagement**: Un état d'esprit qui se manifeste lorsqu'un individu ou un groupe s'implique activement dans un changement.
 
 ### La résistance
+
 *La résistance est naturelle, c'est un mélange complexe de*
 - Changement (la circonstance extérieure à nous)
 - Transition (le processus de réorientation à l'intérieur de nous)
@@ -47,6 +47,7 @@ Vous vous épargnerez beaucoup de désagrément si vous vous en souvenez."* - Wi
 - Risque d'échec dans le nouveau départ
 
 ### Résistance ou engagement ?
+
 *Dans quelle circonstances seriez-vous enclin(e) à résister au changement ?*
 - Pas de clarté, pas de sens, pas de discours convaincant
 - Mal communiqué, expliqué ou planifié
@@ -68,6 +69,7 @@ Vous vous épargnerez beaucoup de désagrément si vous vous en souvenez."* - Wi
 ![Courbe de deuil](./assets/img/courbe_deuil.jpeg)
 
 #### Etapes du deuil
+
 La courbe de deuil est un modèle qui décrit les différentes étapes par lesquelles une personne passe lorsqu'elle est confrontée à une perte ou un changement majeur. Les étapes dans le modèle adapté au contexte du changement organisationnel sont les suivantes:
 
 1. **Annonce** - La nouvelle est inattendue et brutale
@@ -79,6 +81,7 @@ La courbe de deuil est un modèle qui décrit les différentes étapes par lesqu
 7. **Nouvel engagement** - Engagement dans la nouvelle situation
 
 #### Manager selon les étapes du deuil
+
 Selon l'étape du deuil dans laquelle se trouve la personne, le manager doit adopter une attitude et un comportement adapté:
 1. **Choc & Déni** - Dans un premier temps, le manager doit **Informer** et **Communiquer** la nouvelle
 2. **Colère & Peur & Tristesse** - Dans la phase descendante, vive et intense en émotions, le manager doit **Ecouter**, **Accompagner** et se montrer **Empathique**
@@ -86,12 +89,14 @@ Selon l'étape du deuil dans laquelle se trouve la personne, le manager doit ado
 4. **Nouvel engagement** - Enfin, le manager doit **Encourager** et **Donner du feedback** concernant les nouvelles actions
 
 #### Vitesse de transition
+
 Il faut rester vigilant car il y a des différences de rythme et de réaction entre les individus.
 Notamment entre la direction, les managers et les collaborateurs, qui n'apprennent généralement pas en même temps la nouvelle. Ils ne sont pas non plus affectés de la même manière par le changement. Et ils n'ont pas les mêmes valeurs, objectifs, motivations, intérêts, vision.\
 Souvent, la direction (qui décide souvent du changement) est en avance sur les managers qui sont en avance sur les collaborateurs.
 ![Vitesse de transition](./assets/img/courbe_delai.jpeg)
 
 ### Phases de la transition
+
 On distingue 3 phases dans le processus de transition:
 
 <pre class="mermaid" style="background-color: transparent;">
@@ -134,6 +139,7 @@ La carte des acteurs se représente sous la forme d'une matrice à deux dimensio
 Il est primordial de garder en tête que le positionnement d'un acteur sur la carte des acteurs n'est pas figé et peut évoluer en fonction de l'avancement du projet et des interactions avec les autres acteurs. Il est donc important de mettre à jour régulièrement la carte des acteurs pour s'assurer que la stratégie adoptée est toujours pertinente.
 
 #### Les acteurs
+
 - Passif: Fait le minimum
 - Indécis: Prêt à s'impliquer... s'il obtient quelque chose en retour
 - Hostile: Ne se rallie que sous la contrainte du pouvoir supérieur. Peut décider de stopper la confrontation
@@ -143,6 +149,7 @@ Il est primordial de garder en tête que le positionnement d'un acteur sur la ca
 - Déchiré: Ressent autant d'amour que de haine
 
 #### La stratégie des alliés
+
 Une fois que les acteurs sont identifiés, construisez une stratégie pour chaque fonction. **Passez 2/3 de votre temps avec vos Alliés**:\
 **Louez leurs efforts**, **acceptez** les pour ce qu’ils sont, apportez leur votre **soutien**, **passez du temps** avec eux ... et en retour, soyez **exigeant** !\
 **Entourez** les *Passifs* et les *Indécis*, **motivez** les en leur offrant un **projet commun** sur lequel travailler, acceptez les **compromis** sur les sujets de moindre importance.\
@@ -152,15 +159,18 @@ Utilisez 1/3 de votre temps (au maximum) pour contenir les tentatives des Opposa
 Si nécessaire, **neutralisez les Opposants**
 
 #### Actions à mener
+
 Cette image illustre les actions à mener en fonction de la position de l'acteur sur la carte des acteurs.
 ![Actions à mener](./assets/img/actions.jpeg)
 
 ## Management du changement
+
 Nous allons traiter de deux approches pour piloter le changement:
 - Top Down
 - Bottom Up
 
 ### Top Down (Modèle de Kotter)
+
 1. Etablir un sentiment d'urgence
 2. Former une puissante coalition de pilotage
 3. Créer une vision
@@ -171,6 +181,7 @@ Nous allons traiter de deux approches pour piloter le changement:
 8. Institutionnaliser les nouvelles approches
 
 #### Avantages
+
 - Une décision et une mise en oeuvre rapides
 - Un souffle de perspective, une vision à long terme
 - Une stratégie claire
@@ -184,6 +195,7 @@ Nous allons traiter de deux approches pour piloter le changement:
 - Accès aux ressources
 
 #### Cas d'usage
+
 - Très peu de temps / crise
 - Décisions difficiles / des changements radicaux à prendre
 - Nécessiteé d'impulser des changements structurels, complexes et à l'échelle mondiale
@@ -198,6 +210,7 @@ Nous allons traiter de deux approches pour piloter le changement:
 
 
 ### Bottom Up (Modèle de Beer)
+
 1. Mobiliser l'engagement par un diagnostic commun des problèmes
 2. Développer une vision commune de la manière d'organiser et de gérer pour réussir
 3. Favoriser le consensus, la compétence, la cohésion
@@ -206,6 +219,7 @@ Nous allons traiter de deux approches pour piloter le changement:
 6. Surveiller et ajuster en fonction des problèmes
 
 #### Avantages
+
 - Développement des personnes / autonomisation / responsabilité
 - Leadership et compétences émergentes
 - Opinions d'experts internes, créativité
@@ -221,6 +235,7 @@ Nous allons traiter de deux approches pour piloter le changement:
 
 
 #### Cas d'usage
+
 - Temps disponible
 - Changement axé sur le client
 - Unités très autonomes évoluant dans des contextes très spécifiques
@@ -241,6 +256,7 @@ Les alliances entre les cadres supérieurs et les autres membres de l'organisati
 Il n'y a pas d'ordre absolu à respecter.
 
 ### 10 Principes du change management
+
 - Pour lancer le changement
     1. Etablir un sentiment d'urgence
     2. Former un comité de pilotage

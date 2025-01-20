@@ -7,9 +7,9 @@ tags: ["sobriété", "numérique"]
 authors: ["Loïck Goupil-Hallay"]
 ---
 
-{% lien "**Liens utiles**" %}
-- [Fresque du numérique](./assets/documents/FDN.pdf)
-{% endlien %}
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
 
 La fresque du numérique est un outil pédagogique qui permet de sensibiliser les acteurs du numérique aux enjeux environnementaux et sociaux liés à leur activité. Elle se compose de 7 thématiques :
 - **Les ressources**
