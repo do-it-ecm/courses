@@ -7,6 +7,10 @@ tags: ["informatique","hardware","software","OS","fondamentaux"]
 authors: ["François Brucker","Loïck Goupil-Hallay"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 {% lien "**Liens utiles**" %}
 - [Cours Architecture Ordinateur](https://francoisbrucker.github.io/cours_informatique/cours/syst%C3%A8me/architecture-ordinateur/)
 {% endlien %}

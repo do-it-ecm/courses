@@ -7,6 +7,10 @@ tags: ["service design", "design thinking", "user experience", "user interface"]
 authors: ["Loïck Goupil-Hallay"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 <style>
   .arrow-left::before {
     content: '';

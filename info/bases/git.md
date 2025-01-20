@@ -7,6 +7,10 @@ tags: ["git", "informatique"]
 authors: ["François Brucker","Loïck Goupil-Hallay"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 {% lien "**Liens utiles**" %}
 - [Cours Git / GitHub](https://francoisbrucker.github.io/cours_informatique/cours/gestion-des-sources/)
 {% endlien %}

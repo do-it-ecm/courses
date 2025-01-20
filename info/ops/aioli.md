@@ -7,6 +7,10 @@ tags: ["informatique", "aioli", "serveur"]
 authors: ["Loïck Goupil-Hallay"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 {% lien "**Liens utiles**" %}
 - [Cours SSH connexion aioli](../ssh/#connexion-%C3%A0-aioli)
 {% endlien %}

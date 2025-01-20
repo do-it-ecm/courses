@@ -7,16 +7,11 @@ tags: ["agile", "gestion de projet","management"]
 authors: ["Loïck Goupil-Hallay"]
 ---
 
-## Sommaire<a name="sommaire"></a>
-* [Rational Unified Process](#rational-unified-process)
-* [Agile Unified Process](#agile-unified-process)
-* [Disciplined Agile Delivery](#disciplined-agile-delivery)
-* [Extreme Programming](#extreme-programming)
-* [Feature Driven Development](#feature-driven-development)
-* [Lean Software Development](#lean-software-development)
-* [Lexique](#lexique)
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
 
-## Rational Unified Process (RUP)<a name="rational-unified-process"></a>
+## Rational Unified Process (RUP)
 
 #### A propos
 - Méthode de développement logiciel itérative et incrémentale
@@ -82,7 +77,7 @@ authors: ["Loïck Goupil-Hallay"]
   - Utiliser des outils de gestion de configuration pour suivre les modifications apportées au code source
   - Assurer la traçabilité et la communication des changements
 
-## Agile Unified Process (AUP)<a name="agile-unified-process"></a>
+## Agile Unified Process (AUP)
 
 #### A propos
 * Simplification du Rational Unified Process (RUP)
@@ -128,12 +123,6 @@ authors: ["Loïck Goupil-Hallay"]
   - Former les utilisateurs et assurer le support
   - Finaliser la documentation et assurer une transition en douceur vers l'exploitation
 
-#### Concepts utilisés
-- [Test Driven Development (TDD)](#tdd)
-- [Continuous Integration (CI)](#ci)
-- [Agile Modeling (AM)](#am)
-- [Agile Change Management (ACM)](#acm)
-
 #### Principes
 1. **Modèle**
   - Comprendre les besoins des utilisateurs
@@ -162,7 +151,7 @@ authors: ["Loïck Goupil-Hallay"]
   - Assurer que les outils utilisés sont adaptés
   - Fournir du support aux membres de l'équipe
 
-## Disciplined Agile Delivery (DAD)<a name="disciplined-agile-delivery"></a>
+## Disciplined Agile Delivery (DAD)
 
 #### Objectifs
 * Livraison incrémentale : ajustements réguliers, besoins changeants
@@ -183,7 +172,7 @@ authors: ["Loïck Goupil-Hallay"]
 
 UP et DAD font partie de l'*agilité* mais sont des formes de gestion de projet **hybrides** : on réfléchit avant d'agir, GEP plus classique, framework assez lourd (projets + complexes, plus lourds et donc adaptés aux plus grandes entreprises)
 
-## Extreme Programming (XP)<a name="extreme-programming"></a>
+## Extreme Programming (XP)
 
 #### Valeurs
 * Communication
@@ -222,7 +211,7 @@ UP et DAD font partie de l'*agilité* mais sont des formes de gestion de projet 
 - coach (= scrum master)
 - tracker
 
-## Feature Driven Development (FDD)<a name="feature-driven-development"></a>
+## Feature Driven Development (FDD)
 
 #### Caractéristiques
 * Itératif
@@ -252,7 +241,7 @@ UP et DAD font partie de l'*agilité* mais sont des formes de gestion de projet 
 * Dépendance au programmeur principal qui se doit de rester en contact avec les utilisateurs
 * Propriété individuelle du code du fait du découpage en équipe de développeurs
 
-## Lean Software Development (LSD)<a name="lean-software-development"></a>
+## Lean Software Development (LSD)
 
 #### Caractéristiques
 * Minimiser les gaspillages et les élimniner
@@ -267,7 +256,7 @@ UP et DAD font partie de l'*agilité* mais sont des formes de gestion de projet 
 7. **Optimize the whole** : restructuration des équipes, identification de la circulation de la valeur dans l'équipe, proximité des membres, fournir tous les outils nécessaires
 
 ## Lexique
-- **Test Driven Development (TDD):** Méthode de développement logiciel qui consiste à écrire les tests unitaires avant le code source<a name="tdd"></a>
-- **Continuous Integration (CI):** Pratique de développement logiciel qui consiste à intégrer régulièrement les modifications du code source dans un référentiel partagé<a name="ci"></a>
-- **Agile Modeling (AM):** Pratique de modélisation agile qui consiste à utiliser des modèles simples et à les adapter en fonction des besoins<a name="am"></a>
-- **Agile Change Management (ACM):** Pratique de gestion du changement agile qui consiste à s'adapter rapidement aux évolutions du projet<a name="acm"></a>
+- **Test Driven Development (TDD):** Méthode de développement logiciel qui consiste à écrire les tests unitaires avant le code source
+- **Continuous Integration (CI):** Pratique de développement logiciel qui consiste à intégrer régulièrement les modifications du code source dans un référentiel partagé
+- **Agile Modeling (AM):** Pratique de modélisation agile qui consiste à utiliser des modèles simples et à les adapter en fonction des besoins
+- **Agile Change Management (ACM):** Pratique de gestion du changement agile qui consiste à s'adapter rapidement aux évolutions du projet

@@ -7,6 +7,10 @@ tags: ["management","si","conception"]
 authors: ["Laetitia PIET","Loïck Goupil-Hallay"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 ## Enjeux de l'organistation
 
 ### Front office

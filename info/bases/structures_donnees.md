@@ -7,6 +7,10 @@ tags: ["structures de données", "algorithmique", "informatique"]
 authors: ["Pascal Prea","Loïck Goupil-Hallay"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 ## Pointeurs
 
 Les pointeurs sont des variables qui contiennent l'adresse d'une autre variable (dans la mémoire). Ils permettent de manipuler des données sans les copier. Il s'agit d'un concept fondamental en programmation **bas niveau**
