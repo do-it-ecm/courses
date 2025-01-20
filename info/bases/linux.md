@@ -7,6 +7,10 @@ tags: ["système d'exploitation", "informatique", "OS", "Linux"]
 authors: ["François Brucker","Loïck Goupil-Hallay"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 {% lien "**Liens utiles**" %}
 - [Cours Bases Linux](https://francoisbrucker.github.io/cours_informatique/cours/syst%C3%A8me-et-r%C3%A9seau/linux/bases-linux/)
 {% endlien %}

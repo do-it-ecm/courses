@@ -7,6 +7,10 @@ tags: ["agile", "cristal clear", "gestion de projet","management"]
 authors: ["Loïck Goupil-Hallay"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 Cristal Clear est une méthodologie agile de gestion de projet. Elle a été développée par Alistair Cockburn en 2004. Elle est basée sur des cycles de développement courts et itératifs appelés *itérations*. Cristal Clear est adapté aux projets de petite taille (jusqu'à 8 personnes) et aux équipes distribuées. Elle favorise la communication, la collaboration et la simplicité.
 
 ## Principes

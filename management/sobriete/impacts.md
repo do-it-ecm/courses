@@ -7,6 +7,10 @@ tags: ["numérique", "environnement", "écologie", "sobriété"]
 authors: ["Loïck Goupil-Hallay", "Eda NANO"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 {% lien "**Liens utiles**" %}
 - [Cours Sobriété Numérique](https://md.lqdn.fr/s/CQan4gI7j#)
 - [Quadrature du Net](https://www.laquadrature.net/)
@@ -16,16 +20,19 @@ authors: ["Loïck Goupil-Hallay", "Eda NANO"]
 {% endlien %}
 
 ## Ordres d'impact
+
 Nous placerons le numérique ici pendant ce cours dans un contexte environemental très large, et non pas uniquement un contexte indsutriel ou économique ou purement technologique.
 Nous situons le numérique dans une planète aux ressources limitées, faisant face à une crise écologique et sociale profonde.
 
 ## La matérialité du numérique
+
 L'informatique aujourd'hui est de plus en plus **dématérialisée**: Données dans le Cloud, algorithmes opaques, IA, boîtes noires, mais tout cela n'est qu'une illusion car elle repose sur des infrastructures physiques.\
 Le matériel (serveurs, datacenters, câbles, switchs,...) est toujours là, dans des quantités grandissantes avec un usage lui aussi grandissant.
 
 Si l'ACV permet de rendre compte des effets qu'on appelle directs du numérique. Elle ne rend pas compte des effets indirects, que produisent toutes les phases du cycle de vie, et en particulier l'usage d'un service numérique.
 
 ## Analyse par cycle de vie
+
 L'ACV (Analyse de Cycle de Vie) est une méthode d'évaluation des impacts environnementaux d'un produit ou d'un service sur l'ensemble de son cycle de vie.\
 Elle permet de prendre en compte les impacts environnementaux de la production à la fin de vie du produit ou du service.
 
@@ -49,10 +56,12 @@ Les étapes du cycle de vie d'un produit ou d'un service sont les suivantes:
     - Dans de nombreux cas, les déchets électroniques sont exportés vers des pays en développement, où ils sont traités de manière non écologique (incinération à l'air libre, décharge sauvage, ...). Cela cause des dégâts environnementaux importants et des problèmes de santé pour les populations locales.
 
 ### Consommation d'énergie
+
 En France, 10% de la consommation électrique est consacrée aux services numériques
 
 
 ## Agences de contrôle
+
 Il existe plusieurs agences de contrôle qui évaluent les impacts environnementaux des produits et des services. Parmi les plus connues, on peut citer:
 - ADEME (Agence de l'Environnement et de la Maîtrise de l'Énergie)
 - ICPE (Installation Classée pour la Protection de l'Environnement)

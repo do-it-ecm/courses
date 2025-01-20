@@ -7,7 +7,12 @@ tags: ["accessibilité", "numérique"]
 authors: ["Nicolas Vallée","Loïck Goupil-Hallay"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 ## Définition
+
 L'accessibilité numérique consiste à **permettre l'utilisation et la consultation des ressources numériques** sur **tout type de support** (ordinateur, téléphone portable, tablette, mobilier digital,...) à **destination du plus grand nombre de personnes** et notamment aux personnes souffrant de handicap sensoriel, mental ou cognitif mais aussi de handicap physique lourd.
 
 | Temporalité | Toucher | Ouïe | Vue | Voix |
@@ -19,6 +24,7 @@ L'accessibilité numérique consiste à **permettre l'utilisation et la consulta
 L'un des moyens d'appréhender le handicap, c'est de le considérer comme une inadéquation entre la personne et son environnement. Cette inadéquation peut être permanente, temporaire ou situationnelle.
 
 ### Impacts
+
 *L'« effet bateau » doit son nom aux trottoirs bateau, les parties de trottoir surbaissées au niveau de la chaussée. Ils ont été adoptés dans les villes du monde entier pour aider les personnes utilisant des équipements de mobilité à franchir les trottoirs. Toutefois, de nombreuses personnes profitent des trottoirs bateau, notamment les cyclistes, les parents conduisant des poussettes, les voyageurs avec leurs valises à roulettes, et tous ceux qui utilisent des équipements dotés de roues.*
 
 **« Bon nombre d’organisations réalisent qu’intégrer l’accessibilité amène de nombreux bienfaits en limitant les risques légaux, en renforçant la présence de la marque, en améliorant l’expérience utilisateur autant que la productivité interne. »**\
@@ -32,6 +38,7 @@ L'un des moyens d'appréhender le handicap, c'est de le considérer comme une in
 | Limite les contraintes liées à la fracture numérique (maîtrise des outils, zone peu connectée) | Penser accessible est vecteur d’innovation | Une meilleure scalabilité technique et géographique en se protégeant des dispositions légales en vigueur de plus en plus de pays |
 
 ## Principes
+
 Les règles pour l'accessibilité des contenus web, proposées par le RGAA, reposent sur les WCAG 2.0 (Web Content Accessibility Guidelines 2.0), rédigées par la WAI ont été créées pour guider les personnes souhaitant rendre le Web accessible à un plus vaste public d'utilisateurs.
 
 1. Perceptible
@@ -56,9 +63,11 @@ Les règles pour l'accessibilité des contenus web, proposées par le RGAA, repo
     - Optimiser la compatibilité avec les systèmes de navigations et les technologies d’assistances actuelles et futures.
 
 ### Bonnes pratiques
+
 Il est important de respecter les bonnes pratiques pour garantir l'accessibilité numérique. Voici quelques exemples de bonnes pratiques à respecter :
 
 #### Concevoir pour des utilisateurs dans le spectre autistique
+
 | Faire | Eviter |
 |-------|--------|
 | Utiliser des couleurs simples et des contrastes élevés | Utiliser des couleurs vives et des contrastes faibles |
@@ -68,6 +77,7 @@ Il est important de respecter les bonnes pratiques pour garantir l'accessibilit�
 | Construire des mises en page simples et homogènes | Utiliser des mises en page complexes et surchargées |
 
 #### Concevoir pour les utilisateurs de lecteurs d'écrans
+
 | Faire | Eviter |
 |-------|--------|
 | Décrire les images et fournir des transcriptions pour les vidéos | N'afficher l'information que dans une image ou dans une vidéo |
@@ -77,6 +87,7 @@ Il est important de respecter les bonnes pratiques pour garantir l'accessibilit�
 | Rédiger des liens et des titres descriptifs | Rédiger des liens et des titres sans valeur ajoutée |
 
 #### Concevoir pour les utilisateurs malvoyants
+
 | Faire | Eviter |
 |-------|--------|
 | Utiliser de bons contrastes de couleurs et une taille de texte lisible | Utiliser des contrastes de couleurs faibles et une taille de texte trop petite |
@@ -86,6 +97,7 @@ Il est important de respecter les bonnes pratiques pour garantir l'accessibilit�
 | Mettre les boutons et les notifications en contexte | Séparer les actions de leur contexte |
 
 #### Concevoir pour les utilisateurs avec un handicap physique ou moteur
+
 | Faire | Eviter |
 |-------|--------|
 | Réaliser des larges zones d'actions cliquables | Demander de la précision |
@@ -95,6 +107,7 @@ Il est important de respecter les bonnes pratiques pour garantir l'accessibilit�
 | Fournir des raccourcis | Fatiguer les utilisateurs avec de nombreuses demandes |
 
 #### Concevoir pour les utilisateurs sourds ou malentendants
+
 | Faire | Eviter |
 |-------|--------|
 | Ecrire en français courant | Utiliser des mots compliqués ou des figures de style |
@@ -103,6 +116,7 @@ Il est important de respecter les bonnes pratiques pour garantir l'accessibilit�
 | Utiliser des icônes et des images pour illustrer les contenus | Utiliser des images sans légende ou sans description |
 
 #### Concevoir pour les utilisateurs dyslexiques
+
 | Faire | Eviter |
 |-------|--------|
 | Utiliser des images et des graphiques pour illustrer vos textes | Utiliser des textes trop longs sur des colonnes très larges |
@@ -112,6 +126,7 @@ Il est important de respecter les bonnes pratiques pour garantir l'accessibilit�
 | Permettre des changements de contrastes entre les arrirères-plans et les textes | Mettre trop d'information au même endroit |
 
 ## Legislation
+
 | A l'international | En Europe | En France |
 |-------------------|-----------|-----------|
 | 1997 | 2002-2005 | 2005 |

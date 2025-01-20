@@ -7,6 +7,10 @@ tags: ["informatique", "développement", "java", "pattern", "design"]
 authors: ["Loïck Goupil-Hallay", "Julien Candela"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 {% lien "**Liens utiles**" %}
 - [Java](https://www.java.com/)
 - [Exercism: Java](https://exercism.org/tracks/java)

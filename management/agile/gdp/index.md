@@ -7,6 +7,10 @@ tags: ["gestion de projet","management"]
 authors: ["Guillaume LAURIE","Loïck Goupil-Hallay"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 ## Gestion de projet
 Un projet est un ensemble d'activités coordonnées et maîtrisées, découpé et conduit en étapes, comportant des dates de début et de fin, entrepris dans le but d'atteindre un objectif conforme à des exigences spécifiques, incluant des contraintes de délais, de coûts et de ressources.\
 L'atteinte de l'objectif se matérialise par la production de livrables.

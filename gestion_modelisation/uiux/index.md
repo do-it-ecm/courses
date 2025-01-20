@@ -8,7 +8,6 @@ authors: ["Loïck Goupil-Hallay","Mickael LAVALLEE"]
 ---
 
 {% lien "**Liens utiles**" %}
-- [Slides Cours UI/UX](../service_design/assets/documents/service_design.pdf)
 - [Cours Design Thinking](../service_design)
 {% endlien %}
 
