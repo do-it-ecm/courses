@@ -1,9 +1,9 @@
 ---
 layout: layout/cours.njk
 
-title: "Structures de données"
+title: "Structures de données - Liste Chaînée"
 date: 2025-01-15
-tags: ["structures de données", "algorithmique", "informatique"]
+tags: ["structures de données", "algorithmique", "informatique", "liste chaînée"]
 authors: ["Pascal Prea","Loïck Goupil-Hallay"]
 ---
 
