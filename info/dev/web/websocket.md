@@ -20,8 +20,10 @@ authors: ["Loïck Goupil-Hallay"]
 WebSocket établit une **connexion persistante** entre le client et le serveur via le protocole **TCP**. Une fois la connexion établie, les deux parties peuvent envoyer des messages de manière **asynchrone**. Cela permet une communication en temps réel entre le client et le serveur.\
 Les ports utilisés par WebSocket sont normalement les ports 80 (HTTP) ou 443 (HTTPS), ce qui facilite leur intégration avec les serveurs web existants.
 
-WebSocket permet le stream de messages s'appuyant sur TCP (qui ne le supporte pas nativement, il ne fait que des streams de bytes sans notion de message).\
+WebSocket permet le stream de messages s'appuyant sur TCP (qui ne le supporte pas nativement, il ne fait que des streams de bytes sans notion de message).
+
 ### Compatibilité HTTP
+
 Le standard RFC 6455 de WebSocket garantit une **compatibilité avec HTTP**. Cela signifie qu'il peut fonctionner sur les mêmes ports que HTTP et qu'il supporte les proxies et intermédiaires (pare-feu, reverse proxy) qui peuvent être configurés pour autoriser le trafic WebSocket.\
 Cette compatibilité est assurée par le **handshake** initial qui utilise le **HTTP Upgrade header** pour passer de HTTP à WebSocket.
 
