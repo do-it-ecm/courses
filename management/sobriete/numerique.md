@@ -116,8 +116,6 @@ Dans le cadre du secteur du numérique, le scope 1 entre peu en compte car les �
 
 **Bilan Carbone**: Outil de comptabilité carbone qui permet de mesurer les émissions de GES d'une organisation, d'un produit, d'un service ou d'un territoire.
 
-
-
 Les échelles désignent le pérmiètre au sein duquel sont étudiées les émissions de gaz à effet de serre d'une organisation ou d'un produit, le scope 1 étant le plus restreint et le scope 3 le plus large.
 
 #### Facteur d'émission
@@ -142,7 +140,6 @@ Une activité humaine émet différents types de gaz à effet de serre
 
 Le **Potentiel de Réchauffement Planétaire** (PRP) représente l’impact d’un type de GES sur l'effet de serre, et permet de convertir 1 kg de ce GES en équivalent CO2, noté CO2eq.\
 Ainsi, **les émissions des différents GES peuvent être comparées selon une métrique commune exprimée en CO2eq**.
-
 
 #### Exemple de calcul
 

@@ -7,6 +7,10 @@ tags: ["UI", "UX", "Design"]
 authors: ["Loïck Goupil-Hallay","Mickael LAVALLEE"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 {% lien "**Liens utiles**" %}
 - [Cours Design Thinking](../service_design)
 {% endlien %}
@@ -44,6 +48,7 @@ Pour faire une application, il y a des étapes clés à suivre:
     - Lancement
 
 ### Design Sprint
+
 1. Comprendre
     - Contextualisation
     - Problématique
@@ -62,10 +67,12 @@ Pour faire une application, il y a des étapes clés à suivre:
     - Tests sur des utilisateurs (5 suffisent)
 
 ### Persona
+
 Un persona est une représentation fictive d'un utilisateur type. Il permet de se mettre à la place de l'utilisateur et de concevoir une interface qui lui conviendra. Il s'agit d'un personnage représentant un groupe d'utilisateurs types ciblés par le produit.\
 Le but est de comprendre ses **besoins**, **attentes**, **motivations**, **frustrations**, **objectifs**, **contraintes**, **compétences**, **habitudes**, **environnement**
 
 ### User Journey
+
 Le User Journey est une représentation graphique de l'expérience utilisateur. Il permet de visualiser le parcours de l'utilisateur sur l'application.\
 On définit les étapes clés de l'expérience utilisateur, les actions de l'utilisateur, les émotions ressenties, les points de contact avec l'application.\
 Le but est de comprendre le parcours de l'utilisateur, d'identifier les points de friction et d'améliorer l'expérience utilisateur.

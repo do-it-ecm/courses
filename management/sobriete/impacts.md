@@ -59,7 +59,6 @@ Les étapes du cycle de vie d'un produit ou d'un service sont les suivantes:
 
 En France, 10% de la consommation électrique est consacrée aux services numériques
 
-
 ## Agences de contrôle
 
 Il existe plusieurs agences de contrôle qui évaluent les impacts environnementaux des produits et des services. Parmi les plus connues, on peut citer:

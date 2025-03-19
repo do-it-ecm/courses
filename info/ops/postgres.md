@@ -16,10 +16,12 @@ authors: ["Loïck Goupil-Hallay"]
 {% endlien %}
 
 ## Introduction
+
 PostgreSQL est un système de gestion de base de données relationnelles (DBMS) open source né en 1986. Il est reconnu pour sa robustesse, sa fiabilité, ses performances et sa conformité aux standards SQL.\
 Il a été créé pour être un remplaçant open source de Ingres, un autre système de gestion de base de données relationnelles. Il est aujourd'hui l'un des systèmes de gestion de base de données les plus populaires au monde, utilisé par de nombreuses entreprises et organisations pour stocker, gérer et analyser leurs données.
 
 ### Avantages
+
 Toutes ces propriétés en font un choix idéal pour les applications nécessitant une grande disponibilité, une grande fiabilité et une grande performance.
 - Il permet notamment **plusieurs connexions concurrentes** et des **transactions ACID** (Atomicité, Cohérence, Isolation, Durabilité). Cela offre un énorme avantage par rapport à une base de données SQLite par exemple.
 - Il est également **très extensible**, avec la possibilité d'ajouter des extensions et des types de données personnalisés.
@@ -28,17 +30,21 @@ Toutes ces propriétés en font un choix idéal pour les applications nécessita
 - Il est **open source** et **gratuit**, ce qui en fait un choix économique pour les petites et moyennes entreprises.
 
 ### Inconvénients
+
 - Il est **plus complexe** à installer car il nécessite de tourner en mode serveur.
 - Il est **plus lourd** que SQLite, ce qui peut être un inconvénient pour les applications embarquées.
 - Il peut-être **moins rapide** que SQLite pour des opérations de lecture simple, car il nécessite de passer par le réseau (qui peut être lente) pour accéder à la base de données.
 
 ### License
+
 C'est un logiciel libre distribué sous **licence PostgreSQL**, une licence open source similaire à la licence MIT. Cela veut dire que vous pouvez l'utiliser, le modifier et le distribuer librement.
 
 ## Fonctionnement
+
 PostgreSQL fonctionne en mode **client-serveur**. Cela signifie que le serveur PostgreSQL tourne en permanence sur une machine, et que les clients se connectent à ce serveur pour effectuer des opérations sur la base de données.
 
 ### Fonctionnalités principales
+
 - **SQL**: PostgreSQL supporte le langage SQL standard, ainsi que des extensions comme les fonctions stockées, les triggers, les vues, les procédures stockées, les transactions, les contraintes, les index,...
 - **Data Types**: PostgreSQL supporte de nombreux types de données standards
     - **Primitifs**: Integer, Numeric, String, Boolean
@@ -53,6 +59,7 @@ PostgreSQL fonctionne en mode **client-serveur**. Cela signifie que le serveur P
 - **Extensibilité**: PostgreSQL permet d'ajouter des extensions pour ajouter des fonctionnalités supplémentaires (PostGIS pour les données géographiques, pgcrypto pour le chiffrement, hstore pour le stockage de données semi-structurées,...).
 
 ### Architecture
+
 PostgreSQL est un système de gestion de base de données relationnelles (RDBMS) qui stocke les données dans des tables, qui sont des collections de lignes et de colonnes. Chaque table est définie par un schéma, qui définit les colonnes, les types de données, les contraintes, les index, les triggers, les vues, les procédures stockées,...
 
 <pre class="mermaid" style="background-color: transparent;">
@@ -72,6 +79,7 @@ architecture-beta
 </pre>
 
 ## Commandes
+
 Voici quelques commandes utiles pour interagir avec PostgreSQL.
 - `psql`: Ouvre un terminal interactif pour interagir avec PostgreSQL.
     - le shell psql supporte toutes les commandes SQL standards, il faut bien penser à terminer les requêtes par un `;`.
@@ -94,10 +102,12 @@ Voici quelques commandes utiles pour interagir avec PostgreSQL.
     - `pg_config`: Affiche la configuration de l'instance PostgreSQL.
 
 ## Utilisation sur aioli
+
 Le cluster postgres est accessible sur la machine aioli par tous les utilisateurs via le socket unix `/var/run/postgresql/.s.PGSQL.5432`. Chaque utilisateur peut se connecter à la base de données qui porte le même nom que son compte, sans mot de passe.\
 Chaque utilisateur ne peut pas créer de nouvelles bases de données ou d'utilisateurs. Il ne peut que se connecter à sa propre base de données et faire ce qu'il veut dedans. En revanche, il n'a accès qu'en lecture seule aux bases de données des autres utilisateurs.
 
 ### Connexion via terminal
+
 Vous pouvez utiliser la commande `psql` pour interagir avec votre base de données. La commande vous envoie directement dans le shell psql de votre base de données.\
 Vous pouvez alors effectuer toutes les opérations SQL standards: créer des tables, insérer des données, mettre à jour des données, supprimer des données, supprimer des tables, créer des index, créer des vues, créer des procédures stockées,...
 
@@ -106,6 +116,7 @@ Vous pouvez alors effectuer toutes les opérations SQL standards: créer des tab
 #### Node.js
 
 ##### Installation des dépendances
+
 Pour se connecter à une base de données PostgreSQL depuis un programme Node.js, vous pouvez utiliser le module `pg` qui est un client PostgreSQL pour Node.js.\
 Additionnellement, vous pouvez utiliser `sequelize` qui est un ORM (Object-Relational Mapping) pour Node.js qui supporte PostgreSQL. Cela permet d'intéragir avec la base de données de manière plus abstraite, en utilisant des modèles et des requêtes SQL générées automatiquement.\
 Enfin, nous utiliserons dotenv qui nous permettra de charger les variables environnement système ou de les définir dans un fichier `.env`.
@@ -113,6 +124,7 @@ Enfin, nous utiliserons dotenv qui nous permettra de charger les variables envir
 L'installation de ces dépendances se fait via npm: `npm install --save pg sequelize dotenv`.
 
 ##### Connexion à la base de données
+
 Pour se connecter à la base de données, vous devez créer une instance de `Sequelize` en lui passant les informations de connexion à la base de données.
 
 ```javascript

@@ -7,7 +7,12 @@ tags: ["gestion", "projet"]
 authors: ["Guillaume Oliana"]
 ---
 
-## 1. Introduction à la Gestion de Projet
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
+## Introduction à la Gestion de Projet
+
 - **Définition d’un projet** :
   Un projet est une activité temporaire, unique, et innovante, ayant pour but de produire un livrable ou un résultat spécifique.
   Il est contraint par le temps, le coût, et le périmètre.
@@ -25,7 +30,8 @@ authors: ["Guillaume Oliana"]
 - **Rôle du chef de projet** :
   Principal responsable de la planification, de l’exécution, et de la communication, il consacre 80 % de son temps à coordonner les équipes et à interagir avec les parties prenantes.
 
-## 2. Gestion du Périmètre
+## Gestion du Périmètre
+
 - **Définition et contrôle** :
   La gestion du périmètre vise à définir ce qui est inclus ou exclu du projet.
   Elle s’appuie sur des outils comme la Structure de Décomposition du Projet (WBS) pour organiser les tâches en éléments plus petits et gérables.
@@ -40,7 +46,8 @@ authors: ["Guillaume Oliana"]
   - **Exercice sur la validation du périmètre** :
     Réaliser une charte projet et valider les livrables grâce à des matrices de traçabilité des besoins.
 
-## 3. Gestion des Délais et des Coûts
+## Gestion des Délais et des Coûts
+
 - **Gestion des délais** :
   - **Processus** : Définir et séquencer les activités, estimer la durée, produire un planning, et surveiller les délais.
   - **Outils** : Diagrammes de Gantt et PERT pour visualiser les jalons et identifier le chemin critique.
@@ -51,7 +58,8 @@ authors: ["Guillaume Oliana"]
   - **Étude de cas** :
     Établir un budget pour un projet IT en intégrant des contingences pour les imprévus. Comparer coût planifié, coût réel, et valeur acquise pour ajuster les prévisions.
 
-## 4. Gestion de la Qualité et des Risques
+## Gestion de la Qualité et des Risques
+
 - **Gestion de la qualité** :
   - **Objectif** : Assurer que les livrables répondent aux exigences définies.
   - **Processus** : Planification, assurance, contrôle qualité.
@@ -63,7 +71,8 @@ authors: ["Guillaume Oliana"]
   - **Étude de cas** :
     Pour un projet d’ERP, anticiper les risques liés à la perte de personnel clé en prévoyant des formations pour des remplaçants potentiels.
 
-## 5. Gestion des Parties Prenantes et de la Communication
+## Gestion des Parties Prenantes et de la Communication
+
 - **Gestion des parties prenantes** :
   - **Identifier les acteurs** : Parties prenantes internes (équipe projet, direction) et externes (clients, fournisseurs).
   - **Exemple** :
@@ -75,7 +84,8 @@ authors: ["Guillaume Oliana"]
   - **Exemple** : Préparer un rapport d’avancement mensuel pour les sponsors et un tableau de bord hebdomadaire pour l’équipe projet.
 
 
-## 6. Maîtrise d’Ouvrage et Maîtrise d’Œuvre
+## Maîtrise d’Ouvrage et Maîtrise d’Œuvre
+
 - **Maîtrise d’Ouvrage (MOA)** :
   Le MOA est le porteur du besoin, responsable de définir les objectifs, le budget, et les délais.
   **Exemple** : Dans un projet de construction, le MOA représente les utilisateurs finaux et exprime les besoins fonctionnels.
