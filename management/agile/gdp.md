@@ -12,18 +12,21 @@ authors: ["Guillaume LAURIE","Loïck Goupil-Hallay"]
 {% endsommaire %}
 
 ## Gestion de projet
+
 Un projet est un ensemble d'activités coordonnées et maîtrisées, découpé et conduit en étapes, comportant des dates de début et de fin, entrepris dans le but d'atteindre un objectif conforme à des exigences spécifiques, incluant des contraintes de délais, de coûts et de ressources.\
 L'atteinte de l'objectif se matérialise par la production de livrables.
 
 ### Catégories de projet
 
 #### Impact sur l'entreprise
+
 Le Project Management Institute, décrit 3 grandes classes de niveau d'impact des projets sur une entreprise
 - **Portfolio**: ensemble de projets au niveau stratégique (géré au niveau de l'entreprise par la direction)
 - **Programme**: Ensemble de projets au niveau tactique, qui découlent du portfolio (géré par un chef de programme)
 - **Projet**: Niveau opérationnel, qui découle du programme (géré par un chef de projet)
 
 #### Typologie de projets
+
 En fonction de la portée du projet en sein de l'entreprise, on peut le qualifier de
 - **Projet Local**: Impacte uniquement un service / une direction
 - **Projet Transversal**: Impacte plusieurs services / plusieurs directions ou même toute l'entreprise
@@ -32,6 +35,7 @@ En fonction de la portée du projet en sein de l'entreprise, on peut le qualifie
 ### Risques courants
 
 #### Paradoxe de la gestion de projet
+
 Au fur et à mesure que le projet avance, notre niveau de connaissance sur le projet et son environnement augmente. Cela nous permet de mieux anticiper les risques et de mieux piloter le projet. Cependant, plus le projet avance, plus la capacité d'action sur le projet diminue car des choix déterminants ont été faits et les coûts de correction des erreurs augmentent.
 
 <pre class="mermaid" style="background-color: transparent;">
@@ -43,6 +47,7 @@ xychart-beta
 </pre>
 
 #### Effet tunnel
+
 L'effet tunnel est un biais cognitif qui se manifeste par une focalisation excessive sur un objectif ou une tâche, au détriment d'autres éléments importants. Il peut conduire à des décisions irrationnelles, à une mauvaise gestion des risques et à des erreurs de jugement.\
 Cet effet apparaît souvent dans les projets lorsque les objectifs sont mal définis, les contraintes de temps sont trop fortes ou les pressions sont trop importantes.\
 Il est possible de lutter contre l'effet tunnel en adoptant une approche plus ouverte, en prenant du recul sur le projet, en évaluant régulièrement les risques et en impliquant les parties prenantes.
@@ -50,6 +55,7 @@ Il est possible de lutter contre l'effet tunnel en adoptant une approche plus ou
 ### Concepts importants
 
 #### Différences entre opérations et projets
+
 - **Opérations**: En entreprise, les opérations désignent l'ensemble des activités qui assurent le fonctionnement quotidien de l'entreprise. Elles sont répétitives, routinières et stables. Elles peuvent être optimisées et automatisées.
 - **Projets**: Les projets sont des activités temporaires qui ont pour but de créer un produit, un service ou un résultat unique. Ils sont uniques, complexes et évolutifs. Ils nécessitent une organisation spécifique et une gestion particulière. Ils requièrent de faire preuve de créativité et d'innovation.
 
@@ -65,6 +71,7 @@ Il est possible de lutter contre l'effet tunnel en adoptant une approche plus ou
 | Coordination | Manager | Chef de projet (Product Owner en scrum) |
 
 #### Cycle en V
+
 La gestion de projet classique s'appuie sur le cycle en V
 ![Cycle en V](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Systems_Engineering_Process_II.svg/langfr-1920px-Systems_Engineering_Process_II.svg.png)
 
@@ -80,15 +87,18 @@ Le cycle en V se déroule selon les étapes immuables suivantes:
     3. Maintenance
 
 #### Complexité
+
 En gestion de projet, la complexité représente le nombre de parties prenantes impliquées et pas la difficulté technique à réaliser / mener le projet.
 
 #### Structure des équipes
+
 Il existe différentes manières d'organiser les équipes. Chaque organisation possède des cas d'usages particuliers et présente donc des avantages et des inconvénients propres à ses objectifs.\
 De plus, tous les projets ne nécessitent pas nécessairement une coordination opérée par un chef de projet.
 
 Voici une explication complète de chaque structure d'équipe mentionnée :
 
 #### Structure fonctionnelle
+
 **Définition** : La structure fonctionnelle organise les équipes en fonction des compétences ou des fonctions spécifiques (par exemple, marketing, développement, finance, etc.). Chaque département est dirigé par un responsable qui supervise les membres de l'équipe.
 
 **Application** : Cette structure est couramment utilisée dans les organisations de taille moyenne à grande où les équipes travaillent principalement sur des tâches spécialisées. Chaque équipe travaille de manière indépendante dans son domaine d'expertise, et les membres de l'équipe reportent à leur responsable fonctionnel.
@@ -116,6 +126,7 @@ Voici une explication complète de chaque structure d'équipe mentionnée :
 - Problèmes de priorisation, car les départements fonctionnels peuvent favoriser leurs propres objectifs.
 
 #### Structure matricielle forte
+
 **Définition** : Dans une structure matricielle forte, le chef de projet joue un rôle plus centralisé et a un pouvoir décisionnel important. Les équipes sont formées à partir de différentes fonctions, mais elles reportent principalement au chef de projet pour les besoins spécifiques du projet.
 
 **Application** : Cette structure est couramment utilisée dans des environnements complexes où des projets multidisciplinaires nécessitent une coordination étroite entre différents départements. Le chef de projet prend la responsabilité de la performance et des résultats du projet.
@@ -144,6 +155,7 @@ Voici une explication complète de chaque structure d'équipe mentionnée :
 Chaque structure d'équipe a ses avantages et inconvénients en fonction du type de projet, de l'organisation, et de la dynamique des équipes. Le choix de la structure doit correspondre aux objectifs stratégiques du projet et aux ressources disponibles.
 
 ### Compétences nécessaires
+
 La gestion de projet met principalement en oeuvre les compétences suivantes:
 - Gestion des parties prenantes (Stakeholders)
 - Travail d'équipe
@@ -154,6 +166,7 @@ La gestion de projet met principalement en oeuvre les compétences suivantes:
 - Déploiement d'indicateurs (de performance, de succès,...)
 
 ## Agilité
+
 Si le premier secteur a en avoir profité est la production (agile manufacturing) dans les années 1980, c’est le développement informatique (management de projet agile) qui a le plus professionnalisé la méthode à partir de 2000 avec la méthode SCRUM (dont on retrouve des traces dès 1986).\
 L’agilité vient d’un triple constat :
 - Il est très compliqué dès le début d’un projet d’avoir toutes les informations concernant le projet.
@@ -161,12 +174,14 @@ L’agilité vient d’un triple constat :
 - L’implication du client est le principal facteur de réussite d’un projet.
 
 ### Valeurs
+
 - Les individus et les interactions plus que les processus et les outils
 - Des logiciels opérationnels plus qu'une documentation exhaustive
 - La collaboration avec les clients plus que la négociation contractuelle
 - L'adaptation au changement plus que le suivi d'un plan
 
 ### Principes
+
 - Livrer de la valeur au client
 - Intégrer les demandes de changement
 - Livrer fréquemment une version opérationnelle

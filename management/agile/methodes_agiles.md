@@ -14,6 +14,7 @@ authors: ["Loïck Goupil-Hallay"]
 ## Rational Unified Process (RUP)
 
 #### A propos
+
 - Méthode de développement logiciel itérative et incrémentale
 - Créée par Rational Software Corporation (IBM) en 1997-1998
 - Framework adaptable à tout type de projet
@@ -25,6 +26,7 @@ authors: ["Loïck Goupil-Hallay"]
 - **Work Products** (quoi) - Un work product est le résultat d'une tâche. Cela peut être un document, un modèle, un programme,...
 
 #### Disciplines Ingénierie
+
 - **Business Modeling** : Modélisation des processus métier
 - **Requirements** : Gestion des exigences
 - **Analysis & Design** : Analyse et conception
@@ -33,11 +35,13 @@ authors: ["Loïck Goupil-Hallay"]
 - **Deployment** : Déploiement chez les utilisateurs
 
 #### Disciplines Support
+
 - **Configuration & Change Management** : Gestion de la configuration et des changements
 - **Project Management** : Gestion de projet, planification, suivi, répartition des tâches
 - **Environment** : Gestion de l'environnement de développement
 
 #### Phases
+
 1. **Inception** : définir le périmètre du projet
   - Définir la vision du projet et les objectifs principaux
   - Identifier les exigences initiales et les parties prenantes
@@ -60,6 +64,7 @@ authors: ["Loïck Goupil-Hallay"]
   - Finaliser la documentation et assurer une transition en douceur vers l'exploitation
 
 #### Bonnes pratiques
+
 - **Développement itératif et incrémental**
   - Il n'est pas toujours possible de définir tous les besoins dès le début
 - **Gestion des exigences**
@@ -80,12 +85,14 @@ authors: ["Loïck Goupil-Hallay"]
 ## Agile Unified Process (AUP)
 
 #### A propos
+
 * Simplification du Rational Unified Process (RUP)
 * Développement de logiciels de haute qualité
 * Dernière version : 2006
 * Tire profit des avantages de la gestion de projet classique et des méthodes agiles
 
 #### Philosophie
+
 - L'équipe projet **sait ce qu'elle a à faire**
   - Documentation exhaustive
   - Besoins clairs à chaque étape
@@ -102,6 +109,7 @@ authors: ["Loïck Goupil-Hallay"]
   - Sur la méthode d'implémentation utilisée tant qu'elle répond au besoin
 
 #### Phases
+
 1. **Inception** : définir le périmètre du projet
   - Définir la vision du projet et les objectifs principaux
   - Identifier les exigences initiales et les parties prenantes
@@ -124,6 +132,7 @@ authors: ["Loïck Goupil-Hallay"]
   - Finaliser la documentation et assurer une transition en douceur vers l'exploitation
 
 #### Principes
+
 1. **Modèle**
   - Comprendre les besoins des utilisateurs
   - Identifier une solution viable
@@ -154,6 +163,7 @@ authors: ["Loïck Goupil-Hallay"]
 ## Disciplined Agile Delivery (DAD)
 
 #### Objectifs
+
 * Livraison incrémentale : ajustements réguliers, besoins changeants
 * Gestion des risques : pilotage par les risques
 * Coordination des activités
@@ -162,11 +172,13 @@ authors: ["Loïck Goupil-Hallay"]
 * Environnement sûre
 
 #### Cyle de Développement
+
 1. *Inception*
 2. *Construction* : l'équipe utilise la méthode qui lui parait la plus adaptée (SCRUM, Kanban, AL, LSD, XP,UP, etc)
 3. *Transition*
 
 #### Organisation
+
 * Rôles primaires : Product Owner - Team Leader - Team Member - Architecture Member + Stakeholder
 * Rôles secondaires : Specialists - Experts - Testeur - Intégrateur
 
@@ -175,6 +187,7 @@ UP et DAD font partie de l'*agilité* mais sont des formes de gestion de projet 
 ## Extreme Programming (XP)
 
 #### Valeurs
+
 * Communication
 * Simplicité
 * Feedback réguliers
@@ -182,6 +195,7 @@ UP et DAD font partie de l'*agilité* mais sont des formes de gestion de projet 
 * Respect : au sein de l'équipe, client/équipe
 
 #### Règles
+
 1. Planification
 2. Gestion : réunions régulières
 3. Codage : amélioration continue
@@ -189,6 +203,7 @@ UP et DAD font partie de l'*agilité* mais sont des formes de gestion de projet 
 5. Expérimentation, Tests
 
 #### Pratiques
+
 1. Feedback à petite échelle :
    * Pair programming,
    * Planning game,
@@ -206,6 +221,7 @@ UP et DAD font partie de l'*agilité* mais sont des formes de gestion de projet 
 4. Bien-etre des programmeurs
 
 #### Organisation
+
 - client
 - développeurs
 - coach (= scrum master)
@@ -214,11 +230,13 @@ UP et DAD font partie de l'*agilité* mais sont des formes de gestion de projet 
 ## Feature Driven Development (FDD)
 
 #### Caractéristiques
+
 * Itératif
 * Incrémental
 * Cycles courts
 
 #### Process
+
 1. Modèle global
 2. Listes des fonctionnalités
 3. Plannifier : prioriser les fonctionnalités
@@ -226,27 +244,32 @@ UP et DAD font partie de l'*agilité* mais sont des formes de gestion de projet 
 5. Construction : developpement, tests, intégration, documentation
 
 #### Organisation
+
 * Grosse équipe / gros projet
 * Programmeur principal : leader d'une équipe de développeurs et échange régulièrement avec les utilisateurs
 * Experts en domaine, experts techniques
 * Connaissance métier (peu de documentation)
 
 #### Les +
+
 * Peu de réunions
 * Centrée sur l'utilisateur (=client)
 * Adapatable aux gros projets à long terme
 * Debuggage grâce aux cycles courts
 
 #### Les -
+
 * Dépendance au programmeur principal qui se doit de rester en contact avec les utilisateurs
 * Propriété individuelle du code du fait du découpage en équipe de développeurs
 
 ## Lean Software Development (LSD)
 
 #### Caractéristiques
+
 * Minimiser les gaspillages et les élimniner
 
 #### Principes
+
 1. **Elimnate Waste** : éviter la surproduction, exigences claires
 2. **Build in quality** : pair programming, développement piloté par les tests, développement incrémental, feedbacks fréquents, réduire les temps d'attente, automatiser les tâches
 3. **Amplify learning** : code reviews, pair programming, code comments, documentation claire, session de partage
@@ -256,6 +279,7 @@ UP et DAD font partie de l'*agilité* mais sont des formes de gestion de projet 
 7. **Optimize the whole** : restructuration des équipes, identification de la circulation de la valeur dans l'équipe, proximité des membres, fournir tous les outils nécessaires
 
 ## Lexique
+
 - **Test Driven Development (TDD):** Méthode de développement logiciel qui consiste à écrire les tests unitaires avant le code source
 - **Continuous Integration (CI):** Pratique de développement logiciel qui consiste à intégrer régulièrement les modifications du code source dans un référentiel partagé
 - **Agile Modeling (AM):** Pratique de modélisation agile qui consiste à utiliser des modèles simples et à les adapter en fonction des besoins

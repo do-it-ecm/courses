@@ -14,6 +14,7 @@ authors: ["Loïck Goupil-Hallay"]
 Cristal Clear est une méthodologie agile de gestion de projet. Elle a été développée par Alistair Cockburn en 2004. Elle est basée sur des cycles de développement courts et itératifs appelés *itérations*. Cristal Clear est adapté aux projets de petite taille (jusqu'à 8 personnes) et aux équipes distribuées. Elle favorise la communication, la collaboration et la simplicité.
 
 ## Principes
+
 1. **Communication osmotique:** La communication doit être fluide et naturelle entre les membres de l'équipe. Elle doit être informelle et se faire en face à face, permettant à chacun de s'impliquer même s'il n'est pas directement concerné.
 2. **Livraison fréquente:** Les fonctionnalités doivent être livrées régulièrement pour obtenir des retours rapides et s'adapter aux besoins du client.
 3. **Amélioration continue:** L'équipe doit chercher à s'améliorer en permanence en identifiant les points à améliorer et en mettant en place des actions correctives.
@@ -23,6 +24,7 @@ Cristal Clear est une méthodologie agile de gestion de projet. Elle a été dé
 7. **Intégration continue:** Le code doit être intégré régulièrement pour éviter les conflits et les erreurs. L'intégration continue permet de détecter rapidement les problèmes et de les corriger.
 
 ## Conditions
+
 Pour que Cristal Clear fonctionne correctement, certaines conditions doivent être réunies:
 - **Petite taille de l'équipe:** L'équipe doit être composée de 6 à 8 personnes maximum pour favoriser la communication et la collaboration.
 - **Proximité géographique:** Les membres de l'équipe doivent être située dans une seule et même salle pour faciliter les échanges et les interactions.
@@ -33,6 +35,7 @@ Pour que Cristal Clear fonctionne correctement, certaines conditions doivent êt
 - **Livraison régulière:** Les fonctionnalités doivent être livrées régulièrement pour obtenir des retours rapides et s'adapter aux besoins du client.
 
 ## Avantages
+
 - **Simplicité:** Cristal Clear est simple à mettre en place et à suivre. Les règles sont claires et faciles à comprendre.
 - **Communication:** La communication est favorisée par la proximité géographique et la communication osmotique.
 - **Collaboration:** Les membres de l'équipe collaborent étroitement pour atteindre les objectifs du projet.
@@ -45,6 +48,7 @@ Pour que Cristal Clear fonctionne correctement, certaines conditions doivent êt
 - **Innovation:** Cristal Clear favorise l'innovation en permettant de tester rapidement de nouvelles idées et de s'adapter aux retours utilisateurs.
 
 ## Limites
+
 - **Taille de l'équipe:** Cristal Clear est adapté aux équipes de petite taille, il peut être difficile à mettre en place pour des projets plus importants.
 - **Proximité géographique:** Les équipes distribuées peuvent rencontrer des difficultés à mettre en place Cristal Clear. Elles sont dans l'incapacité de bénéficier de la communication osmotique.
 - **Expertise technique:** Les membres de l'équipe doivent avoir les compétences techniques nécessaires pour réaliser le projet, ce qui peut limiter le choix des membres.
