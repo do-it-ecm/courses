@@ -23,7 +23,9 @@ Linux est un **noyau de système d'exploitation**, c'est à dire une base logici
 
 #### Open-source
 
-`Linux is a success precisely because it's not a business. Users know that it was written by the community, not for money. The fact that they can use it for free is much more important than the actual cost of the software.` — *Linus Torvalds*
+{% citation "Linus Torvalds" %}
+Linux is a success precisely because it's not a business. Users know that it was written by the community, not for money. The fact that they can use it for free is much more important than the actual cost of the software.
+{% endcitation %}
 
 Linux est un système d'exploitation **open-source**, ce qui signifie que son code source est accessible à tous. Cela permet à chacun de l'étudier, de le modifier et de le redistribuer librement.\
 C'est ce qui permet à Linux d'être utilisé dans de nombreux systèmes différents, et de s'adapter à de nombreux usages. C'est aussi ce qui a permis à Linux de devenir un système d'exploitation très populaire, notamment dans le monde des serveurs et des supercalculateurs. Entre autre grâce à sa **stabilité**, sa **sécurité** et sa **fiabilité** (bien que cela dépende de la distribution).
@@ -32,14 +34,18 @@ Super nouvelle : Linux est **gratuit** ! (Il ne coûte pas d'argent, mais du tem
 
 #### Communauté
 
-`The thing with open source is that it tends to come from the ground up. It doesn’t come from a large, bureaucratic hierarchy. It comes from normal people doing work and communicating.` — *Linus Torvalds*
+{% citation "Linus Torvalds" %}
+The thing with open source is that it tends to come from the ground up. It doesn’t come from a large, bureaucratic hierarchy. It comes from normal people doing work and communicating.
+{% endcitation %}
 
 Linux est développé par une **communauté de développeurs** du monde entier, qui contribuent à son développement et à son amélioration. Cela permet à Linux d'évoluer rapidement, et de s'adapter aux besoins des utilisateurs.\
 Cela permet surout de corriger rapidement les bugs et les failles de sécurité, et de proposer de nouvelles fonctionnalités. C'est aussi ce qui apporte cette polyvalence à Linux.
 
 #### Choix
 
-`Linux is about giving users and developers the power to have their own choices. It’s not about some kind of One True Path dictated by the needs of the vendor.` — *Linus Torvalds*
+{% citation "Linus Torvalds" %}
+Linux is about giving users and developers the power to have their own choices. It’s not about some kind of One True Path dictated by the needs of the vendor.
+{% endcitation %}
 
 Linux est conçu pour offrir aux utilisateurs une grande **liberté de choix**. Il existe de nombreuses distributions Linux, qui proposent chacune une approche différente du système d'exploitation. Cela permet à chacun de trouver la distribution qui correspond le mieux à ses besoins et à ses préférences.
 

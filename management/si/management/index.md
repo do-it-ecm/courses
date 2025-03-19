@@ -42,9 +42,9 @@ et de diffuser des informations dans et entre des organisations. Il est finalis�
 
 ### Définition analytique
 
-Un système d’information est un système d’acteurs sociaux qui mémorisent et transforment des représentations via des technologies de l’information
-et des modes opératoires.\
-*(d’après R.Reix et F. Rowe, 2002)*
+{% citation "R.Reix et F. Rowe, 2002" %}
+Un système d’information est un système d’acteurs sociaux qui mémorisent et transforment des représentations via des technologies de l’information et des modes opératoires.
+{% endcitation %}
 
 Il existe 3 dimensions dans un SI:
 1. **Dimension informationnelle**: Le SI produit des représentations de l'information
@@ -53,7 +53,9 @@ Il existe 3 dimensions dans un SI:
 
 #### Dimension informationnelle
 
-«Tout système d’information concerne un individu, pourvu d’un profil psychologique donné, confronté à un problème décisionnel précis, dans un contexte organisationnel déterminé. Il y a nécessité d’éléments de décision perçus au travers d’un mode de représentation propre au décideur. » *R.O. Mason, J.-L. Mitroff (1975), Management Science, vol.19 n°6, p.475.*
+{% citation "R.O. Mason, J.-L. Mitroff (1975), Management Science, vol.19 n°6, p.475." %}
+Tout système d’information concerne un individu, pourvu d’un profil psychologique donné, confronté à un problème décisionnel précis, dans un contexte organisationnel déterminé. Il y a nécessité d’éléments de décision perçus au travers d’un mode de représentation propre au décideur.
+{% endcitation %}
 
 ##### Relation entre données, informations et connaissances
 
@@ -85,6 +87,7 @@ graph RL;
 Il faut rester vigilant, un système d'information générant une quantité massive de données à faible coût risque de produire des informations inutiles et de saturer les utilisateurs.
 
 ### Dimension technologique
+
 Un SI est un système qui utilise des technologies de l'information au sein d'une architecture technique
 - Réseaux
 - Serveurs
@@ -108,6 +111,7 @@ Un SI est un système qui supporte les **processus de travail** et la **structur
 Un SI est un élément clé, *essentiel* au **fonctionnement** ainsi qu'à la **structure** de l'organisation.
 
 #### Processus
+
 Un processus est un ensemble d’activités et de tâches corrélées et synchronisées qui :
 - A un objectif clair et précis rattaché, directement ou indirectement, au métier et aux activités de l ’entreprise
 - Consomme des ressources et produit des résultats
@@ -128,6 +132,7 @@ graph TD;
 </pre>
 
 #### Structure
+
 La construction de tout SI implique des choix déterminants quant à la conception de l’organisation :
 - Choix relatifs au partage d’informations entre les acteurs
   - Répartition du pouvoir décisionnel et des responsabilités (degré de décentralisation)
@@ -145,6 +150,7 @@ L'organisation effectue des choix qui déterminent le fonctionnement du SI et la
 Elle peut choisir un modèle coercitif ou habilitant. Dans le premier cas, l'utilisateur modèle est passif, il ne peut rien faire d'autre qu'utiliser le SI, dans le second cas, il est actif et peut participer à l'évolution du SI.
 
 ##### Modèle coercitif
+
 | **Caractéristiques des formalisations coercitives** | **Vision de l'utilisateur modèle** |
 | --- | --- |
 | **Impossibilité de réparer** | Ne doit pas intervenir par lui même lorsque la formalisation s'avère inutilisable, endommagée, ou mal adaptée aux circonstances |
@@ -155,6 +161,7 @@ Elle peut choisir un modèle coercitif ou habilitant. Dans le premier cas, l'uti
 | **Non participation à l'implémentation** | Ne doit pas être associé à l'implémentation de l'outil |
 
 ##### Modèle habilitant
+
 | **Caractéristiques des formalisations habilitantes** | **Vision de l'utilisateur modèle** |
 | --- | --- |
 | **Réparation** | Peut intervenir pour réparer l'outil, le modifier, l'adapter aux circonstances |
@@ -169,6 +176,7 @@ Elle peut choisir un modèle coercitif ou habilitant. Dans le premier cas, l'uti
 {% sizedImage "./assets/img/classification_si.png", "Classification des SI", "bigImg" %}
 
 ## Enjeux
+
 Via leur SI, les entreprises s’insèrent plus intensivement dans une mondialisation agitée
 
 <pre class="mermaid" style="background-color: transparent;">
@@ -180,6 +188,7 @@ graph TD;
 ### Des évolutions majeures et des défis constants
 
 #### Technologiques
+
 - **Big Data et analyse de données massives**
 - **Cloud computing**
 - **Mobilité**
@@ -187,6 +196,7 @@ graph TD;
 - **XaaS (Everything as a Service)**
 
 #### Organisationnels
+
 - **Horizontalisation des organisations**
 - **Collaboration**
 - **Externalisation des activités**
@@ -195,9 +205,12 @@ graph TD;
 
 ## Management des SI
 
-« Les SI ne doivent pas être simplement considérés comme une ressource de support, mais comme une ressource stratégique capable de donner un avantage concurrentiel durable à l’entreprise qui saura les utiliser. » (*Porter, 1985*)
+{% citation "Porter, 1985" %}
+Les SI ne doivent pas être simplement considérés comme une ressource de support, mais comme une ressource stratégique capable de donner un avantage concurrentiel durable à l’entreprise qui saura les utiliser.
+{% endcitation %}
 
 ### Enjeux du management des SI
+
 - Interne
   - **Alignement stratégique**
   - **Création de valeur**
@@ -212,6 +225,7 @@ graph TD;
   - **Innovation**
 
 ### Usages des SI
+
 - Automatisation des tâches
 - Aide à la décision
 - Communication

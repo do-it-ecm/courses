@@ -7,21 +7,31 @@ tags: ["équipe", "leadership", "performance", "confiance"]
 authors: ["Leonardo Santarelli", "Loïck Goupil-Hallay"]
 ---
 
+{% sommaire %}
+[[toc]]
+{% endsommaire %}
+
 *Driving Business Results and Human values*
 
 ## Introduction
-*You cannot mandate productivity.\
-You must provide the tools (and environment) to let people become their best.* - Steve Jobs
+
+{% citation "Steve Jobs" %}
+You cannot mandate productivity.<br>
+You must provide the tools (and environment) to let people become their best.
+{% endcitation %}
 
 Lors de nos interactions avec des personnes, des équipes, des proches, on **ne contrôle pas** les résultats. On ne peut pas forcer quelqu'un à être productif, à être créatif, à être innovant. On ne peut pas forcer quelqu'un à être heureux.
 
 ### Définition
+
 Une équipe hautement performante est un group de personnes qui travaillent en synergie au travers de différents rôles. Ils travaillent ensemble avec vers un objectif commun. Ils délivrent de manière consistantes des résultats exceptionnels.
 
 ### Pourquoi ?
+
 Une équipe hautement performante est capable de délivrer des **résultats 5 fois supérieurs** à la moyenne. C'est une équipe qui **décuple les performances individuelles** en les faisant collaborer en **synergie**. Elle **attire** et **retient** les meilleurs talents. Elle crée une grande satisfaction des membres de l'équipe, un bien-être et un amusement.
 
 ## Les 5 dysfonctionnements d'une équipe
+
 |||
 |---|---|
 |**Insouciance du résultat**|La poursuite des objectifs individuels et personnels diminue le succès de l'équipe|
@@ -31,6 +41,7 @@ Une équipe hautement performante est capable de délivrer des **résultats 5 fo
 |**Absence de confiance**|La peur de montrer sa faiblesse, de se montrer vulnérable empêche de créer un climat de confiance|
 
 ### Confiance
+
 |Absence de confiance|Confiance|
 |---|---|
 |**Dissimulation** des faiblesses et des erreurs entre collègues|**Admettre** ses faiblesses et erreurs|
@@ -48,6 +59,7 @@ Elle peut être renforcée par des **actions** et des **comportements**.
 - **Sécurité psychologique** pour que les membres de l'équipe se sentent en sécurité pour exprimer leurs idées, leurs opinions, leurs émotions.
 
 #### Sécurité Psychologique
+
 <pre class="mermaid" style="background-color: transparent;">
 quadrantChart
     title Psychological safety zones
@@ -60,6 +72,7 @@ quadrantChart
 </pre>
 
 ### Conflit
+
 |Peur du conflit|Conflit|
 |---|---|
 |Réunions ennuyeuses, sans plus-value|Réunions énergiques, intéressantes|
@@ -69,10 +82,12 @@ quadrantChart
 ||Résout les problèmes rapidement|
 
 #### Conflit Productif
+
 Un *conflit productif* est un conflit qui se déroule sous la forme d'une **conversation structuré**. Il faut s'assurer qu'il y a bien un **dialogue**, de l'**écoute active**, de la **négotiation**. Cela permet d'établir une **conversation productive**.\
 Il en découle de **meilleures solutions** et une **confiance renforcée**.
 
 #### Ecoute productive
+
 Quelques règles d'or pour assurer une écoute active et utile:
 - **Ecouter** sans chercher à interrompre
 - **Ne pas se battre** pour son tour de parole
@@ -82,6 +97,7 @@ Quelques règles d'or pour assurer une écoute active et utile:
 - Montrer que l'on écoute, avec son corps, ses expressions et des résumés de ce qu'on a compris
 
 ##### Déroulé idéal
+
 Dans l'idéal, une conversation productive suit ce déroulement:
 1. Trouver un objectif commun
 2. S'accorder sur le fait que chacun détient une part de la solution et de la vérité. Les deux contribuent à la solution
@@ -91,6 +107,7 @@ Dans l'idéal, une conversation productive suit ce déroulement:
 6. Penser ensemble au futur
 
 ##### Eviter la défensive
+
 Il faut éviter de pousser l'autre à se défendre. Il faut éviter de lui donner l'impression qu'il est attaqué. Quelques bonnes pratiques pour éviter cela:
 - Utiliser la première personne le plus possible afin de décrire l'impact sur soi
     - ✅ Quand je t'ai vu faire X, j'ai pensé Y, j'ai pensé Z
@@ -103,11 +120,13 @@ Il faut éviter de pousser l'autre à se défendre. Il faut éviter de lui donne
     - ❌ Tu fais toujours/jamais ça !
 
 #### Négociation
+
 Une négociation est un processus de **communication** entre deux ou plusieurs parties qui cherchent à **trouver un accord**.\
 Il est important de **comprendre** les besoins et les intérêts de l'autre partie. Il faut **chercher des solutions** qui satisfont les deux parties.\
 Il est important de **distinguer** les **positions** des **intérêts**. Les positions sont les demandes, les intérêts sont les besoins derrière ces demandes.
 
 ##### Déroulé idéal
+
 1. **Préparation**: Définir ses intérêts (les besoins), pas seulement ses positions (les demandes)
     - Définir ses variables d'ajustement (ce sur quoi on peut négocier)
     - Définir son/ses **B**est **A**lternative **T**o a **N**egotiated **A**greement
@@ -120,6 +139,7 @@ Il est important de **distinguer** les **positions** des **intérêts**. Les pos
     - ❌ Retour au BATNA, ou montée en escalade
 
 ### Engagement
+
 |Manque d'engagement|Engagement|
 |---|---|
 |L'équipe considère les livrables comme optionnels|Saisir les occasions professionnels avant les concurrents|
@@ -142,6 +162,7 @@ Il est important de verbaliser:
 La réponse doit être **claire**, et surtout elle doit verbaliser l'**engagement**
 
 ### Responsabilité
+
 |Manque de responsabilité|Responsabilité|
 |---|---|
 |Ressentiment entre les personnes avec des standards de performances différents|Etablit un respect mutuel et des standards de performances élevés|
@@ -156,6 +177,7 @@ Il faut être à même de s'excuser et de proposer des solutions pour réparer l
 **Responsable** ne veut pas dire **Coupable**. Cela veut dire que l'on est capable de répondre de ses actes, de ses décisions, de ses erreurs.
 
 ### Insouciance du résultat
+
 |Insouciance du résultat|Résultat|
 |---|---|
 |Stagnation / Absence de croissance|Partage les succès et les échecs|
@@ -176,21 +198,27 @@ Pour motiver l'équipe et la rendre souciante des résultats, il faut:
 ### Modèles de leadership
 
 #### Contrôle unilatéral
+
 Dans un modèle de leadership par le contrôle unilatéral, le **leader prend toutes les décisions**, contrôle les actions des membres de l'équipe, et ne laisse pas de place à l'initiative des membres de l'équipe.\
 Il se base sur la croyance qu'**il est rationnel**, que **les autres ne le sont pas**(autant que lui) et qu'ils sont **motivés par la peur**.
 
 Il applique des stratégies et des objectifs qu'il décide **unilatéralement**. Son but est de dominer les autres, que ce soit en manipulant l'information ou en applicant la stratégie du bâton et de la carotte. Il ne montre aucune émotion ni vulnérabilité.
 
 #### Apprentissage mutuel
+
 Dans un modèle de leadership par apprentissage mutuel, le leader consulte les membres pour constituer une **vision commune**.\
 Il est **conscient de ses limites** et il **compte sur les autres** pour les compenser. Tout le monde est motivé par le fait d'apprendre et de contribuer.
 
 Les objectifs et les stratégies sont définis **ensemble**. Le but est de faire **gagner toute l'équipe**. Il y a une bonne **transparence des informations**. Il crée un **sentiment d'engagement et de responsabilité**. Il montre ses émotions.
 
 ### Chemin de Mentalité
-*Certainty is lethal to two of our most redeeming and humane qualities, imagination and empathy* - Being Wrong: Adventures in the Margin of Error by Kathryn Schulz
+
+{% citation "Being Wrong: Adventures in the Margin of Error by Kathryn Schulz" %}
+Certainty is lethal to two of our most redeeming and humane qualities, imagination and empathy
+{% endcitation %}
 
 Il est essentiel de garder en tête que son chemin n'est pas le seul chemin possible.
+
 <pre class="mermaid" style="background-color: transparent;">
 graph LR
     A[<big><b>Faits</b></big><br><small>possiblement partiel ou erroné</small>] --> B[<big><b>Interprétation</b></big><br><small>influencés par nos biais, émotions, expériences</small>]
@@ -207,15 +235,18 @@ graph LR
 </pre>
 
 #### Je-Sais-Tout
+
 Le **Je-Sais-Tout** est une personne qui a une **mentalité fixe**. Elle pense que ses capacités et ses talents sont **innés** et **immuables**. Elle pense qu'elle est **meilleure** que les autres. Elle a **peur de l'échec** et de montrer ses faiblesses.\
 Elle **évite** les challenges, les critiques, les feedbacks. Elle **dévalorise** les autres.
 
 Pour motiver cette personne, il faut faire preuve de patience et de persévérance. Il faut lui montrer qu'il est écouté. C'est son besoin le plus important. Ensuite on peut entrer dans le conflit productif.
 
 #### Apprenant
+
 L'**Apprenant** est une personne qui a une **mentalité de croissance**. Elle pense que ses capacités et ses talents sont **développables**. Elle pense qu'elle peut **apprendre** et **grandir**. Elle est **curieuse** et **ouverte**. Elle **accepte** l'échec et les critiques.
 
 #### Victime
+
 La **Victime** est une personne qui se place dans une position de **faiblesse**. Elle pense que les événements sont **hors de son contrôle**. Elle pense qu'elle est **injustement traitée**. Elle **se plaint** et **blâme** les autres, les circonstances...
 
 - Qu'est-ce qu'il vient de m'arriver ?
@@ -224,4 +255,5 @@ La **Victime** est une personne qui se place dans une position de **faiblesse**.
 - Que doit-il faire pour réparer ?
 
 #### Player
+
 Le **Player** est une personne qui se place dans une position de **responsabilité**. Elle pense que les événements sont **sous son contrôle**. Elle pense qu'elle peut **agir** pour changer les choses. Elle **cherche des solutions** et **prend des décisions**.
