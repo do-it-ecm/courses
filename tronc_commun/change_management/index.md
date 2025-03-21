@@ -19,8 +19,10 @@ authors: ["Loïck Goupil-Hallay"]
 **Transition**: Un processus de réorientation graduel et psychologique qui se produit à l’intérieur de nous\
 Le changement appelle la transition, et inversement. Pour autant, l’alignement entre les deux n’est pas nécessairement au rdv
 
-*"Les personnes responsables de la planification et de la mise en oeuvre du changement oublient souvent que, même si la première tâche de la conduite de changement consiste à comprendre la destionation et la façon d'y arriver, la première tâche de la gestion des transitions consiste à convaincre les personnes de quitter leur maison.\
-Vous vous épargnerez beaucoup de désagrément si vous vous en souvenez."* - William Bridges
+{% citation "William Bridges" %}
+Les personnes responsables de la planification et de la mise en oeuvre du changement oublient souvent que, même si la première tâche de la conduite de changement consiste à comprendre la destionation et la façon d'y arriver, la première tâche de la gestion des transitions consiste à convaincre les personnes de quitter leur maison.<br>
+Vous vous épargnerez beaucoup de désagrément si vous vous en souvenez.
+{% endcitation %}
 
 | Changement | Transition |
 |------------|------------|
