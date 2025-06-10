@@ -12,6 +12,7 @@ authors: ["Loïck Goupil-Hallay"]
 {% endsommaire %}
 
 {% lien "**Liens utiles**" %}
+
 - [Cours Git / GitHub](https://francoisbrucker.github.io/cours_informatique/cours/gestion-des-sources/)
 {% endlien %}
 
@@ -71,7 +72,7 @@ Git est un logiciel de gestion de versions décentralisé. C'est un logiciel lib
 - **Upstream**: Référence au dépôt ou à la branche d'origine d'un projet (généralement le projet principal ou original). Lorsque vous contribuez à un projet en créant un fork, upstream désigne souvent le dépôt principal avec lequel vous synchronisez vos changements
 - **HEAD**: Pointeur symbolique qui représente la branche ou le commit actuel sur lequel vous travaillez, généralement lié au dernier commit enregistré dans la branche active
 
-##  Prise en main
+## Prise en main
 
 ### Installation
 
@@ -150,14 +151,14 @@ Un git submodule correspond à une inclusion d'un dépôt Git dans un autre dép
 
 <pre class="mermaid" style="background-color: transparent;">
 architecture-beta
-    group doit(internet)[Do It]
+    group doit[internet](Do It)
 
-    service cs(disk)[Cours] in doit
-    service compliance(server)[Compliance Check] in doit
-    service promo1(disk)[Promo 2022] in doit
-    service promo2(disk)[Promo 2023] in doit
-    service promo3(disk)[Promo 2024] in doit
-    service promo4(disk)[Promo 2025] in doit
+    service cs[disk](Cours) in doit
+    service compliance[server](Compliance Check) in doit
+    service promo1[disk](Promo 2022) in doit
+    service promo2[disk](Promo 2023) in doit
+    service promo3[disk](Promo 2024) in doit
+    service promo4[disk](Promo 2025) in doit
 </pre>
 
 ### Commandes
@@ -176,7 +177,6 @@ Le fichier `.gitignore` permet d'ignorer certains fichiers ou répertoires lors 
 
 Pour créer un fichier `.gitignore`, il suffit de créer un fichier nommé `.gitignore` à la racine du repository et d'y ajouter les fichiers ou répertoires à ignorer, un par ligne. Les règles de syntaxe permettent d'utiliser des wildcards (*) pour spécifier des motifs de fichiers à ignorer.\
 Pour spécifier un directory entier, il suffit de mettre le nom du directory suivi d'un `/`.
-
 
 Exemple de contenu d'un fichier `.gitignore`:
 
@@ -222,24 +222,24 @@ Exemple de contenu d'un fichier `.gitmodules`:
 
 ```plaintext
 [submodule "src/promos/2022-2023"]
-	path = src/promos/2022-2023
-	url = https://github.com/do-it-ecm/promo-2022-2023.git
-	branch = main
+ path = src/promos/2022-2023
+ url = https://github.com/do-it-ecm/promo-2022-2023.git
+ branch = main
 [submodule "src/promos/2023-2024"]
-	path = src/promos/2023-2024
-	url = https://github.com/do-it-ecm/promo-2023-2024.git
-	branch = main
+ path = src/promos/2023-2024
+ url = https://github.com/do-it-ecm/promo-2023-2024.git
+ branch = main
 [submodule "src/promos/2024-2025"]
-	path = src/promos/2024-2025
-	url = https://github.com/do-it-ecm/promo-2024-2025.git
-	branch = main
+ path = src/promos/2024-2025
+ url = https://github.com/do-it-ecm/promo-2024-2025.git
+ branch = main
 [submodule "src/cs"]
-	path = src/cs
-	url = https://github.com/do-it-ecm/courses.git
-	branch = main
+ path = src/cs
+ url = https://github.com/do-it-ecm/courses.git
+ branch = main
 [submodule "scripts/compliance"]
-	path = scripts/compliance
-	url = https://github.com/do-it-ecm/compliance-check.git
+ path = scripts/compliance
+ url = https://github.com/do-it-ecm/compliance-check.git
   branch = main
 ```
 
